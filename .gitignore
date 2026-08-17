@@ -1,0 +1,14 @@
+# Generated. Rebuild with `make`.
+out/
+
+# Raw search-result dumps from the research agents. The distilled findings
+# live in research/*.md; this is the unprocessed evidence behind them.
+# NOTE: the search skills write to .research/ relative to the CWD, so that path
+# is ignored too and the dumps get consolidated into research/.search-cache/.
+research/.search-cache/
+.research/
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

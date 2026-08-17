@@ -1,0 +1,937 @@
+{
+ "4S STAY 阿波池田駅前": {
+  "formatted": "1804-9 Ikedachō Sarada, Miyoshi, Tokushima 778-0003, Japan",
+  "lat": 34.027855,
+  "lng": 133.805396,
+  "place_id": "ChIJmSEEiW4pUjUR1tUDr_KAwFo"
+ },
+ "I-Link Hostel 大三島": {
+  "formatted": "7345-1 Kamiurachō Inokuchi, Imabari, Ehime 794-1402, Japan",
+  "lat": 34.257585,
+  "lng": 133.050149,
+  "place_id": "ChIJ1Zg9zaxPUDURJxwiPtsDATU"
+ },
+ "J-Hoppers Hiroshima Guesthouse": {
+  "formatted": "5-16 Dohashichō, Naka Ward, Hiroshima, 730-0854, Japan",
+  "lat": 34.393022,
+  "lng": 132.447248,
+  "place_id": "ChIJGQAbiG6iWjUR1EU4rmqQCKQ"
+ },
+ "The Evergreen Hostel Hiroshima": {
+  "formatted": "Japan, 〒730-0802 Hiroshima, Naka Ward, Honkawachō, 2-chōme−4−１７ 2F",
+  "lat": 34.397883,
+  "lng": 132.449767,
+  "place_id": "ChIJ___TmXOiWjURXFZIPQqoZ-w"
+ },
+ "WAKKA 大三島": {
+  "formatted": "6691-1 Kamiurachō Inokuchi, Imabari, Ehime 794-1402, Japan",
+  "lat": 34.264213,
+  "lng": 133.0428,
+  "place_id": "ChIJt0SkCotPUDURc8dyP0szUXg"
+ },
+ "WeBase高松": {
+  "formatted": "Japan, 〒760-0052 Kagawa, Takamatsu, Kawaramachi, 1-chōme−２−３",
+  "lat": 34.341798,
+  "lng": 134.050798,
+  "place_id": "ChIJS8odMJbrUzURaN7VgGduWbE"
+ },
+ "あなごのねどこ 尾道": {
+  "formatted": "2-chōme-4-9 Tsuchidō, Onomichi, Hiroshima 722-0035, Japan",
+  "lat": 34.40913,
+  "lng": 133.202114,
+  "place_id": "ChIJf7vlJLIBUTURY8ZRe2woj0k"
+ },
+ "しまなみ海道 サンライズ糸山": {
+  "formatted": "2-chōme-8-1 Sunabachō, Imabari, Ehime 794-0001, Japan",
+  "lat": 34.110061,
+  "lng": 132.977743,
+  "place_id": "ChIJ2_-6D3k5UDURdc8ja5NncRA"
+ },
+ "なかぶ庵 小豆島": {
+  "formatted": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲１３８５",
+  "lat": 34.482717,
+  "lng": 134.322554,
+  "place_id": "ChIJg54TFit5VDURC60esQFvuLs"
+ },
+ "ひろきや旅館 小豆島": {
+  "formatted": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲７５２−１",
+  "lat": 34.483297,
+  "lng": 134.322415,
+  "place_id": "ChIJNdv9ait5VDURbudcHBmA2Vk"
+ },
+ "ひろめ市場 Kochi": {
+  "formatted": "2-chōme-3-1 Obiyamachi, Kochi, 780-0841, Japan",
+  "lat": 33.560116,
+  "lng": 133.535937,
+  "place_id": "ChIJ1w_oDToZTjUR3QutG7QRnZk"
+ },
+ "ひろめ市場 高知": {
+  "formatted": "2-chōme-3-1 Obiyamachi, Kochi, 780-0841, Japan",
+  "lat": 33.560116,
+  "lng": 133.535937,
+  "place_id": "ChIJ1w_oDToZTjUR3QutG7QRnZk"
+ },
+ "エンジェルロード Angel Road Shodoshima": {
+  "formatted": "Angel Road, 24-92 Kō, Tonosho, Shozu District, Kagawa 761-4101, Japan",
+  "lat": 34.478136,
+  "lng": 134.188766,
+  "place_id": "ChIJISiqLJiJUzUREqZM0_6o3jM"
+ },
+ "エンジェルロード 小豆島": {
+  "formatted": "Angel Road, 24-92 Kō, Tonosho, Shozu District, Kagawa 761-4101, Japan",
+  "lat": 34.478136,
+  "lng": 134.188766,
+  "place_id": "ChIJISiqLJiJUzUREqZM0_6o3jM"
+ },
+ "ゲストハウス カサブランカ 松山": {
+  "formatted": "106-2 Miyatamachi, Matsuyama, Ehime 790-0066, Japan",
+  "lat": 33.842701,
+  "lng": 132.751541,
+  "place_id": "ChIJ4wWTiYPlTzURojXnv25GTbs"
+ },
+ "ゲストハウス ヤドカーリー 尾道": {
+  "formatted": "Onomichi, Hiroshima, Japan",
+  "lat": 34.4089,
+  "lng": 133.204914,
+  "place_id": "ChIJYQlrv9X_UDURMa-XPVvqfXs"
+ },
+ "サンライズ糸山": {
+  "formatted": "2-chōme-8-1 Sunabachō, Imabari, Ehime 794-0001, Japan",
+  "lat": 34.110061,
+  "lng": 132.977743,
+  "place_id": "ChIJ2_-6D3k5UDURdc8ja5NncRA"
+ },
+ "サンライズ糸山 今治": {
+  "formatted": "2-chōme-8-1 Sunabachō, Imabari, Ehime 794-0001, Japan",
+  "lat": 34.110061,
+  "lng": 132.977743,
+  "place_id": "ChIJ2_-6D3k5UDURdc8ja5NncRA"
+ },
+ "シクロの家 しまなみ 瀬戸田": {
+  "formatted": "1-chōme-1-12 Kitahōraichō, Imabari, Ehime 794-0028, Japan",
+  "lat": 34.064026,
+  "lng": 132.9949,
+  "place_id": "ChIJJckITlk6UDURH4cSsZVSN9U"
+ },
+ "フジホステル 尾道": {
+  "formatted": "3-30 Toyohi Motomachi, Onomichi, Hiroshima 722-0034, Japan",
+  "lat": 34.409839,
+  "lng": 133.203444,
+  "place_id": "ChIJFbYN5LEBUTURD9jKrJnRORY"
+ },
+ "ベネッセハウス ミュージアム 直島": {
+  "formatted": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 琴弾地",
+  "lat": 34.445223,
+  "lng": 133.990853,
+  "place_id": "ChIJu-H0aC_uUzURhcnP5-wFTPA"
+ },
+ "ホステルパク 徳島": {
+  "formatted": "Tokushima, Japan",
+  "lat": 34.070365,
+  "lng": 134.554954,
+  "place_id": "ChIJU-wn2gINUzUR94WNIAhofbU"
+ },
+ "ホテル祖谷温泉": {
+  "formatted": "WRC8+84, Matsumoto Ikedacho Matsuo, Miyoshi, Tokushima 779-5165, Japan",
+  "lat": 33.92087,
+  "lng": 133.81532,
+  "place_id": "ChIJ-4NSy1InUjUR4jm6JhvlvIk"
+ },
+ "マルキン醤油記念館": {
+  "formatted": "Japan, 〒761-4421 Kagawa, Shozu District, Shodoshima, Nōma, 甲1850 番地",
+  "lat": 34.466941,
+  "lng": 134.319325,
+  "place_id": "ChIJwber4ct4VDURu2cakS86dI4"
+ },
+ "ヤマロク醤油": {
+  "formatted": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲１６０７",
+  "lat": 34.486253,
+  "lng": 134.320718,
+  "place_id": "ChIJY2XCWyx5VDUR9_TMkYiTi5E"
+ },
+ "三原駅 Mihara Station": {
+  "formatted": "Japan, 〒723-0014 Hiroshima, Mihara, Shiromachi, 1-chōme−1 Mihara Station, 広島県三原市城町１丁目１−１",
+  "lat": 34.400708,
+  "lng": 133.083197,
+  "place_id": "ChIJDxK9gGtWUDURNbvsDOf-bPk"
+ },
+ "三宮駅 Sannomiya Station": {
+  "formatted": "Sannomiya Station, 1-chōme-3 Kitanagasadōri, Chuo Ward, Kobe, Hyogo 650-0012, Japan",
+  "lat": 34.694099,
+  "lng": 135.192716,
+  "place_id": "ChIJq2y-7eSOAGARmG3UthE-6tg"
+ },
+ "下灘駅 Shimonada Station": {
+  "formatted": "Shimonada Station, Futamichō Ōkubo, Iyo, Ehime 799-3311, Japan",
+  "lat": 33.655164,
+  "lng": 132.58934,
+  "place_id": "ChIJRwsl6qmJTzURpVNHZx_aWNI"
+ },
+ "久保 バス停 三好市": {
+  "formatted": "Miyoshi, Tokushima, Japan",
+  "lat": 34.026023,
+  "lng": 133.807246,
+  "place_id": "ChIJj38fyzovUjURMcNvV1FL7-8"
+ },
+ "亀浦観光港 うずしお観潮船": {
+  "formatted": "Oge Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "lat": 34.231469,
+  "lng": 134.625086,
+  "place_id": "ChIJwxSKdqpmUzUR1hRLuTVFP6A"
+ },
+ "亀浦観光港 鳴門": {
+  "formatted": "Oge Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "lat": 34.231469,
+  "lng": 134.625086,
+  "place_id": "ChIJwxSKdqpmUzUR1hRLuTVFP6A"
+ },
+ "今治駅": {
+  "formatted": "Imabari Station, 1-chōme-1 Nakahiyoshichō, Imabari, Ehime 794-0055, Japan",
+  "lat": 34.064205,
+  "lng": 132.993636,
+  "place_id": "ChIJyYp5bFk6UDUR1E-NO2tLIUU"
+ },
+ "今治駅 Imabari Station": {
+  "formatted": "Imabari Station, 1-chōme-1 Nakahiyoshichō, Imabari, Ehime 794-0055, Japan",
+  "lat": 34.064205,
+  "lng": 132.993636,
+  "place_id": "ChIJyYp5bFk6UDUR1E-NO2tLIUU"
+ },
+ "伊弉諾神宮": {
+  "formatted": "740 Taga, Awaji, Hyogo 656-1521, Japan",
+  "lat": 34.460049,
+  "lng": 134.852495,
+  "place_id": "ChIJO9CGW4i3VDURPglN0FloZz8"
+ },
+ "伊弉諾神宮 淡路島": {
+  "formatted": "740 Taga, Awaji, Hyogo 656-1521, Japan",
+  "lat": 34.460049,
+  "lng": 134.852495,
+  "place_id": "ChIJO9CGW4i3VDURPglN0FloZz8"
+ },
+ "内子座 内子町": {
+  "formatted": "2102 Uchiko, Kita District, Ehime 791-3301, Japan",
+  "lat": 33.551404,
+  "lng": 132.650184,
+  "place_id": "ChIJ___barWFTzURcTlYHpeZmhI"
+ },
+ "剣山 見ノ越 Mt Tsurugi": {
+  "formatted": "Mount Tsurugi, Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.853595,
+  "lng": 134.094163,
+  "place_id": "ChIJNY90X9g3UjUR-4Tm6xDzmF0"
+ },
+ "剣山観光登山リフト 見ノ越": {
+  "formatted": "205-25 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.866629,
+  "lng": 134.089002,
+  "place_id": "ChIJN7aDH9M3UjUREdq58x2uR0k"
+ },
+ "千種旅館 小豆島": {
+  "formatted": "Japan, 〒761-4402 Kagawa, Shozu District, Shodoshima, Fukuda, 甲１１８２−２",
+  "lat": 34.542982,
+  "lng": 134.343407,
+  "place_id": "ChIJVVXhO_V8VDURvBPOxhvmHIk"
+ },
+ "原爆ドーム": {
+  "formatted": "1-chōme-1-10 Ōtemachi, Naka Ward, Hiroshima, 730-0051, Japan",
+  "lat": 34.395483,
+  "lng": 132.453592,
+  "place_id": "ChIJqYAn2wyiWjURlsDG4Hpn5jQ"
+ },
+ "厳島神社 大鳥居": {
+  "formatted": "1-1 Miyajimachō, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.297307,
+  "lng": 132.318133,
+  "place_id": "ChIJl8guRQCxWjURa0_IRzWrsmM"
+ },
+ "名頃かかしの里 Nagoro": {
+  "formatted": "191 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.856539,
+  "lng": 134.019411,
+  "place_id": "ChIJ7xXLRzolUjUR6eK4h_AvQS4"
+ },
+ "向島 兼吉渡船場": {
+  "formatted": "Japan, 〒722-0000 Hiroshima, Onomichi, Mukaishimachō, 向島［兼吉］",
+  "lat": 34.405126,
+  "lng": 133.202709,
+  "place_id": "ChIJb_i0tbIBUTUR6p6_4bolJ-Q"
+ },
+ "四国村ミウゼアム 屋島": {
+  "formatted": "91 Yashima Nakamachi, Takamatsu, Kagawa 761-0112, Japan",
+  "lat": 34.344129,
+  "lng": 134.108403,
+  "place_id": "ChIJwZ8XekeTUzUR-xBGML3cGYE"
+ },
+ "因島大橋": {
+  "formatted": "Innoshima Bridge, Mukaishimachō Tachibana, Onomichi, Hiroshima 722-0071, Japan",
+  "lat": 34.357415,
+  "lng": 133.180446,
+  "place_id": "ChIJ8526nXirUTUR_CK9lT3kPv8"
+ },
+ "土庄港": {
+  "formatted": "Tonosho Port Terminal, Kō, 土庄町 Tonosho, Shozu District, Kagawa 761-4101, Japan",
+  "lat": 34.489228,
+  "lng": 134.171763,
+  "place_id": "ChIJW6GiXieKUzURCsy_brzmqFA"
+ },
+ "土庄港 Tonosho Port": {
+  "formatted": "Tonosho Port Terminal, Kō, 土庄町 Tonosho, Shozu District, Kagawa 761-4101, Japan",
+  "lat": 34.489228,
+  "lng": 134.171763,
+  "place_id": "ChIJW6GiXieKUzURCsy_brzmqFA"
+ },
+ "地中美術館 直島": {
+  "formatted": "3449-1, Naoshima, Kagawa District, Kagawa 761-3110, Japan",
+  "lat": 34.447748,
+  "lng": 133.984717,
+  "place_id": "ChIJ4WHu5yvuUzURCXiEZmVSozw"
+ },
+ "坊っちゃん列車 松山": {
+  "formatted": "7 Dogomachi, Matsuyama, Ehime 790-0842, Japan",
+  "lat": 33.850576,
+  "lng": 132.784971,
+  "place_id": "ChIJlQP3wPXlTzURRcpKFTQddh0"
+ },
+ "大三島 井口港": {
+  "formatted": "Japan, 〒794-1402 Ehime, Imabari, Kamiurachō Inokuchi, 井口港",
+  "lat": 34.265881,
+  "lng": 133.042536,
+  "place_id": "ChIJadr7N6NPUDUR0D4ZOnX8FFk"
+ },
+ "大三島バスストップ": {
+  "formatted": "Japan, 〒794-1403 Ehime, Imabari, Kamiurachō Amazaki, 大三島ＢＳ",
+  "lat": 34.252343,
+  "lng": 133.053284,
+  "place_id": "ChIJI_GWUwdPUDURxcsS8FzXI3M"
+ },
+ "大久野島 Rabbit Island": {
+  "formatted": "Ōkunoshima Island, Tadanoumicho, Takehara, Hiroshima 729-2311, Japan",
+  "lat": 34.309036,
+  "lng": 132.993327,
+  "place_id": "ChIJmWoPDjFFUDURB5HEnsMYlYU"
+ },
+ "大塚国際美術館": {
+  "formatted": "Fukuike-65-1 Narutochō Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "lat": 34.232382,
+  "lng": 134.637982,
+  "place_id": "ChIJGw03L0xhUzURYVnncKS10Xg"
+ },
+ "大島 今治市 宮窪": {
+  "formatted": "Miyakubocho Miyakubo, Imabari, Ehime 794-2203, Japan",
+  "lat": 34.16704,
+  "lng": 133.072902,
+  "place_id": "ChIJs4Lv_21JUDURYfedhVBJRrU"
+ },
+ "大歩危峡まんなか 遊覧船乗り場": {
+  "formatted": "1520 Yamashirochō Nishiu, Miyoshi, Tokushima 779-5451, Japan",
+  "lat": 33.88607,
+  "lng": 133.760418,
+  "place_id": "ChIJZwW2W0iKUTURMrnzgupFfTs"
+ },
+ "大歩危峡観光遊覧船": {
+  "formatted": "1520 Yamashirochō Nishiu, Miyoshi, Tokushima 779-5451, Japan",
+  "lat": 33.885843,
+  "lng": 133.760743,
+  "place_id": "ChIJoeoG_UyKUTUR9FZd03d6LhQ"
+ },
+ "大歩危駅 Oboke Station": {
+  "formatted": "Ōboke Station, Nishiiyayamamura Tokuzennishi, Miyoshi, Tokushima 778-0105, Japan",
+  "lat": 33.876686,
+  "lng": 133.767217,
+  "place_id": "ChIJ0ydzWkOKUTURLoUfscvdMjk"
+ },
+ "大洲城 愛媛": {
+  "formatted": "903 Ōzu, Ozu, Ehime 795-0012, Japan",
+  "lat": 33.50955,
+  "lng": 132.541312,
+  "place_id": "ChIJHftTq8R_RTURfu8rYuPe6V8"
+ },
+ "大聖院 宮島": {
+  "formatted": "210 Miyajimachō, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.292046,
+  "lng": 132.318493,
+  "place_id": "ChIJCcnfu8uwWjURP_wHx2YZPro"
+ },
+ "大阪駅 Osaka Station": {
+  "formatted": "Osaka Station, 3-chōme-1-1 Umeda, Kita Ward, Osaka, 530-0001, Japan",
+  "lat": 34.702485,
+  "lng": 135.495951,
+  "place_id": "ChIJC6fjlY3mAGARSshZ6CLIrhs"
+ },
+ "奥祖谷二重かずら橋": {
+  "formatted": "620 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.853453,
+  "lng": 134.04576,
+  "place_id": "ChIJ9SN_Bsc3UjURGJkGeNgDbMY"
+ },
+ "好古園 Koko-en Himeji": {
+  "formatted": "68 Honmachi, Himeji, Hyogo 670-0012, Japan",
+  "lat": 34.837086,
+  "lng": 134.690402,
+  "place_id": "ChIJDxT9HRvgVDURt_SPzwe2f_E"
+ },
+ "姫路城 Himeji Castle": {
+  "formatted": "68 Honmachi, Himeji, Hyogo 670-0012, Japan",
+  "lat": 34.839449,
+  "lng": 134.693905,
+  "place_id": "ChIJsyQzogPgVDURsYG6bi-MT3o"
+ },
+ "姫路港 Himeji Port": {
+  "formatted": "Suka Shikamaku, Himeji, Hyogo 672-8063, Japan",
+  "lat": 34.784674,
+  "lng": 134.662284,
+  "place_id": "ChIJ8V7_YNXmVDURnzGMIJb5TBU"
+ },
+ "姫路駅 Himeji Station": {
+  "formatted": "HIMEJI STATION, 188-1 Ekimaechō, 姫路市 兵庫県 670-0927, Japan",
+  "lat": 34.826797,
+  "lng": 134.690533,
+  "place_id": "ChIJHT_ushLgVDURVTdlA9jzxzc"
+ },
+ "安田 小豆島": {
+  "formatted": "Yasuda, Shodoshima, Shozu District, Kagawa 761-4411, Japan",
+  "lat": 34.493719,
+  "lng": 134.326021,
+  "place_id": "ChIJ9emfHbV-VDURn4erWzrBMFs"
+ },
+ "宮島ロープウエー 紅葉谷": {
+  "formatted": "Japan, 〒739-0522 Hiroshima, Hatsukaichi, Miyajimachō, 紅葉谷公園",
+  "lat": 34.293259,
+  "lng": 132.326751,
+  "place_id": "ChIJe8WX9sSwWjUR7YtrmFT_Xhc"
+ },
+ "宮島口駅 Miyajimaguchi": {
+  "formatted": "Miyajimaguchi, Hatsukaichi, Hiroshima 739-0411, Japan",
+  "lat": 34.313702,
+  "lng": 132.304017,
+  "place_id": "ChIJKasIGVq3WjUR-XtDpbGXq0k"
+ },
+ "宮浦港 直島": {
+  "formatted": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 宮ノ浦２２４９−４０",
+  "lat": 34.457043,
+  "lng": 133.974571,
+  "place_id": "ChIJlcKds9fvUzURHNYAwBALjb8"
+ },
+ "家プロジェクト 本村 直島": {
+  "formatted": "803-1, Naoshima, Kagawa District, Kagawa 761-3110, Japan",
+  "lat": 34.460205,
+  "lng": 133.997516,
+  "place_id": "ChIJJ5IsvsPxUzURC0XbLKgczkI"
+ },
+ "寒霞渓ロープウェイ": {
+  "formatted": "乙１６８ Kankakedōri, Shodoshima, Shozu District, Kagawa 761-4433, Japan",
+  "lat": 34.51564,
+  "lng": 134.300659,
+  "place_id": "ChIJoZMdM295VDURbW-oRikGZBU"
+ },
+ "小豆島オリーブ公園": {
+  "formatted": "Shodoshima Olive Park, 甲-1941-1 Nishimura, Shodoshima, Shozu District, Kagawa 761-4434, Japan",
+  "lat": 34.472841,
+  "lng": 134.273637,
+  "place_id": "ChIJC-KIFXR4VDURasxl3L0o26M"
+ },
+ "尾道駅": {
+  "formatted": "Onomichi Station, 1-1 Higashigoshochō, Onomichi, Hiroshima 722-0036, Japan",
+  "lat": 34.404896,
+  "lng": 133.193555,
+  "place_id": "ChIJB2V6-jUAUTURePqJH6MRcUQ"
+ },
+ "尾道駅 Onomichi Station": {
+  "formatted": "Onomichi Station, 1-1 Higashigoshochō, Onomichi, Hiroshima 722-0036, Japan",
+  "lat": 34.404896,
+  "lng": 133.193555,
+  "place_id": "ChIJB2V6-jUAUTURePqJH6MRcUQ"
+ },
+ "屋島山上 高松市": {
+  "formatted": "Yashima-Sanjo, Yashima Higashimachi, Takamatsu, Kagawa 761-0111, Japan",
+  "lat": 34.35824,
+  "lng": 134.10211,
+  "place_id": "ChIJPaurWC6TUzURh2AvYZxvgFw"
+ },
+ "岩屋港 淡路島": {
+  "formatted": "Iwaya Port, Iwaya, Awaji, Hyogo 656-2401, Japan",
+  "lat": 34.593109,
+  "lng": 135.014874,
+  "place_id": "ChIJvQWLwY2CAGAR4s4Yut0P6Rk"
+ },
+ "広島バスセンター": {
+  "formatted": "Hiroshima Bus Center, 6 Motomachi, Naka Ward, Hiroshima, 730-0011, Japan",
+  "lat": 34.396309,
+  "lng": 132.455915,
+  "place_id": "ChIJLRys-AuiWjUR2gZszJ1_I8I"
+ },
+ "広島平和記念資料館": {
+  "formatted": "1-2 Nakajimachō, Naka Ward, Hiroshima, 730-0811, Japan",
+  "lat": 34.391503,
+  "lng": 132.453158,
+  "place_id": "ChIJtyvayxKiWjURgIGSanFnMPE"
+ },
+ "広島港 宇品": {
+  "formatted": "Hiroshima-ko Sambashi (Hiroshima Harbor Pier), 1-chōme-13 Ujinakaigan, Minami Ward, Hiroshima, 734-0011, Japan",
+  "lat": 34.352844,
+  "lng": 132.455317,
+  "place_id": "ChIJO-6KAsejWjURx0YiwERsxj8"
+ },
+ "広島駅 Hiroshima Station": {
+  "formatted": "HIROSHIMA STATION, 1-２番３７号 Matsubarachō, Minami Ward, Hiroshima, 732-0822, Japan",
+  "lat": 34.397667,
+  "lng": 132.475379,
+  "place_id": "ChIJO1MgvFOfWjUR6-cLRTI_QSg"
+ },
+ "弥山 宮島": {
+  "formatted": "Mount Misen, Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.279513,
+  "lng": 132.319808,
+  "place_id": "ChIJGUy2HtSwWjURk5ao-WBFAf0"
+ },
+ "弥山 宮島 Mt Misen": {
+  "formatted": "Mount Misen, Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.279513,
+  "lng": 132.319808,
+  "place_id": "ChIJGUy2HtSwWjURk5ao-WBFAf0"
+ },
+ "徳島駅 Tokushima Station": {
+  "formatted": "Tokushima Station, 1-chōme-61 Terashimahonchōnishi, Tokushima, 770-0831, Japan",
+  "lat": 34.074477,
+  "lng": 134.551155,
+  "place_id": "ChIJCR0s22FtUzURLNDpqrRSHgc"
+ },
+ "忠海港": {
+  "formatted": "Japan, 〒729-2316 Hiroshima, Takehara, Tadanoumi Nakamachi, 1-chōme−2−１ 忠海港",
+  "lat": 34.337364,
+  "lng": 132.993634,
+  "place_id": "ChIJfaSIM-laUDURIzUQAf-HTMg"
+ },
+ "忠海港 Tadanoumi Port": {
+  "formatted": "Japan, 〒729-2316 Hiroshima, Takehara, Tadanoumi Nakamachi, 1-chōme−2−１ 忠海港",
+  "lat": 34.337364,
+  "lng": 132.993634,
+  "place_id": "ChIJfaSIM-laUDURIzUQAf-HTMg"
+ },
+ "旧金毘羅大芝居 金丸座": {
+  "formatted": "Japan, 〒766-0001 Kagawa, Nakatado District, Kotohira, 乙１２４１",
+  "lat": 34.184713,
+  "lng": 133.817985,
+  "place_id": "ChIJVRqc9mjWUzUR9yVuR1oTe8E"
+ },
+ "明石港 淡路ジェノバライン": {
+  "formatted": "Japan, 〒673-0892 Hyogo, Akashi, Honmachi, 1-chōme−20 Akashiko(Akashi Port), 兵庫県明石市本町２丁目１０－１",
+  "lat": 34.645341,
+  "lng": 134.990229,
+  "place_id": "ChIJk131errUVDURzfGb4SH3mUY"
+ },
+ "明石駅 Akashi Station": {
+  "formatted": "Akashi Station, 1-chōme-1 Ōakashichō, Akashi, Hyogo 673-0891, Japan",
+  "lat": 34.649026,
+  "lng": 134.992684,
+  "place_id": "ChIJlTsPurfUVDURNiWm_0whKHg"
+ },
+ "有明グラウンド 琴弾公園 観音寺市": {
+  "formatted": "Kotohiki Park, 13 Ariakechō, Kanonji, Kagawa 768-0062, Japan",
+  "lat": 34.132222,
+  "lng": 133.643333,
+  "place_id": "ChIJXWVFHiyDUTURWqZBK7r8NKY"
+ },
+ "未来心の丘 生口島": {
+  "formatted": "553-2 Setodachō Setoda, Onomichi, Hiroshima 722-2411, Japan",
+  "lat": 34.303237,
+  "lng": 133.088949,
+  "place_id": "ChIJ7Zgm54RRUDUROQHQ2URwhtk"
+ },
+ "李禹煥美術館 直島": {
+  "formatted": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 字倉浦１３９０",
+  "lat": 34.448524,
+  "lng": 133.989118,
+  "place_id": "ChIJibi8HCnuUzURellSAO4Wd6c"
+ },
+ "松山城": {
+  "formatted": "1 Marunouchi, Matsuyama, Ehime 790-0008, Japan",
+  "lat": 33.845577,
+  "lng": 132.765535,
+  "place_id": "ChIJG4z5T-vlTzURgnujh60lGEo"
+ },
+ "松山城 Matsuyama Castle": {
+  "formatted": "1 Marunouchi, Matsuyama, Ehime 790-0008, Japan",
+  "lat": 33.845577,
+  "lng": 132.765535,
+  "place_id": "ChIJG4z5T-vlTzURgnujh60lGEo"
+ },
+ "松山城ロープウェイ東雲口駅舎": {
+  "formatted": "Shinonomeguchi Station, 3-chōme Ōkaidō, Matsuyama, Ehime 790-0004, Japan",
+  "lat": 33.84459,
+  "lng": 132.77188,
+  "place_id": "ChIJ0-5bkOnlTzURhm0fYy8l9Y0"
+ },
+ "松山城二之丸史跡庭園": {
+  "formatted": "5番地 Marunouchi, Matsuyama, Ehime 790-0001, Japan",
+  "lat": 33.842943,
+  "lng": 132.764381,
+  "place_id": "ChIJD5vWBJPlTzURLsf4vh0UWYs"
+ },
+ "松山市駅 Matsuyama": {
+  "formatted": "Japan, 〒790-0012 Ehime, Matsuyama, Minatomachi, 5-chōme 松山市駅",
+  "lat": 33.835615,
+  "lng": 132.762051,
+  "place_id": "ChIJ0z9B6IvlTzURW8Iccrn1GZE"
+ },
+ "松山観光港 Matsuyama Kanko Port": {
+  "formatted": "Matsuyama tourist port terminal, 5-chōme-2259-1 Takahamamachi, Matsuyama, Ehime 791-8081, Japan",
+  "lat": 33.88868,
+  "lng": 132.704345,
+  "place_id": "ChIJm6mjidP6TzURqROpGgIz17c"
+ },
+ "松山駅 JR Matsuyama Station": {
+  "formatted": "1-chōme-14-2 Minamiedo, Matsuyama, Ehime 790-0062, Japan",
+  "lat": 33.840274,
+  "lng": 132.750742,
+  "place_id": "ChIJLceXcQDlTzURlgkgfVWs7VE"
+ },
+ "栗林公園 Ritsurin Garden": {
+  "formatted": "Ritsurin Garden, 1-chōme-20-16 Ritsurinchō, Takamatsu, Kagawa 760-0073, Japan",
+  "lat": 34.329904,
+  "lng": 134.04577,
+  "place_id": "ChIJUc4SILrrUzURFEFMQod9v7g"
+ },
+ "栗林公園 Ritsurin Garden Takamatsu": {
+  "formatted": "Ritsurin Garden, 1-chōme-20-16 Ritsurinchō, Takamatsu, Kagawa 760-0073, Japan",
+  "lat": 34.329904,
+  "lng": 134.04577,
+  "place_id": "ChIJUc4SILrrUzURFEFMQod9v7g"
+ },
+ "桂浜 Katsurahama": {
+  "formatted": "Japan, 〒781-0262 Kochi, Urado, ６ 桂浜公園商業施設 A棟",
+  "lat": 33.499081,
+  "lng": 133.57426,
+  "place_id": "ChIJb1cILJAbTjURlv4zj5MyiCU"
+ },
+ "桂浜 高知": {
+  "formatted": "6 Urado, Kochi, 781-0262, Japan",
+  "lat": 33.498184,
+  "lng": 133.574425,
+  "place_id": "ChIJwQDkipMbTjURZnGsPoV8rWE"
+ },
+ "洲本バスセンター": {
+  "formatted": "Sumoto Bus Center, 2 Minato, Sumoto, Hyogo 656-0027, Japan",
+  "lat": 34.345605,
+  "lng": 134.897112,
+  "place_id": "ChIJK4kXo7CxVDUR3k0Qw_M3nXw"
+ },
+ "洲本バスセンター 淡路島": {
+  "formatted": "Sumoto Bus Center, 2 Minato, Sumoto, Hyogo 656-0027, Japan",
+  "lat": 34.345605,
+  "lng": 134.897112,
+  "place_id": "ChIJK4kXo7CxVDUR3k0Qw_M3nXw"
+ },
+ "淡路夢舞台": {
+  "formatted": "Japan, 〒656-2306 Hyogo, Awaji, Yumebutai, 2番地",
+  "lat": 34.56085,
+  "lng": 135.008436,
+  "place_id": "ChIJw8zUBFKdAGARyKzXji-dXII"
+ },
+ "淡路島公園 ツーリストトロフィーハウス": {
+  "formatted": "266-2 Goshikichō Tsushi, Sumoto, Hyogo 656-1301, Japan",
+  "lat": 34.413566,
+  "lng": 134.783608,
+  "place_id": "ChIJnTSfFoO7VDURDsqpABiNNuE"
+ },
+ "渦の道 鳴門": {
+  "formatted": "Japan, 〒772-0053 Tokushima, Naruto, Narutochō Tosadomariura, Fukuike 内 Naruto Park",
+  "lat": 34.23617,
+  "lng": 134.641982,
+  "place_id": "ChIJi87buD5hUzURp5JeNHBv-TA"
+ },
+ "瀬戸田バスストップ": {
+  "formatted": "Japan, 〒722-2401 Hiroshima, Onomichi, Setodachō Mitera, 瀬戸田ＢＳ",
+  "lat": 34.286287,
+  "lng": 133.119454,
+  "place_id": "ChIJvdwVN0ZSUDURnrs5FKaKltg"
+ },
+ "瀬戸田港 生口島": {
+  "formatted": "Japan, 〒722-2411 Hiroshima, Onomichi, Setodachō Setoda, 生口島［瀬戸田港］（航路）",
+  "lat": 34.304759,
+  "lng": 133.084267,
+  "place_id": "ChIJqdhpTJpRUDURobWG4RXYqfc"
+ },
+ "父母ヶ浜 三豊市": {
+  "formatted": "Otsu-273-1 Niochō Nio, Mitoyo, Kagawa 769-1404, Japan",
+  "lat": 34.190919,
+  "lng": 133.648858,
+  "place_id": "ChIJtbHKrxd4UTURoYTcbbaD6o8"
+ },
+ "牧野植物園": {
+  "formatted": "4200-6 Godaisan, Kochi, 781-8125, Japan",
+  "lat": 33.547908,
+  "lng": 133.579183,
+  "place_id": "ChIJYVKYcPMbTjURxgsUXkA9URg"
+ },
+ "牧野植物園 高知": {
+  "formatted": "4200-6 Godaisan, Kochi, 781-8125, Japan",
+  "lat": 33.547908,
+  "lng": 133.579183,
+  "place_id": "ChIJYVKYcPMbTjURxgsUXkA9URg"
+ },
+ "獅子岩展望台 宮島": {
+  "formatted": "Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.279,
+  "lng": 132.325361,
+  "place_id": "ChIJNzVvcmOxWjURWDjMK_z9F-A"
+ },
+ "玉藻公園 高松城跡": {
+  "formatted": "Takamatsu Castle Park, 2-1 Tamamochō, Takamatsu, Kagawa 760-0030, Japan",
+  "lat": 34.350316,
+  "lng": 134.051619,
+  "place_id": "ChIJK3mVCYfrUzURNl7XQRlvOB4"
+ },
+ "琴平パークホテル": {
+  "formatted": "706-7 Enai, Kotohira, Nakatado District, Kagawa 766-0004, Japan",
+  "lat": 34.189907,
+  "lng": 133.828144,
+  "place_id": "ChIJv11Fb1jWUzURqGDYkKi-5yI"
+ },
+ "琴平駅 Kotohira Station": {
+  "formatted": "Japan, 〒766-0004 Kagawa, Nakatado District, Kotohira, Enai, Kotohira Station, 仲多度郡琴平町榎井",
+  "lat": 34.191831,
+  "lng": 133.8213,
+  "place_id": "ChIJ32bPGlvWUzURXUokv0WdFy0"
+ },
+ "琴弾公園 観音寺市": {
+  "formatted": "Kotohiki Park, 13 Ariakechō, Kanonji, Kagawa 768-0062, Japan",
+  "lat": 34.132222,
+  "lng": 133.643333,
+  "place_id": "ChIJXWVFHiyDUTURWqZBK7r8NKY"
+ },
+ "琵琶の滝 祖谷": {
+  "formatted": "23 Nishiiyayamamura Kanjō, Miyoshi, Tokushima 778-0102, Japan",
+  "lat": 33.875381,
+  "lng": 133.836234,
+  "place_id": "ChIJA21WaE4nUjURHPhjeUY-oP0"
+ },
+ "直島 宮浦港": {
+  "formatted": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 宮ノ浦２２４９−４０",
+  "lat": 34.457043,
+  "lng": 133.974571,
+  "place_id": "ChIJlcKds9fvUzURHNYAwBALjb8"
+ },
+ "眉山ロープウェイ": {
+  "formatted": "Japan, 〒770-0904 Tokushima, Shinmachibashi, 2-chōme−２０−２０",
+  "lat": 34.070089,
+  "lng": 134.544938,
+  "place_id": "ChIJ89HG-6NyUzURS7s98YULSYo"
+ },
+ "眉山ロープウェイ 徳島": {
+  "formatted": "Japan, 〒770-0904 Tokushima, Shinmachibashi, 2-chōme−２０−２０",
+  "lat": 34.070089,
+  "lng": 134.544938,
+  "place_id": "ChIJ89HG-6NyUzURS7s98YULSYo"
+ },
+ "祖谷のかずら橋": {
+  "formatted": "Iya Valley Vine Bridge, 162-2 Nishiiyayamamura Zentoku, Miyoshi, Tokushima 778-0102, Japan",
+  "lat": 33.875133,
+  "lng": 133.8354,
+  "place_id": "ChIJEdgLLuUnUjUR691uAvUAg0U"
+ },
+ "神戸三宮フェリーターミナル": {
+  "formatted": "Kobesannomiya Ferry Terminal, 3-7 Shinkōchō, Chuo Ward, 神戸市中央区 Hyogo 650-0041, Japan",
+  "lat": 34.68257,
+  "lng": 135.19896,
+  "place_id": "ChIJGwTum1mOAGARxcn1pAt8E0k"
+ },
+ "福田港 小豆島": {
+  "formatted": "Japan, 〒761-4402 Kagawa, Shozu District, Shodoshima, Fukuda, 福田港",
+  "lat": 34.542829,
+  "lng": 134.344238,
+  "place_id": "ChIJ3-xlEPV8VDUR9CNyDJGu5wY"
+ },
+ "竹原町並み保存地区": {
+  "formatted": "3 Chome-8 Honmachi, Takehara, Hiroshima 725-0022, Japan",
+  "lat": 34.346939,
+  "lng": 132.910302,
+  "place_id": "ChIJrczM0S1DUDURmNz6VEUPut4"
+ },
+ "紅葉谷公園 宮島": {
+  "formatted": "Momijidani Park, Miyajimachō, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "lat": 34.294205,
+  "lng": 132.324065,
+  "place_id": "ChIJdS8mkbewWjUR580CS14cuiI"
+ },
+ "紅雲亭 小豆島": {
+  "formatted": "Kouuntei, Kankakedōri, Shodoshima, Shozu District, Kagawa 761-4433, Japan",
+  "lat": 34.507973,
+  "lng": 134.296377,
+  "place_id": "ChIJpb09kxJ5VDUR-J1aBxWhifQ"
+ },
+ "耕三寺博物館 生口島": {
+  "formatted": "553-2 Setodachō Setoda, Onomichi, Hiroshima 722-2411, Japan",
+  "lat": 34.304886,
+  "lng": 133.090337,
+  "place_id": "ChIJMb4ZDa4BUTURx4YGYg-YHwQ"
+ },
+ "草壁港": {
+  "formatted": "Japan, 〒761-4432 Kagawa, Shozu District, Shodoshima, Kusakabehonmachi, 草壁港",
+  "lat": 34.479164,
+  "lng": 134.298979,
+  "place_id": "ChIJj1F13-54VDURGjPTAI2w4-o"
+ },
+ "落合集落 三好市": {
+  "formatted": "80 Higashiiyanakaue, Miyoshi, Tokushima 778-0203, Japan",
+  "lat": 33.87662,
+  "lng": 133.933246,
+  "place_id": "ChIJpS-UYTolUjURjdVvINCUJSc"
+ },
+ "西島駅 剣山リフト": {
+  "formatted": "205-2 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.860501,
+  "lng": 134.092302,
+  "place_id": "ChIJOcK45tY3UjURG-Jjozg1n5s"
+ },
+ "見ノ越 剣山登山リフト": {
+  "formatted": "205-25 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "lat": 33.866629,
+  "lng": 134.089002,
+  "place_id": "ChIJN7aDH9M3UjUREdq58x2uR0k"
+ },
+ "観音寺駅 Kanonji Station": {
+  "formatted": "Kan-Onji Station, 1-chōme-4 Sakaemachi, Kanonji, Kagawa 768-0072, Japan",
+  "lat": 34.124524,
+  "lng": 133.655652,
+  "place_id": "ChIJ1VUFtyKDUTURWnpfxpD6JgI"
+ },
+ "詫間駅 Takuma Station": {
+  "formatted": "Takuma Station, 715 Takumachō Matsusaki, Mitoyo, Kagawa 769-1102, Japan",
+  "lat": 34.220832,
+  "lng": 133.692749,
+  "place_id": "ChIJG5Pp12B5UTURRGfkQd4e7oA"
+ },
+ "豊島美術館": {
+  "formatted": "607 Teshimakarato, Tonosho, Shozu District, Kagawa 761-4662, Japan",
+  "lat": 34.489703,
+  "lng": 134.090334,
+  "place_id": "ChIJ3QaO37P0UzURVNzwCk7YH_Q"
+ },
+ "道後温泉別館 飛鳥乃湯泉": {
+  "formatted": "19-22 Dōgoyunomachi, Matsuyama, Ehime 790-0842, Japan",
+  "lat": 33.852401,
+  "lng": 132.784651,
+  "place_id": "ChIJH4XTMNblTzURtekmo516GY8"
+ },
+ "道後温泉本館": {
+  "formatted": "5-6 Dōgoyunomachi, Matsuyama, Ehime 790-0842, Japan",
+  "lat": 33.852075,
+  "lng": 132.78641,
+  "place_id": "ChIJ84F-kHjmTzURebGHHI1YWXw"
+ },
+ "金刀比羅宮 Kotohira": {
+  "formatted": "892-1, Kotohira, Nakatado District, Kagawa 766-8501, Japan",
+  "lat": 34.183998,
+  "lng": 133.809537,
+  "place_id": "ChIJtSRHH0IkGWARqTAo4c715o0"
+ },
+ "銭形展望台 観音寺市": {
+  "formatted": "Japan, 〒768-0062 Kagawa, Kanonji, Yahatachō, 1-chōme−1−１ 銭形展望台",
+  "lat": 34.133844,
+  "lng": 133.645612,
+  "place_id": "ChIJWyKVAIqDUTURRnmfGtEhSE0"
+ },
+ "銭形砂絵 寛永通宝 観音寺市": {
+  "formatted": "14 Ariakecho, Kanonji, Kagawa 768-0062, Japan",
+  "lat": 34.13415,
+  "lng": 133.64142,
+  "place_id": "ChIJkaQTAiyDUTURfBxLe1WuAGc"
+ },
+ "阿波おどり会館 Tokushima": {
+  "formatted": "2-chōme-20 Shinmachibashi, Tokushima, 770-0904, Japan",
+  "lat": 34.070164,
+  "lng": 134.54499,
+  "place_id": "ChIJ89HG-6NyUzURLaL2S3m6Exc"
+ },
+ "阿波おどり会館 徳島": {
+  "formatted": "2-chōme-20 Shinmachibashi, Tokushima, 770-0904, Japan",
+  "lat": 34.070164,
+  "lng": 134.54499,
+  "place_id": "ChIJ89HG-6NyUzURLaL2S3m6Exc"
+ },
+ "阿波池田駅": {
+  "formatted": "Awa-Ikeda Station, Ikedachō Sarada, Miyoshi, Tokushima 778-0003, Japan",
+  "lat": 34.027127,
+  "lng": 133.804685,
+  "place_id": "ChIJseeppPYpUjURbCmBQ9JlOKs"
+ },
+ "阿波池田駅 Awa-Ikeda Station": {
+  "formatted": "Awa-Ikeda Station, Ikedachō Sarada, Miyoshi, Tokushima 778-0003, Japan",
+  "lat": 34.027127,
+  "lng": 133.804685,
+  "place_id": "ChIJseeppPYpUjURbCmBQ9JlOKs"
+ },
+ "霊山寺 一番札所": {
+  "formatted": "Tsukahana-126 Ōasachō Bandō, Naruto, Tokushima 779-0230, Japan",
+  "lat": 34.159673,
+  "lng": 134.502527,
+  "place_id": "ChIJ44K2dOZxUzURIWOzwPwg0LM"
+ },
+ "霊山寺 一番札所 徳島": {
+  "formatted": "Tsukahana-126 Ōasachō Bandō, Naruto, Tokushima 779-0230, Japan",
+  "lat": 34.159673,
+  "lng": 134.502527,
+  "place_id": "ChIJ44K2dOZxUzURIWOzwPwg0LM"
+ },
+ "高屋神社 下宮 観音寺市": {
+  "formatted": "高屋神社 下宮 (lower shrine) — coordinates from Kan-onji City's official map embed",
+  "lat": 34.15311,
+  "lng": 133.64887
+ },
+ "高屋神社 本宮 天空の鳥居": {
+  "formatted": "2800 Takayachō, Kanonji, Kagawa 768-0001, Japan",
+  "lat": 34.160394,
+  "lng": 133.654842,
+  "place_id": "ChIJTTpWakKDUTURulcrfDvSu24"
+ },
+ "高松港 Takamatsu Port": {
+  "formatted": "Port of Takamatsu, Japan",
+  "lat": 34.366667,
+  "lng": 134.05,
+  "place_id": "ChIJ3bscbmbsUzUROMHM-8Kz-kw"
+ },
+ "高松駅 Takamatsu Station": {
+  "formatted": "Japan, 〒760-0011 Kagawa, Takamatsu, Hamanochō, 1 Takamatsu Station, １−２０",
+  "lat": 34.350679,
+  "lng": 134.046928,
+  "place_id": "ChIJzV3k6YjrUzUR20YlrkzEDtY"
+ },
+ "高知城": {
+  "formatted": "1-chōme-2-1 Marunouchi, Kochi, 780-0850, Japan",
+  "lat": 33.560812,
+  "lng": 133.531484,
+  "place_id": "ChIJ_ZQBiCQZTjURDgmM1D29DRU"
+ },
+ "高知日曜市": {
+  "formatted": "1 Chome-9 Otesuji, Kochi, 780-0842, Japan",
+  "lat": 33.561445,
+  "lng": 133.537661,
+  "place_id": "ChIJDUAjgUYZTjURYTC3u6UBNIE"
+ },
+ "高知日曜市 Sunday Market": {
+  "formatted": "1 Chome-9 Otesuji, Kochi, 780-0842, Japan",
+  "lat": 33.561445,
+  "lng": 133.537661,
+  "place_id": "ChIJDUAjgUYZTjURYTC3u6UBNIE"
+ },
+ "高知駅 Kochi Station": {
+  "formatted": "Kochi Station, 2-chōme-1 Sakaedachō, Kochi, 780-0061, Japan",
+  "lat": 33.567227,
+  "lng": 133.543645,
+  "place_id": "ChIJIx85zUoZTjUR1OI6-NQP0Qk"
+ },
+ "鳴門公園": {
+  "formatted": "Naruto Park, Fukuike Narutochō Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "lat": 34.236151,
+  "lng": 134.640089,
+  "place_id": "ChIJTTywUk1hUzURAuv1wNfSl5A"
+ },
+ "鳴門公園口バス停": {
+  "formatted": "Japan, 〒772-0053 Tokushima, Naruto, Narutochō Tosadomariura, Fukuike 鳴門公園口（バス）",
+  "lat": 34.23526,
+  "lng": 134.6398,
+  "place_id": "ChIJ-0f9tkhhUzURgUCYua1HcbQ"
+ }
+}
