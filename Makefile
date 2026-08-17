@@ -1,5 +1,6 @@
 # Everything in out/ is generated from src/. Never edit it by hand.
-PY := .venv/bin/python
+# Override for CI, which installs into the system interpreter:  make PY=python
+PY ?= .venv/bin/python
 
 .PHONY: all sheets dashboard map geocode clean setup
 

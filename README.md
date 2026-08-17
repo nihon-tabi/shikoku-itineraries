@@ -29,8 +29,17 @@ and a separate workbook.
 
 ```sh
 make setup     # create .venv, install openpyxl
-make           # rebuild everything into out/
+make           # rebuild everything into out/  (~1s)
 ```
+
+`make geocode` is separate because it is the only target that costs money — Google
+Geocoding API calls. Results are cached in `src/refs/places_geo.json` and committed,
+so a normal build never touches the network.
+
+On push to `main`, a workflow rebuilds and publishes `dashboard.html` to GitHub Pages,
+so the published page can never fall behind `src/`. ⚠️ **Pages requires the repository
+to be public** on a free organisation — until then the workflow builds and the deploy
+step will fail.
 
 Nothing in `out/` is edited by hand — it is regenerated from `src/`.
 

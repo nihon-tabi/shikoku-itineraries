@@ -1,0 +1,71 @@
+# Build the deliverables and publish the dashboard to GitHub Pages.
+#
+# out/ is gitignored on purpose — it is generated, and the two dashboard files
+# are ~3.3 MB each, so committing them would add ~7 MB of churn per rebuild.
+# This builds them on push instead, so the published page can never be stale
+# relative to src/.
+name: Publish the dashboard
+
+on:
+  push:
+    branches: [main]
+    paths: ['src/**', 'Makefile', 'requirements.txt', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+# Pages needs these; nothing else in the workflow writes to the repo.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race. Don't cancel a running one — a half-finished
+# deploy is worse than a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # PY=python because there is no venv here. `make geocode` is deliberately
+      # NOT run: it costs Google API calls, and the results are committed in
+      # src/refs/places_geo.json.
+      - run: make PY=python
+
+      - name: Fail if the build produced nothing
+        run: |
+          test -s out/dashboard.html || { echo "::error::dashboard.html missing or empty"; exit 1; }
+          test -d out/sheets || { echo "::error::out/sheets missing"; exit 1; }
+          echo "built $(find out -type f | wc -l) files"
+
+      - name: Lay out the site
+        run: |
+          # dashboard.html is the full page (charset + viewport); serve it as the
+          # index so the Pages URL needs no path. The artifact fragment is not
+          # published — it is meaningless without a host to wrap it.
+          cp out/dashboard.html out/index.html
+          rm -f out/dashboard-artifact.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
