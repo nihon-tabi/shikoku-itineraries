@@ -49,7 +49,7 @@ src/                  the single source of truth
     places_geo.json       geocode cache (rebuild with `make geocode`)
   build_sheets.py       -> out/sheets/Shikoku-Option-{A,B,C}.xlsx + CSVs
   build_shimanami.py    -> out/sheets/Shimanami-Kaido.xlsx
-  build_dashboard.py    -> out/dashboard.html, out/dashboard-standalone.html
+  build_dashboard.py    -> out/dashboard.html + out/dashboard-artifact.html
   geocode.py            resolves new PLACES entries (costs API calls)
 
 out/                  generated deliverables — safe to delete, never edited
@@ -60,9 +60,13 @@ docs/tooling.md       what the Google Maps connector can and cannot do here
 archive/              the superseded hand-written draft
 ```
 
-`dashboard.html` is the artifact body (no document shell — it gets wrapped on
-publish). `dashboard-standalone.html` is the same page with a full HTML shell
-and a viewport meta tag, for opening straight off a phone.
+**`dashboard.html` is the one to open** — a complete page with a `viewport` meta
+tag, so it works on a phone. `dashboard-artifact.html` is the same page as a body
+fragment, for publishing to a host that supplies its own `<!doctype>`/`<head>`;
+publishing the full document instead would nest it inside a `<body>`, and the
+browser would drop the inner `<head>` and the viewport tag with it. They differ by
+311 bytes and are written in the same run from the same payload, so they cannot
+drift.
 
 ## Putting the sights on your own Google map
 

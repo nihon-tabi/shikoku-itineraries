@@ -761,10 +761,27 @@ def main():
     inner = f"<style>{CSS}</style>\n{BODY}\n{data}"
 
     os.makedirs(OUT, exist_ok=True)
-    with open(os.path.join(OUT, "dashboard.html"), "w", encoding="utf-8") as f:
+
+    # TWO FILES, ONE PAYLOAD — they differ by 311 bytes of document shell, and
+    # each channel rejects the other's form:
+    #
+    #   dashboard.html          the real page. Has <meta charset> and, crucially,
+    #                           <meta name="viewport"> — without which a phone
+    #                           renders it at desktop width. This is the one a
+    #                           human opens.
+    #   dashboard-artifact.html body only. The artifact host wraps whatever you
+    #                           publish in its OWN <!doctype><head><body>, so a
+    #                           full document would nest inside a body and the
+    #                           browser would discard the inner <head> — taking
+    #                           the viewport tag with it.
+    #
+    # Both are written in the same run from the same `inner`, so they cannot
+    # drift; this is one source rendered for two delivery channels, exactly like
+    # the workbooks and the CSVs.
+    with open(os.path.join(OUT, "dashboard-artifact.html"), "w", encoding="utf-8") as f:
         f.write(f"<title>{TITLE}</title>\n\n{inner}")
 
-    with open(os.path.join(OUT, "dashboard-standalone.html"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUT, "dashboard.html"), "w", encoding="utf-8") as f:
         f.write(f"""<!doctype html>
 <html lang="en">
 <head>
@@ -779,7 +796,7 @@ def main():
 </body>
 </html>
 """)
-    print("wrote dashboard.html and dashboard-standalone.html")
+    print("wrote dashboard.html (open this one) + dashboard-artifact.html")
 
 if __name__ == "__main__":
     main()

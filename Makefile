@@ -1,7 +1,7 @@
 # Everything in out/ is generated from src/. Never edit it by hand.
 PY := .venv/bin/python
 
-.PHONY: all sheets dashboard geocode clean setup
+.PHONY: all sheets dashboard map geocode clean setup
 
 all: sheets dashboard map      ## rebuild every deliverable
 
