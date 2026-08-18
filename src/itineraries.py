@@ -461,7 +461,7 @@ dict(date="2026-10-11", title="Angel Road at dawn, then across to Takamatsu",
         "Ritsurin's own foliage peaks 3 December. You will see it green — go anyway."],
  sleep="Takamatsu — WeBase hostel, Kawaramachi",
  legs=[("Tonoshō Port","Takamatsu Port","15/day, last 20:40","+60 min","Shikoku Ferry (car ferry)",700),
-       ("Takamatsu","Ritsurin Kōen","every 15 min","+7 min","Kotoden to Ritsurin-kōen (JR is ¥240)",200)]),
+       ("Takamatsu","Ritsurin Kōen","every 15 min","+7 min","Kotoden to Ritsurin-kōen — RAISED to ¥250 on 1 Oct 2026 (JR is ¥240)",250)]),
 
 dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror beach",
  do=["Takaya Shrine's hilltop torii, the Zenigata sand coin, and Chichibugahama at sunset."],
@@ -836,12 +836,14 @@ dict(date="2026-10-20", title="Matsuyama Castle, or a day out instead",
         "Allow ~30 min from the lift station to the ticket window — the castle's own site "
         "says budget about an hour in total before you are actually inside.",
         "Buy water before going up; drinks cost more at the top.",
-        "✅ Matsuyama accepts Suica — the one place in Shikoku that reliably does."],
+        "✅ Matsuyama accepts Suica — the one place in Shikoku that reliably does, and here "
+        "it PAYS: Iyotetsu raised the tram to ¥250 flat on 1 April 2026, but the cashless "
+        "discount takes ¥20 off, so tapping IC costs the old ¥230. Tap, don't pay cash."],
  sleep="Matsuyama",
  alt_label="Matsuyama Castle and the city",
  alts=MATSUYAMA_ALTS,
  legs=[("Castle hill","up and back","—","3 min each way","Chair lift",520),
-       ("City trams","—","—","—","Iyotetsu tram, flat fare",230)]),
+       ("City trams","—","—","—","Iyotetsu tram, flat fare — ¥250 cash, ¥230 if you tap IC",250)]),
 
 dict(date="2026-10-21", title="The Shimanami Kaido — island-hopping to Onomichi",
  flow=SHIMANAMI_BUS_FLOW,
@@ -1230,7 +1232,7 @@ dict(date="2026-10-17", title="Ritsurin at dawn, the Gate in the Sky, then over 
         "15 minutes away from the walkable one. It's the most common mistake here.",
         "Ritsurin's foliage peaks 3 December; you'll see it green."],
  sleep="Tonoshō, Shodoshima",
- legs=[("Takamatsu","Ritsurin Kōen","every 15 min from 06:00","+7 min","Kotoden to Ritsurin-kōen (JR is ¥240)",200),
+ legs=[("Takamatsu","Ritsurin Kōen","every 15 min from 06:00","+7 min","Kotoden to Ritsurin-kōen — RAISED to ¥250 on 1 Oct 2026 (JR is ¥240)",250),
        ("Takamatsu","Kan-onji","10:13 (direct rapid, :13 past each hour)","11:16–11:29","JR Yosan Line rapid — no surcharge",1240),
        ("JR Kan-onji Stn","Ariake Ground (shuttle stop, in Kotohiki Park)","—","20 min","On foot",0),
        ("Ariake Ground","Takaya Shrine upper shrine","11:30","+25 min","Takaya Shrine shuttle bus — RETURN fare, Sat/Sun/holidays only",1500),
@@ -1369,12 +1371,14 @@ dict(date="2026-10-21", title="Matsuyama Castle, or a day out instead",
         "Allow ~30 min from the lift station to the ticket window — the castle's own site "
         "says budget about an hour in total before you are actually inside.",
         "Buy water before going up; drinks cost more at the top.",
-        "✅ Matsuyama accepts Suica — the one place in Shikoku that reliably does."],
+        "✅ Matsuyama accepts Suica — the one place in Shikoku that reliably does, and here "
+        "it PAYS: Iyotetsu raised the tram to ¥250 flat on 1 April 2026, but the cashless "
+        "discount takes ¥20 off, so tapping IC costs the old ¥230. Tap, don't pay cash."],
  sleep="Matsuyama",
  alt_label="Matsuyama Castle and the city",
  alts=MATSUYAMA_ALTS,
  legs=[("Castle hill","up and back","—","3 min each way","Chair lift",520),
-       ("City trams","—","—","—","Iyotetsu tram, flat fare",230)]),
+       ("City trams","—","—","—","Iyotetsu tram, flat fare — ¥250 cash, ¥230 if you tap IC",250)]),
 
 dict(date="2026-10-22", title="The Shimanami Kaido — island-hopping to Onomichi",
  flow=SHIMANAMI_BUS_FLOW,
@@ -1608,7 +1612,11 @@ dict(date="2026-10-09", title="Osaka → Kobe → the overnight boat to Shikoku"
      "in Takamatsu at 05:15 with the whole day ahead."],
  travel="Train to Kobe, then the ferry terminal bus, timed to the sailing. Cabin-less — you "
         "sleep in a reclining seat or on the carpet, like everyone else.",
- watch=["⚠️ The ¥1,990 headline is the BASE fare. The overnight sailing adds a ¥340 midnight "
+ watch=["⚠️ A FARE REVISION IS ANNOUNCED FOR OCTOBER 2026, alongside a new ship and an "
+        "online discount — trade press reported it, but I could not reach the operator's own "
+        "fare page for the new figure. You sail on the 9th, so treat the numbers below as the "
+        "OLD ones and re-check with the operator before booking.",
+        "⚠️ The ¥1,990 headline is the BASE fare. The overnight sailing adds a ¥340 midnight "
         "fee, there is a ¥340 high-season fee at busy times, and a fuel surcharge has been "
         "posted at +¥500 one way. Budget nearer ¥2,900.",
         "Booking online saves ¥100 (¥1,890).",
@@ -1647,7 +1655,7 @@ dict(date="2026-10-10", title="Takamatsu — Ritsurin Garden, slowly",
         "Takamatsu is 'virtually dead' by 21:30. Eat early.",
         "Foliage here peaks 3 December; you'll see it green."],
  sleep="Takamatsu — WeBase (dorm ¥3,500, or ¥2,600/night on the weekly backpacker plan)",
- legs=[("Takamatsu","Ritsurin Kōen","every 15 min","+7 min","Kotoden to Ritsurin (JR is ¥240)",200)]),
+ legs=[("Takamatsu","Ritsurin Kōen","every 15 min","+7 min","Kotoden to Ritsurin — RAISED to ¥250 on 1 Oct 2026 (JR is ¥240)",250)]),
 
 dict(date="2026-10-11", title="Naoshima — the art island",
  flow=[
@@ -1778,7 +1786,7 @@ dict(date="2026-10-13", title="Kotohira — the shrine on the stairs",
         "The palanquin carriers who used to haul people up have stopped operating.",
         "The Kotoden is a private railway — no JR pass, but it's the cheaper option anyway."],
  sleep="Kotohira — onsen ryokan (Kotohira Park Hotel, Onyado Shikishimakan)",
- legs=[("Takamatsu","Kotohira","every 30 min","+~1 h","Kotoden to Kotohira (JR local is ¥980)",730),
+ legs=[("Takamatsu","Kotohira","every 30 min","+~1 h","Kotoden to Kotohira — RAISED to ¥780 on 1 Oct 2026 (JR local is ¥980)",780),
        ("JR Kotohira","Chichibugahama and back","timed to sunset, runs daily","—","OPTIONAL: Chichibugahama sunset shuttle bus, return",2000)]),
 
 dict(date="2026-10-14", title="Right across to Matsuyama, on the west coast, and Dogo Onsen",
@@ -1830,12 +1838,14 @@ dict(date="2026-10-15", title="Matsuyama Castle, and a day that isn't a travel d
         "The keep is an original: steep narrow stairs climbed in socks, no lifts. The grounds "
         "and the view don't require it.",
         "Buy water before going up — drinks cost more at the top.",
-        "✅ Matsuyama accepts Suica, the one place in Shikoku that reliably does."],
+        "✅ Matsuyama accepts Suica, the one place in Shikoku that reliably does — and here it "
+        "PAYS: the tram went to ¥250 flat on 1 April 2026, but tapping IC gets the ¥20 "
+        "cashless discount, so it is still ¥230."],
  sleep="Matsuyama",
  alt_label="Matsuyama Castle and the city",
  alts=MATSUYAMA_ALTS,
  legs=[("Castle hill","up and back","—","3 min each way","Chair lift",520),
-       ("City trams","—","—","—","Iyotetsu tram, flat fare",230)]),
+       ("City trams","—","—","—","Iyotetsu tram, flat fare — ¥250 cash, ¥230 if you tap IC",250)]),
 
 dict(date="2026-10-16", title="The ferry to Hiroshima",
  flow=[
@@ -1844,9 +1854,10 @@ dict(date="2026-10-16", title="The ferry to Hiroshima",
    "this with luggage found it was 'two bus rides and then a tram ride' and took a taxi "
    "instead for about ¥4,000 — worth knowing if there are two of you and it is raining."),
   ("10 sailings/day", "THE CRUISE FERRY, 2 h 40 threading between the islands. This is a "
-   "sightseeing trip rather than a transfer, and the deck is the point. ⚠️ ¥5,800, up from "
+   "sightseeing trip rather than a transfer, and the deck is the point. ⚠️ ¥6,000 since the "
+   "1 September 2026 revision, up from "
    "¥4,500 in 2022 — the single biggest transport cost of the week. The fast Linear Jet is "
-   "¥8,800 for 70 minutes and buys you nothing but time."),
+   "¥9,000 for 70 minutes and buys you nothing but time."),
   ("check before you commit", "⚠️ A reduced weekday timetable ran to 30 September 2026 with "
    "some sailings suspended. Confirm the October schedule."),
   ("every 12 min", "HIRODEN TRAM LINE 5 from 広島港 Hiroshima Port into the city, 29 minutes, "
@@ -1857,9 +1868,10 @@ dict(date="2026-10-16", title="The ferry to Hiroshima",
      "Arrive in Hiroshima with the afternoon intact."],
  travel="Iyotetsu shuttle or suburban train out to Matsuyama Kanko Port, then the Cruise "
         "Ferry. The port is not central — allow the time.",
- watch=["⚠️ Fares have risen sharply: the Cruise Ferry is ¥5,800 (it was ¥4,500 in 2022) and "
-        "the fast Linear Jet is ¥8,800 for 70 minutes. The slow boat is the better value and "
-        "the better view.",
+ watch=["⚠️ FARES ROSE AGAIN ON 1 SEPTEMBER 2026, weeks before you travel: the Cruise Ferry "
+        "went ¥5,800 → ¥6,000 and the Linear Jet ¥8,800 → ¥9,000. For scale it was ¥4,500 "
+        "in 2022. Anything you read quoting ¥5,800 predates the revision. The slow boat is "
+        "still the better value and much the better view.",
         "⚠️ A reduced weekday timetable ran to 30 September 2026 with some sailings suspended "
         "— check the October schedule before you commit.",
         "At the Hiroshima end, tram line 5 runs from the port into the city.",
@@ -1867,7 +1879,7 @@ dict(date="2026-10-16", title="The ferry to Hiroshima",
         "Shimanami Kaido from Imabari — see the Shimanami toggle on options A and B."],
  sleep="Hiroshima — The Evergreen Hostel or J-Hoppers",
  legs=[("JR Matsuyama Stn","Matsuyama Kanko Port","—","+20 min","Iyotetsu port shuttle bus",750),
-       ("Matsuyama","Hiroshima","10 sailings/day","+2 h 40","Setonaikai Kisen Cruise Ferry",5800),
+       ("Matsuyama","Hiroshima","10 sailings/day","+2 h 40","Setonaikai Kisen Cruise Ferry — RAISED to ¥6,000 on 1 Sep 2026",6000),
        ("Hiroshima Port","city centre","every 12 min","+29 min","Hiroden tram line 5, flat fare",240)]),
 
 dict(date="2026-10-17", title="Rabbit island",

@@ -102,7 +102,8 @@ MATCH = [
  ("Tosaden",                      "tosaden"),
  ("Nangoku Express",              "nangoku"),
  ("Chair lift",                   "naka1951"),
- ("Iyotetsu tram",                "naka1951"),
+ # superseded by the 2026 fare revision below; the blog logged the OLD ¥230
+ ("Iyotetsu tram",                "iyotetsu_2026"),
  ("JR Yosan Line local",          "turkeydinner"),
  ("JR Yosan Line, all local",     "srn_takmat"),
  ("Shimanami Liner",              "jg_shimanami"),
@@ -229,10 +230,10 @@ MATCH[:0] = [
  ("Jumbo Ferry",                  "jumbo"),
  ("Shikoku Kisen ferry",          "jg_naoshima"),
  ("Teshima ferry",                "jg_teshima"),
- ("Kotoden to Kotohira",          "jg_kotohira"),
- ("Kotoden to Ritsurin",          "jg_ritsurin"),
+ ("Kotoden to Kotohira",          "kotoden_2026"),   # superseded 1 Oct 2026; japan-guide lists the old ¥730
+ ("Kotoden to Ritsurin",          "kotoden_2026"),   # superseded 1 Oct 2026; japan-guide lists the old ¥200
  ("Shodoshima ferry",             "jg_shodo"),
- ("Setonaikai Kisen Cruise Ferry","setonaikai"),
+ ("Setonaikai Kisen Cruise Ferry","setonaikai_2026"),   # superseded 1 Sep 2026
  ("Iyotetsu port shuttle",        "ptr_ferry"),
 ]
 
@@ -374,3 +375,36 @@ MATCH.extend([
  ("Miyoshi City bus — 名頃線", "miyoshi_connect"),
  ("Shikoku Kotsu, Higashi-Iya line", "yonkoh_iya2025"),
 ])
+
+
+# ── Iyotetsu fare revision, effective 1 April 2026 ──────────────────────────
+# Approved 27 Feb 2026 by the Shikoku District Transport Bureau. The city tram
+# went from ¥230 to ¥250 flat — but the CASHLESS DISCOUNT takes ¥20 off, so
+# tapping an IC card costs the old ¥230. Matsuyama is the one place in Shikoku
+# where national IC cards reliably work, so this discount is actually reachable.
+SOURCES.update({
+ "iyotetsu_2026": ("Iyotetsu — fare revision approved 27 Feb 2026, effective 1 Apr 2026 (PDF)",
+                   "https://www.iyotetsu.co.jp/sp/topics/press/2026/0227_rbuk.pdf", "operator"),
+})
+
+
+# ── Kotoden fare revision, effective 1 OCTOBER 2026 — during the trip ───────
+# The band table is the operator's own; the distances that select the band are
+# from the line's station list (third-party), so the mapping is recorded here:
+#   Takamatsu-Chikkō → Ritsurin-kōen   2.9 km → band 2.1–4.0 km → ¥200 becomes ¥250
+#   Takamatsu-Chikkō → Kotoden-Kotohira 32.9 km → band 31.1–34 km → ¥730 becomes ¥780
+# The 途中下車 (stopover) privilege is also withdrawn on some connecting sections.
+SOURCES.update({
+ "kotoden_2026": ("Kotoden — fare revision effective 1 Oct 2026, band table (PDF)",
+                  "https://www.kotoden.co.jp/publichtm/kotoden/new/2026/fare-revision2026/index.html",
+                  "operator"),
+})
+
+
+# ── Setonaikai Kisen fare revision, effective 1 SEPTEMBER 2026 ──────────────
+# Hiroshima–Matsuyama: Cruise Ferry ¥5,800 → ¥6,000, Linear Jet ¥8,800 → ¥9,000.
+# The operator cites fuel costs. Before the trip, so these are the fares to use.
+SOURCES.update({
+ "setonaikai_2026": ("Setonaikai Kisen — fare revision effective 1 Sep 2026",
+                     "https://setonaikaikisen.co.jp/archives/important_news/5532", "operator"),
+})
