@@ -264,3 +264,20 @@ PIN_NAMES = {
     "WeBase":               "WeBase Takamatsu",
     "4S STAY":              "4S STAY Awa-Ikeda",
 }
+
+
+# A geocoding query names whatever resolves reliably, which is often a FACILITY
+# rather than the place: "寒霞渓ロープウェイ" finds the gorge because the ropeway is
+# the mapped POI. That is the right query and the wrong label — a pin called
+# Kankakei Gorge should read 寒霞渓, not "Kankakei ropeway".
+#
+# Only override where the query's Japanese differs from the place's actual name.
+# An empty string means "this place has no Japanese name worth showing" — 4S
+# STAY's query carries 阿波池田駅前, which describes where it stands, not what it
+# is called.
+# Kankakei is deliberately NOT here: that pin sits at the ropeway's summit
+# station, so 寒霞渓ロープウェイ is what is actually there.
+JA_NAMES = {
+    "Mt Bizan":          "眉山",
+    "4S STAY Awa-Ikeda": "",
+}

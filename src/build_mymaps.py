@@ -161,7 +161,10 @@ def walks_from(label):
 def describe(label, folder, det, trail=None, query="", mapcode=None, display=None):
     """Compose one entry in the house format."""
     parts = []
-    ja = japanese_name(query)
+    # An explicit name wins over whatever the geocoding query happened to use.
+    ja = mapcat.JA_NAMES.get(display or label, mapcat.JA_NAMES.get(label))
+    if ja is None:
+        ja = japanese_name(query)
     head = f"{EMOJI[folder]} {display or label}" + (f" ({ja})" if ja else "")
     blurb = BLURBS.get(label, "")
     parts.append(head + (f"<br>{blurb}" if blurb else ""))
