@@ -2,9 +2,19 @@
 # Override for CI, which installs into the system interpreter:  make PY=python
 PY ?= .venv/bin/python
 
-.PHONY: all sheets dashboard map mymaps places mapcodes trailheads geocode clean setup
+# The KMZ is built by the japan-my-maps skill, which lives in a separate repo.
+# Defined up here because Make expands a rule's prerequisites as it reads the
+# rule, so a variable set further down would still be empty in `all`.
+SKILL ?= $(HOME)/projects/japan-trip-planner/.claude/skills/japan-my-maps
+HAVE_SKILL := $(wildcard $(SKILL)/scripts/build_map.py)
 
-all: sheets dashboard map mymaps   ## rebuild every deliverable
+.PHONY: all sheets dashboard map mymaps no-mymaps places mapcodes trailheads geocode clean setup
+
+# The KMZ needs the japan-my-maps skill, which lives in a SEPARATE repo. Build
+# it when that repo is checked out beside this one and skip it loudly when it is
+# not, so a clone of this repo alone still builds -- CI has no such checkout and
+# `all` was failing on it.
+all: sheets dashboard map $(if $(HAVE_SKILL),mymaps,no-mymaps)  ## rebuild every deliverable
 
 sheets:                        ## the four .xlsx workbooks + CSVs -> out/sheets/
 	$(PY) -m src.build_sheets
@@ -18,7 +28,11 @@ map:                           ## sights-only KML + CSV for Google My Maps
 
 # The full map: every place across all four options, in the house entry format.
 # Built by the japan-my-maps skill so the KML conventions live in one place.
-SKILL ?= $(HOME)/projects/japan-trip-planner/.claude/skills/japan-my-maps
+no-mymaps:
+	@echo "note: skipping the My Maps export — no japan-my-maps skill at"
+	@echo "      $(SKILL)"
+	@echo "      Clone nihon-tabi/japan-trip-planner, or pass SKILL=<path>."
+
 mymaps:                        ## full categorised map -> out/shikoku-map.kmz
 	$(PY) -m src.build_mymaps
 	$(PY) $(SKILL)/scripts/build_map.py out/shikoku-mymaps.json out/shikoku-map
