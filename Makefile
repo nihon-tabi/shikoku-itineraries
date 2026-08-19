@@ -2,7 +2,7 @@
 # Override for CI, which installs into the system interpreter:  make PY=python
 PY ?= .venv/bin/python
 
-.PHONY: all sheets dashboard map mymaps places mapcodes geocode clean setup
+.PHONY: all sheets dashboard map mymaps places mapcodes trailheads geocode clean setup
 
 all: sheets dashboard map mymaps   ## rebuild every deliverable
 
@@ -28,6 +28,9 @@ places:                        ## refresh address/phone/website from Google (cos
 
 mapcodes:                      ## fetch any missing Denso map codes
 	$(PY) -m src.fetch_mapcodes
+
+trailheads:                    ## check no trailhead contradicts its own description
+	$(PY) -m src.check_trailheads
 
 geocode:                       ## resolve any new PLACES entries (costs API calls)
 	$(PY) -m src.geocode

@@ -40,7 +40,7 @@ TRAILHEADS = [
   "steps almost the whole way. Local practice is Momijidani up, Daishō-in down.",
   "miyajima_toz"),
  ("Kankakei Gorge — the 表12景 front trail, walking DOWN", "Shodoshima, Kagawa",
-  "34.50805,134.29633", "https://yamap.com/model-courses/93076",
+  "34.51563,134.30084", "https://yamap.com/model-courses/93076",
   "https://www.alltrails.com/trail/japan/kagawa/kankakei",
   "2 km, ~317 m descent", "1 h up / ~50 min down", "MODERATE",
   "Ride the ropeway up, walk down. The operator calls this trail 「ゆるやか」 (gentle) and "
@@ -59,7 +59,7 @@ TRAILHEADS = [
   "in Nagasaki.",
   "konpira_off"),
  ("Ōboke station lookout loop", "Tokushima, Iya",
-  "33.88250,133.79361", None, None,
+  "33.87669,133.76722", None, None,
   "1.0 km return", "about 30 min including breaks", "EASY STROLL",
   "The genuinely easy one. Miyoshi City's own walking map grades it 初級 (beginner): "
   "station → 10 min → lookout over the Yoshino River and the gorge → 10 min → station. "
