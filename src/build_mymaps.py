@@ -128,10 +128,34 @@ def japanese_name(query):
 
     Worth carrying into the entry: it is what the traveller shows a station
     attendant or types into a Japanese site when the English name gets them
-    nowhere."""
+    nowhere.
+
+    Take the FIRST Japanese run, not the longest. Queries are written name
+    first, then disambiguators — '剣山 見ノ越 Mt Tsurugi' is the mountain
+    followed by the pass you reach it from. Picking the longest run labelled
+    Mt Tsurugi as 見ノ越, and Takaya Shrine as 天空の鳥居.
+    """
     hits = JA.findall(query or "")
-    best = max(hits, key=len) if hits else ""
-    return best if len(best) > 1 else ""
+    first = hits[0] if hits else ""
+    return first if len(first) > 1 else ""
+
+
+def walks_from(label):
+    """The walks that start at or near this place.
+
+    A mountain's pin sits on the mountain, which is correct for what the place
+    IS and useless for getting there — routing to a 1,955 m summit helps nobody.
+    So a sight that has walks names them and gives their trailhead coordinates,
+    and each walk also has its own pin. The reader should not have to know the
+    walk pins exist to find them.
+    """
+    want = _norm(label)
+    out = []
+    for t in TRAILHEADS:
+        base = _norm(t[0].split("—")[0].split("→")[0])
+        if base and (base == want or want in base or base in want):
+            out.append(t)
+    return out
 
 
 def describe(label, folder, det, trail=None, query="", mapcode=None, display=None):
@@ -174,6 +198,13 @@ def describe(label, folder, det, trail=None, query="", mapcode=None, display=Non
             f"YAMAP: {yamap}" if yamap else "",
             f"AllTrails: {alltrails}" if alltrails else ""]))
 
+    # -- Walks that start here, for a sight that is not itself a walk
+    if not trail:
+        w = walks_from(label)
+        if w:
+            parts.append(section("🥾 Walks from here", [
+                f"{t[0]} — {t[5]}, {t[6]} · {t[7]} · trailhead {t[2]}" for t in w]))
+
     # -- How long people spend
     dw = _match(label, DWELL)
     if dw:
@@ -204,11 +235,12 @@ def describe(label, folder, det, trail=None, query="", mapcode=None, display=Non
 
 def build():
     geo, det_all, codes = _geo(), _details(), _mapcodes()
-    trail_by_key = {}
-    for t in TRAILHEADS:
-        trail_by_key[_norm(t[0].split("—")[0])] = t
-
     folders, seen, unmapped = {}, set(), []
+    # Deliberately NOT merging walks into sight pins. A mountain's pin belongs
+    # on the mountain; a walk's pin belongs at the point you start walking, and
+    # those are kilometres and hundreds of metres apart. Merging also collapsed
+    # every route up one mountain into a single entry, so "Mt Tsurugi" silently
+    # carried the Minokoshi trailhead while describing the chairlift route.
     for name, q in PLACES.items():
         g = geo.get(q)
         if not g or name in DROP:
@@ -232,22 +264,19 @@ def build():
             unmapped.append(label)
             continue
 
-        trail = trail_by_key.get(_norm(label))
         mc = codes.get(f"{g['lat']:.6f},{g['lng']:.6f}")
         folders.setdefault(folder, []).append({
             "name": mapcat.PIN_NAMES.get(label, label),
             "lat": g["lat"], "lon": g["lng"],
             "icon": mapcat.icon_for(folder, glyph),
-            "description": describe(label, folder, det, trail, q, mc,
+            "description": describe(label, folder, det, None, q, mc,
                                     mapcat.PIN_NAMES.get(label, label)),
         })
 
-    # Trailheads that are not already a sight pin get their own entry, in the
-    # nature folder -- the traveller asked for them merged, not separate.
+    # Every walk gets its own pin, at its own trailhead. Two routes up the same
+    # mountain are two pins, because they start in different places and one may
+    # be worth doing while the other is not.
     for t in TRAILHEADS:
-        base = _norm(t[0].split("—")[0])
-        if any(_norm(p["name"]) == base for p in folders.get("Nature views & Hikes", [])):
-            continue
         lat, lon = [float(x) for x in t[2].split(",")]
         glyph = mapcat.TRAIL_GLYPH.get(t[7].split("—")[0].strip(), "1596")
         folders.setdefault("Nature views & Hikes", []).append({
