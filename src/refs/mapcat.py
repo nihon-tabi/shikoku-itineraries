@@ -64,8 +64,8 @@ SIGHTS = {
     "Angel Road":                 ("Nature views & Hikes", "custom:cape-coastal"),
     "Katsurahama":                ("Nature views & Hikes", "custom:cape-coastal"),
     "Chichibugahama":             ("Nature views & Hikes", "custom:cape-coastal"),
-    "Mt Tsurugi":                 ("Nature views & Hikes", "1596"),
-    "Mt Misen":                   ("Nature views & Hikes", "1596"),
+    "Mt Tsurugi":                 ("Nature views & Hikes", "1634"),
+    "Mt Misen":                   ("Nature views & Hikes", "1634"),
     "Mt Bizan":                   ("Nature views & Hikes", "1634"),
     "Yashima":                    ("Nature views & Hikes", "1634"),
     "Mt Misen ropeway top":       ("Nature views & Hikes", "1634"),
@@ -95,7 +95,9 @@ SIGHTS = {
 }
 
 # Trailheads get the hiker glyphs, harder ones the poled hiker, so difficulty
-# reads off the map before the entry is opened.
+# reads off the map before the entry is opened. The hiker glyphs are RESERVED
+# for walks: a mountain wears 1634 (mountains), because a hiker on the summit
+# pin makes it look like the place you set off from.
 TRAIL_GLYPH = {
     "EASY STROLL": "1596",
     "MODERATE":    "1597",

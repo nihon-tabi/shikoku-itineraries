@@ -14,9 +14,9 @@ Sources, in the order they are trusted:
     cross-check, never the citation, because they go stale and say nothing
     about seasonal closing or last entry.
 
-Map codes are deliberately absent: every option is car-free. See the
-`japan-map-codes` skill -- adding them where nobody drives dilutes the fields
-that matter.
+Every pin carries a Denso map code even though all four options are car-free:
+a pin outlives the itinerary it was built for, and the code is what a rental
+car's nav or a taxi driver can use when a Japanese address will not resolve.
 
     python -m src.build_mymaps
 """
@@ -179,8 +179,11 @@ def describe(label, folder, det, trail=None, query="", mapcode=None, display=Non
     ha = []
     for r in rows:
         name, _area, price, hours, closed = r[0], r[1], r[2], r[3], r[4]
-        bit = name if len(rows) > 1 else "Admission"
-        ha.append(f"{bit}: {price}")
+        # ALWAYS name what the figure is for. Collapsing a single row to the
+        # word "Admission" turned a chairlift fare into the price of entering a
+        # mountain, and a poison gas museum's ¥150 into the cost of a free
+        # island. What a price buys is part of the price.
+        ha.append(f"{name}: {price}")
         if hours and hours != "—":
             ha.append(f"Hours: {hours}")
         if closed and closed != "—":
