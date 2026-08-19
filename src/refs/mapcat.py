@@ -81,6 +81,12 @@ SIGHTS = {
     "Daishō-in":                  ("Shrines and Temples", "1706"),
     "Kōsanji":                    ("Shrines and Temples", "1706"),
 
+    # The boat pier reads as transit to the name regex ("乗り場"), but the
+    # cruise is a destination in its own right and carries its own fare, so it
+    # is named here to override that.
+    "Ōboke-kyō boat pier":        ("Attractions", "1681"),
+    "gorge cruise":               ("Attractions", "1681"),
+
     # --- Food ---------------------------------------------------------------
     "Hirome Market":              ("Food and Markets", "1577"),
     "Sunday Market":              ("Food and Markets", "1578"),
@@ -112,6 +118,55 @@ def transit_glyph(name, query):
         if any(n in hay for n in needles):
             return glyph
     return TRANSIT_DEFAULT
+
+
+# A costs row and a pin often have different names for the same thing, and
+# fuzzy matching cannot bridge the gap safely -- "Miyajima ropeway" shares no
+# word with "Mt Misen". Anything listed here is a row that WAS researched and
+# would otherwise reach no pin, so the traveller would see a blank next to a
+# figure that exists. Left-hand side is the costs row, right-hand the pin.
+ROW_TO_PIN = {
+    "Kankakei ropeway, return":                      "Kankakei Gorge",
+    "Miyajima ropeway, return":                      "Mt Misen ropeway top",
+    "Miyajima visitor tax":                          "Itsukushima Shrine",
+    "Wonder Naruto whirlpool cruise":                "Naruto Park",
+    "Art House Project, 5 houses":                   "Art House Project, Honmura",
+    "Awa Odori — daytime show":                      "Awa Odori Kaikan",
+    "Awa Odori — evening show (famous troupes)":     "Awa Odori Kaikan",
+    "Awa Odori 3-in-1 set (museum + day show + ropeway)": "Awa Odori Kaikan",
+    "Ninomaru historic garden":                      "Ninomaru Garden",
+    "Hearts Shuttle — all-day hop-on-hop-off":       "Chichibugahama",
+    "Takaya Shrine shuttle bus, return":             "Takaya Shrine",
+    "Takaya Shrine — the shrine itself":             "Takaya Shrine",
+    "Matsuyama ropeway / chair lift":                "Matsuyama Castle",
+    "Matsuyama Castle keep":                         "Matsuyama Castle",
+    "Naoshima — island bus":                         "Benesse House Museum",
+    "Himeji Castle + Koko-en (combined)":            "Himeji Castle",
+    "Yamaroku Soy Sauce":                            "Yamaroku",
+    "Nakabu-an somen workshop":                      "Nakabu-an",
+    "Ōkunoshima Poison Gas Museum":                  "Ōkunoshima",
+    "Kōsanji + Hill of Hope":                        "Kōsanji",
+    "Mt Tsurugi chairlift, return":                  "Mt Tsurugi",
+    "Mt Bizan ropeway, return":                      "Mt Bizan",
+    "Iya Kazurabashi vine bridge":                   "Iya Kazurabashi",
+    "Uzu-no-michi glass walkway":                    "Uzu-no-michi",
+    "Zenigata Sunae sand coin":                      "Zenigata Sunae",
+    "Chichibugahama beach":                          "Chichibugahama",
+    "Hiroshima Peace Memorial Museum":               "Peace Memorial Museum",
+    "Ōtsuka Museum of Art":                          "Ōtsuka Museum",
+    "Dogo Onsen Honkan — Kami-no-Yu, ground floor":  "Dogo Onsen",
+    "Dogo Onsen Honkan — Tama-no-Yu, 2nd floor":     "Dogo Onsen",
+    "Dogo Asuka-no-Yu — 1st floor bath":             "Asuka-no-Yu",
+    "Kanamaru-za kabuki theatre":                    "Kanamaru-za",
+    "Shikoku Mura open-air museum":                  "Shikoku Mura",
+    "Tamamo Park (Takamatsu Castle)":                "Tamamo Park",
+    "Yashima summit — museums and shuttle":          "Yashima",
+    "Yashima Aquarium":                              "Yashima",
+    # Dwell rows
+    "Ōboke gorge cruise":                            "Ōboke-kyō boat pier",
+    "Kankakei ropeway + summit":                     "Kankakei Gorge",
+    "Iya Valley as a whole":                         "Iya Kazurabashi",
+}
 
 
 def icon_for(folder, glyph):

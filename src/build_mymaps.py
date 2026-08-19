@@ -70,6 +70,13 @@ def _match(label, rows, key=0):
         return []
     hits = []
     for r in rows:
+        # An explicit mapping wins: it is the only way to connect rows and pins
+        # that share no words, like "Miyajima ropeway" and "Mt Misen".
+        pinned = mapcat.ROW_TO_PIN.get(r[key])
+        if pinned is not None:
+            if _norm(pinned) == want:
+                hits.append(r)
+            continue
         n = _norm(r[key])
         if not n:
             continue
