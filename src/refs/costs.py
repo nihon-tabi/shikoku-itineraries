@@ -125,6 +125,25 @@ DWELL.extend([
   "Given as about 3 h for the plateau. A visitor who had 1 h 30 between shuttle buses managed the lookout and the temple but no more."),
  ("\u014ctsuka Museum", "about 2 h average", "dw_otsuka",
   "\u201cJust walking the galleries takes an hour, so reckon on about 2 hours average.\u201d The full route is over 4 km of corridor."),
+
+ # Second dwell pass, with region qualifiers in the query. The first pass had
+ # matched same-named places elsewhere; adding 祖谷 / 宮島 / 直島 to each search
+ # and requiring the page to NAME the place removed that whole failure mode.
+ ("Benesse House Museum", "about 1 h 30 including lunch", "dw_benesse",
+  "A cyclist's itemised Naoshima day logs \u201cBenesse House Museum and lunch, 1.5 hours\u201d. The museum alone is less; it is open till 21:00, unusually late for an art museum."),
+ ("Botchan Train", "about 20 min end to end", "dw_botchan",
+  "\u201cIt runs daily from Matsuyama-ekimae or Matsuyama-shieki to D\u014dgo Onsen station. The trip takes about 20 minutes.\u201d A ride rather than a visit \u2014 it is transport you take for its own sake."),
+ ("Nagoro", "1\u20132 h", "dw_nagoro",
+  "\u201cAllow 1\u20132 hours to wander at leisure.\u201d Around 300 scarecrows across the village, in Miyoshi\u2019s Higashi-Iya."),
+ ("\u014czu \u2014 Gary\u016b Sans\u014d villa", "30\u201340 min", "dw_garyu",
+  "\u014czu City\u2019s own tourism page: \u201cGary\u016b Sans\u014d can be seen in about 30\u201340 minutes, even listening to the guide.\u201d Add the Ohanahan-d\u014dri lanes and the castle for a half day in the town."),
+ ("Asuka-no-Yu", "~3 h for a D\u014dgo visit built around it", "dw_dogo",
+  "A day-tripper who booked nothing \u201cstayed in D\u014dgo from 3:30 to 6:30 \u2014 three hours\u201d, bathing at Asuka-no-Yu and walking the arcade. The bath itself is a fraction of that."),
+
+ ("Mt Bizan", "1\u20131.5 h; 2\u20132.5 h with the Awa Odori Kaikan below it", "dw_bizan",
+  "\u201cReckon on 1 to 1.5 hours, or about 2 to 2.5 including the Awa Odori Kaikan at the foot.\u201d The ropeway starts from inside the Kaikan, so the two are naturally done together."),
+ ("Tamamo Park", "60\u201390 min", "dw_tamamo",
+  "Given as 60\u201390 minutes for the castle grounds \u2014 the moat is filled with SEAWATER and stocked with sea bream, which is the part people linger over."),
 ])
 
 

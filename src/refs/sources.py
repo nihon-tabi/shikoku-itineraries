@@ -198,6 +198,13 @@ SOURCES.update({
  # --- Japanese; only figures whose page is demonstrably about THIS place are
  # --- kept. Several candidates were discarded because the page turned out to
  # --- describe a same-named site elsewhere (a 琵琶の滝 in Nara, Tomioka Silk Mill).
+ "dw_benesse":   ("Adventure Family Trip — Naoshima by bike, itemised timings", "https://adventurefamilytrip.com/naoshima-traveling-alone-cycling", "traveller"),
+ "dw_botchan":   ("Mizuho Sunrise — Botchan Train, ride time and fare", "https://www.mizuho-sunrise.net/entry/2019/11/28/120000", "traveller"),
+ "dw_nagoro":    ("note — Nagoro scarecrow village, Miyoshi", "https://note.com/tenpataarienikki/n/nb844be84201b", "traveller"),
+ "dw_garyu":     ("Ōzu City — Garyū Sansō, official tourism page", "https://www.city.ozu.ehime.jp/site/kanko/24677.html", "official"),
+ "dw_dogo":      ("Travel-law — a day trip built around Asuka-no-Yu", "https://travel-law.com/archives/dougo.html", "traveller"),
+ "dw_bizan":     ("Banzoku — Bizan Park, time needed", "https://banzokubiology.com/bizan-park-time/", "third-party"),
+ "dw_tamamo":    ("Tabi-shiori — Takamatsu Castle / Tamamo Park, time needed", "https://tabi-shiori-map.com/spots/takamatsu-castle-tamamo-park/", "third-party"),
  "dw_abomb":     ("Tabi-shiori — A-Bomb Dome, time needed", "https://tabi-shiori-map.com/spots/atomic-bomb-dome/", "third-party"),
  "dw_arthouse":  ("Benesse Art Site Naoshima — model plan for a 4–5 h visit centred on Honmura", "https://benesse-artsite.jp/plan/detail/02.html", "operator"),
  "dw_awaodori":  ("Jalan — Awa Odori Kaikan visitor reviews, stated stay length", "https://www.jalan.net/kankou/spt_guide000000222095/", "traveller"),

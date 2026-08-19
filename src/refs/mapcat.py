@@ -163,6 +163,7 @@ ROW_TO_PIN = {
     "Yashima summit — museums and shuttle":          "Yashima",
     "Yashima Aquarium":                              "Yashima",
     # Dwell rows
+    "Ōzu — Garyū Sansō villa":                       "Ōzu",
     "Ōboke gorge cruise":                            "Ōboke-kyō boat pier",
     "Kankakei ropeway + summit":                     "Kankakei Gorge",
     "Iya Valley as a whole":                         "Iya Kazurabashi",
