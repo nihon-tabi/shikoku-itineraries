@@ -2,9 +2,9 @@
 # Override for CI, which installs into the system interpreter:  make PY=python
 PY ?= .venv/bin/python
 
-.PHONY: all sheets dashboard map geocode clean setup
+.PHONY: all sheets dashboard map mymaps places geocode clean setup
 
-all: sheets dashboard map      ## rebuild every deliverable
+all: sheets dashboard map mymaps   ## rebuild every deliverable
 
 sheets:                        ## the four .xlsx workbooks + CSVs -> out/sheets/
 	$(PY) -m src.build_sheets
@@ -15,6 +15,16 @@ dashboard:                     ## dashboard.html + standalone -> out/
 
 map:                           ## sights-only KML + CSV for Google My Maps
 	$(PY) -m src.build_map
+
+# The full map: every place across all four options, in the house entry format.
+# Built by the japan-my-maps skill so the KML conventions live in one place.
+SKILL ?= $(HOME)/projects/japan-trip-planner/.claude/skills/japan-my-maps
+mymaps:                        ## full categorised map -> out/shikoku-map.kmz
+	$(PY) -m src.build_mymaps
+	$(PY) $(SKILL)/scripts/build_map.py out/shikoku-mymaps.json out/shikoku-map
+
+places:                        ## refresh address/phone/website from Google (costs API calls)
+	$(PY) -m src.fetch_places
 
 geocode:                       ## resolve any new PLACES entries (costs API calls)
 	$(PY) -m src.geocode

@@ -1,0 +1,5145 @@
+{
+ "ChIJsyQzogPgVDURsYG6bi-MT3o": {
+  "name": "Himeji Castle",
+  "address": "68 Honmachi, Himeji, Hyogo 670-0012, Japan",
+  "phone": "+81 79-285-1146",
+  "website": "https://www.city.himeji.lg.jp/castle/index.html",
+  "maps_url": "https://maps.google.com/?cid=8813417131136418225",
+  "hours": [
+   "Monday: 9:00 AM – 4:00 PM",
+   "Tuesday: 9:00 AM – 4:00 PM",
+   "Wednesday: 9:00 AM – 4:00 PM",
+   "Thursday: 9:00 AM – 4:00 PM",
+   "Friday: 9:00 AM – 4:00 PM",
+   "Saturday: 9:00 AM – 4:00 PM",
+   "Sunday: 9:00 AM – 4:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1600"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1600"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1600"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1600"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1600"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1600"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1600"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJDxT9HRvgVDURt_SPzwe2f_E": {
+  "name": "Koko-en Garden",
+  "address": "68 Honmachi, Himeji, Hyogo 670-0012, Japan",
+  "phone": "+81 79-289-4120",
+  "website": "http://www.himeji-machishin.jp/ryokka/kokoen/",
+  "maps_url": "https://maps.google.com/?cid=17401827629846230199",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ8V7_YNXmVDURnzGMIJb5TBU": {
+  "name": "姫路港ポートセールス推進協議会",
+  "address": "Suka Shikamaku, Himeji, Hyogo 672-8063, Japan",
+  "phone": "+81 79-233-5020",
+  "website": "http://www.himeji-port.com/",
+  "maps_url": "https://maps.google.com/?cid=1534875996212965791",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJHT_ushLgVDURVTdlA9jzxzc": {
+  "name": "HIMEJI STATION",
+  "address": "188-1 Ekimaechō, 姫路市 兵庫県 670-0927, Japan",
+  "phone": "+81 570-002-486",
+  "website": "https://www.jr-odekake.net/eki/top.php?id=0610619",
+  "maps_url": "https://maps.google.com/?cid=4019449301546907477",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ3-xlEPV8VDUR9CNyDJGu5wY": {
+  "name": "Fukuda Port",
+  "address": "Fukuda, Shodoshima, Shozu District, Kagawa 761-4402, Japan",
+  "phone": "+81 879-84-2220",
+  "website": "https://www.shikokuferry.com/timetable/himeji-fukuda",
+  "maps_url": "https://maps.google.com/?cid=497558221850026996",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ9emfHbV-VDURn4erWzrBMFs": {
+  "name": "Yasuda",
+  "address": "Yasuda, Shodoshima, Shozu District, Kagawa 761-4411, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=6570964312723785631",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJNdv9ait5VDURbudcHBmA2Vk": {
+  "name": "Hirokya Ryokan",
+  "address": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲７５２−１",
+  "phone": "+81 879-82-0137",
+  "website": "http://hirokiya.net/",
+  "maps_url": "https://maps.google.com/?cid=6474346784660186990",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJY2XCWyx5VDUR9_TMkYiTi5E": {
+  "name": "Yama-Roku Shoyu",
+  "address": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲１６０７",
+  "phone": "+81 879-82-0666",
+  "website": "https://yama-roku.net/",
+  "maps_url": "https://maps.google.com/?cid=10487638372033295607",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJwber4ct4VDURu2cakS86dI4": {
+  "name": "Marukin Soy Sauce Museum",
+  "address": "Japan, 〒761-4421 Kagawa, Shozu District, Shodoshima, Nōma, 甲1850 番地",
+  "phone": "+81 879-82-0047",
+  "website": "https://marukin.moritakk.com/kinenkan/",
+  "maps_url": "https://maps.google.com/?cid=10264893426656503739",
+  "hours": [
+   "Monday: 9:00 AM – 4:00 PM",
+   "Tuesday: 9:00 AM – 4:00 PM",
+   "Wednesday: 9:00 AM – 4:00 PM",
+   "Thursday: 9:00 AM – 4:00 PM",
+   "Friday: 9:00 AM – 4:00 PM",
+   "Saturday: 9:00 AM – 4:00 PM",
+   "Sunday: 9:00 AM – 4:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1600"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1600"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1600"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1600"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1600"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1600"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1600"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJg54TFit5VDURC60esQFvuLs": {
+  "name": "Nakabu-an",
+  "address": "Japan, 〒761-4411 Kagawa, Shozu District, Shodoshima, Yasuda, 甲１３８５",
+  "phone": "+81 879-82-3669",
+  "website": "http://www.shodoshima-nakabuan.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=13526683533864512779",
+  "hours": [
+   "Monday: 10:00 AM – 2:00 PM",
+   "Tuesday: Closed",
+   "Wednesday: Closed",
+   "Thursday: Closed",
+   "Friday: 10:00 AM – 2:00 PM",
+   "Saturday: 10:00 AM – 2:00 PM",
+   "Sunday: 10:00 AM – 2:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1400"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1400"
+    },
+    "open": {
+     "day": 1,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1400"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1400"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJoZMdM295VDURbW-oRikGZBU": {
+  "name": "Kankakei Ropeway",
+  "address": "乙１６８ Kankakedōri, Shodoshima, Shozu District, Kagawa 761-4433, Japan",
+  "phone": "+81 879-82-2171",
+  "website": "http://www.kankakei.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=1541363746816421741",
+  "hours": [
+   "Monday: 8:30 AM – 5:00 PM",
+   "Tuesday: 8:30 AM – 5:00 PM",
+   "Wednesday: 8:30 AM – 5:00 PM",
+   "Thursday: 8:30 AM – 5:00 PM",
+   "Friday: 8:30 AM – 5:00 PM",
+   "Saturday: 8:30 AM – 5:00 PM",
+   "Sunday: 8:30 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0830"
+    }
+   }
+  ]
+ },
+ "ChIJj1F13-54VDURGjPTAI2w4-o": {
+  "name": "草壁港",
+  "address": "Kusakabehonmachi, Shodoshima, Shozu District, Kagawa 761-4432, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=16925565944239174426",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJpb09kxJ5VDUR-J1aBxWhifQ": {
+  "name": "Kouuntei",
+  "address": "Kankakedori, Shodoshima, Shozu District, Kagawa 761-4433, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=17620792128753540600",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJW6GiXieKUzURCsy_brzmqFA": {
+  "name": "Tonosho Port Terminal",
+  "address": "Japan, 〒761-4101 香川県小豆郡土庄町甲",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=5812149016107928586",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJISiqLJiJUzUREqZM0_6o3jM": {
+  "name": "Angel Road",
+  "address": "24-92 Kō, Tonosho, Shozu District, Kagawa 761-4101, Japan",
+  "phone": "+81 879-62-2801",
+  "website": "https://www.town.tonosho.kagawa.jp/kanko/index.html",
+  "maps_url": "https://maps.google.com/?cid=3737610553184265746",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJC-KIFXR4VDURasxl3L0o26M": {
+  "name": "Shodoshima Olive Park",
+  "address": "Japan, 〒761-4434 Kagawa, Shozu District, Shodoshima, Nishimura, 甲１９４１−１",
+  "phone": "+81 879-82-2200",
+  "website": "http://www.olive-pk.jp/",
+  "maps_url": "https://maps.google.com/?cid=11807075643993476202",
+  "hours": [
+   "Monday: 8:30 AM – 5:00 PM",
+   "Tuesday: 8:30 AM – 5:00 PM",
+   "Wednesday: 8:30 AM – 5:00 PM",
+   "Thursday: 8:30 AM – 5:00 PM",
+   "Friday: 8:30 AM – 5:00 PM",
+   "Saturday: 8:30 AM – 5:00 PM",
+   "Sunday: 8:30 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0830"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0830"
+    }
+   }
+  ]
+ },
+ "ChIJVVXhO_V8VDURvBPOxhvmHIk": {
+  "name": "Chigusa Ryokan",
+  "address": "Japan, 〒761-4402 Kagawa, Shozu District, Shodoshima, Fukuda, 甲１１８２−２",
+  "phone": "+81 879-84-2153",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=9880024689517925308",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ3bscbmbsUzUROMHM-8Kz-kw": {
+  "name": "Port of Takamatsu",
+  "address": "Port of Takamatsu, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=5546943541089714488",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJUc4SILrrUzURFEFMQod9v7g": {
+  "name": "Ritsurin Garden",
+  "address": "1-chōme-20-16 Ritsurinchō, Takamatsu, Kagawa 760-0073, Japan",
+  "phone": "+81 87-833-7411",
+  "website": "https://www.my-kagawa.jp/ritsuringarden",
+  "maps_url": "https://maps.google.com/?cid=13312497043416826132",
+  "hours": [
+   "Monday: 5:30 AM – 7:00 PM",
+   "Tuesday: 5:30 AM – 7:00 PM",
+   "Wednesday: 5:30 AM – 7:00 PM",
+   "Thursday: 5:30 AM – 7:00 PM",
+   "Friday: 5:30 AM – 7:00 PM",
+   "Saturday: 5:30 AM – 7:00 PM",
+   "Sunday: 5:30 AM – 7:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1900"
+    },
+    "open": {
+     "day": 0,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1900"
+    },
+    "open": {
+     "day": 1,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1900"
+    },
+    "open": {
+     "day": 2,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1900"
+    },
+    "open": {
+     "day": 3,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1900"
+    },
+    "open": {
+     "day": 4,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1900"
+    },
+    "open": {
+     "day": 5,
+     "time": "0530"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1900"
+    },
+    "open": {
+     "day": 6,
+     "time": "0530"
+    }
+   }
+  ]
+ },
+ "ChIJtSRHH0IkGWARqTAo4c715o0": {
+  "name": "Kotohira-gū",
+  "address": "892-1, Kotohira, Nakatado District, Kagawa 766-8501, Japan",
+  "phone": "+81 877-75-2121",
+  "website": "https://www.konpira.or.jp/",
+  "maps_url": "https://maps.google.com/?cid=10225130272880865449",
+  "hours": [
+   "Monday: 6:00 AM – 6:00 PM",
+   "Tuesday: 6:00 AM – 6:00 PM",
+   "Wednesday: 6:00 AM – 6:00 PM",
+   "Thursday: 6:00 AM – 6:00 PM",
+   "Friday: 6:00 AM – 6:00 PM",
+   "Saturday: 6:00 AM – 6:00 PM",
+   "Sunday: 6:00 AM – 6:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1800"
+    },
+    "open": {
+     "day": 0,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1800"
+    },
+    "open": {
+     "day": 1,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1800"
+    },
+    "open": {
+     "day": 2,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1800"
+    },
+    "open": {
+     "day": 3,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1800"
+    },
+    "open": {
+     "day": 4,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1800"
+    },
+    "open": {
+     "day": 5,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1800"
+    },
+    "open": {
+     "day": 6,
+     "time": "0600"
+    }
+   }
+  ]
+ },
+ "ChIJVRqc9mjWUzUR9yVuR1oTe8E": {
+  "name": "Konpira Grand Theater (Kabuki)",
+  "address": "Japan, 〒766-0001 Kagawa, Nakatado District, Kotohira, 乙１２４１",
+  "phone": "+81 877-73-3846",
+  "website": "http://www.konpirakabuki.jp/index.html",
+  "maps_url": "https://maps.google.com/?cid=13941758349921887735",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ32bPGlvWUzURXUokv0WdFy0": {
+  "name": "Kotohira Station",
+  "address": "Japan, 〒766-0004 Kagawa, Nakatado District, Kotohira, Enai, 仲多度郡琴平町榎井",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=3249238579056233053",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ89HG-6NyUzURLaL2S3m6Exc": {
+  "name": "Awa Odori Kaikan",
+  "address": "2-chōme-20 Shinmachibashi, Tokushima, 770-0904, Japan",
+  "phone": "+81 88-611-1611",
+  "website": "https://awaodori-kaikan.jp/",
+  "maps_url": "https://maps.google.com/?cid=1662877717558108717",
+  "hours": [
+   "Monday: 9:00 AM – 9:00 PM",
+   "Tuesday: 9:00 AM – 9:00 PM",
+   "Wednesday: 9:00 AM – 9:00 PM",
+   "Thursday: 9:00 AM – 9:00 PM",
+   "Friday: 9:00 AM – 9:00 PM",
+   "Saturday: 9:00 AM – 9:00 PM",
+   "Sunday: 9:00 AM – 9:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2100"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2100"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2100"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2100"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2100"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2100"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2100"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ89HG-6NyUzURS7s98YULSYo": {
+  "name": "Bizan Ropeway",
+  "address": "Japan, 〒770-0904 Tokushima, Shinmachibashi, 2-chōme−２０−２０",
+  "phone": "+81 88-652-3617",
+  "website": "https://www.awaodori-kaikan.jp/",
+  "maps_url": "https://maps.google.com/?cid=9964508320439843659",
+  "hours": [
+   "Monday: 9:00 AM – 9:00 PM",
+   "Tuesday: 9:00 AM – 9:00 PM",
+   "Wednesday: 9:00 AM – 9:00 PM",
+   "Thursday: 9:00 AM – 9:00 PM",
+   "Friday: 9:00 AM – 9:00 PM",
+   "Saturday: 9:00 AM – 9:00 PM",
+   "Sunday: 9:00 AM – 9:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2100"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2100"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2100"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2100"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2100"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2100"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2100"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ44K2dOZxUzURIWOzwPwg0LM": {
+  "name": "Ryozenji Temple",
+  "address": "Tsukahana-126 Ōasachō Bandō, Naruto, Tokushima 779-0230, Japan",
+  "phone": "+81 87-861-7031",
+  "website": "https://88shikokuhenro.jp/01ryozenji/",
+  "maps_url": "https://maps.google.com/?cid=12956892397881746209",
+  "hours": [
+   "Monday: 8:00 AM – 5:00 PM",
+   "Tuesday: 8:00 AM – 5:00 PM",
+   "Wednesday: 8:00 AM – 5:00 PM",
+   "Thursday: 8:00 AM – 5:00 PM",
+   "Friday: 8:00 AM – 5:00 PM",
+   "Saturday: 8:00 AM – 5:00 PM",
+   "Sunday: 8:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJseeppPYpUjURbCmBQ9JlOKs": {
+  "name": "Awa-Ikeda Station",
+  "address": "Ikedacho Sarada, Miyoshi, Tokushima 778-0003, Japan",
+  "phone": null,
+  "website": "http://www.jr-shikoku.co.jp/01_trainbus/kakueki/awaikeda/",
+  "maps_url": "https://maps.google.com/?cid=12337723132931549548",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ0ydzWkOKUTURLoUfscvdMjk": {
+  "name": "Ōboke Station",
+  "address": "Nishiiyayamamura Tokuzennishi, Miyoshi, Tokushima 778-0105, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=4121600475917157678",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJEdgLLuUnUjUR691uAvUAg0U": {
+  "name": "Iya Valley Vine Bridge",
+  "address": "162-2 Nishiiyayamamura Zentoku, Miyoshi, Tokushima 778-0102, Japan",
+  "phone": "+81 883-76-0877",
+  "website": "https://miyoshi-tourism.jp/spot/46/",
+  "maps_url": "https://maps.google.com/?cid=5008848262873931243",
+  "hours": [
+   "Monday: 7:30 AM – 6:30 PM",
+   "Tuesday: 7:30 AM – 6:30 PM",
+   "Wednesday: 7:30 AM – 6:30 PM",
+   "Thursday: 7:30 AM – 6:30 PM",
+   "Friday: 7:30 AM – 6:30 PM",
+   "Saturday: 7:30 AM – 6:30 PM",
+   "Sunday: 7:30 AM – 6:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1830"
+    },
+    "open": {
+     "day": 0,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1830"
+    },
+    "open": {
+     "day": 1,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1830"
+    },
+    "open": {
+     "day": 2,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1830"
+    },
+    "open": {
+     "day": 3,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1830"
+    },
+    "open": {
+     "day": 4,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1830"
+    },
+    "open": {
+     "day": 5,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1830"
+    },
+    "open": {
+     "day": 6,
+     "time": "0730"
+    }
+   }
+  ]
+ },
+ "ChIJA21WaE4nUjURHPhjeUY-oP0": {
+  "name": "Biwa Waterfall",
+  "address": "23 Nishiiyayamamura Kanjō, Miyoshi, Tokushima 778-0102, Japan",
+  "phone": "+81 883-76-0877",
+  "website": "https://miyoshi-tourism.jp/spot/biwawaterfall/",
+  "maps_url": "https://maps.google.com/?cid=18275675760274700316",
+  "hours": [
+   "Monday: 9:00 AM – 6:00 PM",
+   "Tuesday: 9:00 AM – 6:00 PM",
+   "Wednesday: 9:00 AM – 6:00 PM",
+   "Thursday: 9:00 AM – 6:00 PM",
+   "Friday: 9:00 AM – 6:00 PM",
+   "Saturday: 9:00 AM – 6:00 PM",
+   "Sunday: 9:00 AM – 6:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1800"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1800"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1800"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1800"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1800"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1800"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1800"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ-4NSy1InUjUR4jm6JhvlvIk": {
+  "name": "Hotel Iyaonsen - Open-air Bath",
+  "address": "WRC8+84, Matsumoto Ikedacho Matsuo, Miyoshi, Tokushima 779-5165, Japan",
+  "phone": "+81 883-75-2311",
+  "website": "https://www.iyaonsen.co.jp/spa/",
+  "maps_url": "https://maps.google.com/?cid=9925059583594346978",
+  "hours": [
+   "Monday: 7:30 AM – 5:00 PM",
+   "Tuesday: 7:30 AM – 5:00 PM",
+   "Wednesday: Closed",
+   "Thursday: 7:30 AM – 5:00 PM",
+   "Friday: 7:30 AM – 5:00 PM",
+   "Saturday: 7:30 AM – 5:00 PM",
+   "Sunday: 7:30 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0730"
+    }
+   }
+  ]
+ },
+ "ChIJpS-UYTolUjURjdVvINCUJSc": {
+  "name": "National Heritage Area Ochiai Village Observatory",
+  "address": "80 Higashiiyanakaue, Miyoshi, Tokushima 778-0203, Japan",
+  "phone": null,
+  "website": "https://miyoshi-tourism.jp/spot/ochiaishuraku/",
+  "maps_url": "https://maps.google.com/?cid=2820824363235792269",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJ7xXLRzolUjUR6eK4h_AvQS4": {
+  "name": "Nagoro \"Scarecrow\" Village",
+  "address": "191 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "phone": "+81 883-72-7620",
+  "website": "https://miyoshi-tourism.jp/spot/kakashinosato/",
+  "maps_url": "https://maps.google.com/?cid=3332997909346575081",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJ9SN_Bsc3UjURGJkGeNgDbMY": {
+  "name": "奥祖谷二重かずら橋",
+  "address": "620 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=14297807145255999768",
+  "hours": [
+   "Monday: 8:00 AM – 6:00 PM",
+   "Tuesday: 8:00 AM – 6:00 PM",
+   "Wednesday: 8:00 AM – 6:00 PM",
+   "Thursday: 8:00 AM – 6:00 PM",
+   "Friday: 8:00 AM – 6:00 PM",
+   "Saturday: 8:00 AM – 6:00 PM",
+   "Sunday: 8:00 AM – 6:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1800"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1800"
+    },
+    "open": {
+     "day": 1,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1800"
+    },
+    "open": {
+     "day": 2,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1800"
+    },
+    "open": {
+     "day": 3,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1800"
+    },
+    "open": {
+     "day": 4,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1800"
+    },
+    "open": {
+     "day": 5,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1800"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJNY90X9g3UjUR-4Tm6xDzmF0": {
+  "name": "Mount Tsurugi",
+  "address": "Mount Tsurugi, Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=6744407695990097147",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJN7aDH9M3UjUREdq58x2uR0k": {
+  "name": "Tsurugisan Tozan Lift",
+  "address": "205-25 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "phone": "+81 883-62-2772",
+  "website": "http://www.turugirift.com/",
+  "maps_url": "https://maps.google.com/?cid=5280380531781523985",
+  "hours": [
+   "Monday: 9:00 AM – 4:30 PM",
+   "Tuesday: 9:00 AM – 4:30 PM",
+   "Wednesday: 9:00 AM – 4:30 PM",
+   "Thursday: 9:00 AM – 4:30 PM",
+   "Friday: 9:00 AM – 4:30 PM",
+   "Saturday: 9:00 AM – 4:30 PM",
+   "Sunday: 9:00 AM – 4:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1630"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1630"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1630"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1630"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1630"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1630"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1630"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJOcK45tY3UjURG-Jjozg1n5s": {
+  "name": "西島駅",
+  "address": "205-2 Higashiiyasugeoi, Miyoshi, Tokushima 778-0201, Japan",
+  "phone": "+81 883-67-5277",
+  "website": "http://www.turugirift.com/",
+  "maps_url": "https://maps.google.com/?cid=11213740114551497243",
+  "hours": [
+   "Monday: 9:00 AM – 4:30 PM",
+   "Tuesday: 9:00 AM – 4:30 PM",
+   "Wednesday: 9:00 AM – 4:30 PM",
+   "Thursday: 9:00 AM – 4:30 PM",
+   "Friday: 9:00 AM – 4:30 PM",
+   "Saturday: 8:00 AM – 4:30 PM",
+   "Sunday: 8:00 AM – 4:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1630"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1630"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1630"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1630"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1630"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1630"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1630"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJj38fyzovUjURMcNvV1FL7-8": {
+  "name": "Miyoshi",
+  "address": "Miyoshi, Tokushima, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=17289120307229999921",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ1w_oDToZTjUR3QutG7QRnZk": {
+  "name": "Hirome Market",
+  "address": "2-chōme-3-1 Obiyamachi, Kochi, 780-0841, Japan",
+  "phone": "+81 88-822-5287",
+  "website": "https://hirome.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=11069022924402658269",
+  "hours": [
+   "Monday: 10:00 AM – 11:00 PM",
+   "Tuesday: 10:00 AM – 11:00 PM",
+   "Wednesday: 10:00 AM – 11:00 PM",
+   "Thursday: 10:00 AM – 11:00 PM",
+   "Friday: 10:00 AM – 11:00 PM",
+   "Saturday: 10:00 AM – 11:00 PM",
+   "Sunday: 9:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2300"
+    },
+    "open": {
+     "day": 1,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJDUAjgUYZTjURYTC3u6UBNIE": {
+  "name": "Kochi Sunday Market",
+  "address": "1 Chome-9 Otesuji, Kochi, 780-0842, Japan",
+  "phone": "+81 88-823-9375",
+  "website": "https://www.city.kochi.kochi.jp/site/kanko/nichiyouichi.html",
+  "maps_url": "https://maps.google.com/?cid=9310068141012234337",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: Closed",
+   "Wednesday: Closed",
+   "Thursday: Closed",
+   "Friday: Closed",
+   "Saturday: Closed",
+   "Sunday: 6:30 AM – 2:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1400"
+    },
+    "open": {
+     "day": 0,
+     "time": "0630"
+    }
+   }
+  ]
+ },
+ "ChIJ_ZQBiCQZTjURDgmM1D29DRU": {
+  "name": "Kochi Castle",
+  "address": "1-chōme-2-1 Marunouchi, Kochi, 780-0850, Japan",
+  "phone": "+81 88-824-5701",
+  "website": "http://kochipark.jp/kochijyo/",
+  "maps_url": "https://maps.google.com/?cid=1517076722750327054",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJwQDkipMbTjURZnGsPoV8rWE": {
+  "name": "Katsurahama Park",
+  "address": "6 Urado, Kochi, 781-0262, Japan",
+  "phone": "+81 88-841-4140",
+  "website": "https://katsurahama-park.com/",
+  "maps_url": "https://maps.google.com/?cid=7038418704373936486",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJYVKYcPMbTjURxgsUXkA9URg": {
+  "name": "The Kochi Prefectural Makino Botanical Garden",
+  "address": "4200-6 Godaisan, Kochi, 781-8125, Japan",
+  "phone": "+81 88-882-2601",
+  "website": "https://www.makino.or.jp/",
+  "maps_url": "https://maps.google.com/?cid=1752249076689406918",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ84F-kHjmTzURebGHHI1YWXw": {
+  "name": "Dogo Onsen Main Building",
+  "address": "5-6 Dōgoyunomachi, Matsuyama, Ehime 790-0842, Japan",
+  "phone": "+81 89-921-5141",
+  "website": "https://dogo.jp/onsen/honkan",
+  "maps_url": "https://maps.google.com/?cid=8960290296722600313",
+  "hours": [
+   "Monday: 6:00 AM – 11:00 PM",
+   "Tuesday: 6:00 AM – 11:00 PM",
+   "Wednesday: 6:00 AM – 11:00 PM",
+   "Thursday: 6:00 AM – 11:00 PM",
+   "Friday: 6:00 AM – 11:00 PM",
+   "Saturday: 6:00 AM – 11:00 PM",
+   "Sunday: 6:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2300"
+    },
+    "open": {
+     "day": 1,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "0600"
+    }
+   }
+  ]
+ },
+ "ChIJG4z5T-vlTzURgnujh60lGEo": {
+  "name": "Matsuyama Castle",
+  "address": "1 Marunouchi, Matsuyama, Ehime 790-0008, Japan",
+  "phone": "+81 89-921-4873",
+  "website": "https://www.matsuyamajo.jp/",
+  "maps_url": "https://maps.google.com/?cid=5339058785482931074",
+  "hours": [
+   "Monday: 9:00 AM – 4:30 PM",
+   "Tuesday: 9:00 AM – 4:30 PM",
+   "Wednesday: 9:00 AM – 4:30 PM",
+   "Thursday: 9:00 AM – 4:30 PM",
+   "Friday: 9:00 AM – 4:30 PM",
+   "Saturday: 9:00 AM – 4:30 PM",
+   "Sunday: 9:00 AM – 4:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1630"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1630"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1630"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1630"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1630"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1630"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1630"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJD5vWBJPlTzURLsf4vh0UWYs": {
+  "name": "Matsuyama Castle Ninomaru Historical Site Garden",
+  "address": "5番地 Marunouchi, Matsuyama, Ehime 790-0001, Japan",
+  "phone": "+81 89-921-2000",
+  "website": "http://www.matsuyamajo.jp/ninomaru/",
+  "maps_url": "https://maps.google.com/?cid=10041078962189813550",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJlQP3wPXlTzURRcpKFTQddh0": {
+  "name": "BOTCHAN TRAIN",
+  "address": "7 Dogomachi, Matsuyama, Ehime 790-0842, Japan",
+  "phone": "+81 89-948-3323",
+  "website": "https://www.iyotetsu.co.jp/botchan/",
+  "maps_url": "https://maps.google.com/?cid=2122916383884495429",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJ___barWFTzURcTlYHpeZmhI": {
+  "name": "Uchiko-za Dressing Room",
+  "address": "2102 Uchiko, Kita District, Ehime 791-3301, Japan",
+  "phone": "+81 893-44-2840",
+  "website": "https://www.town.uchiko.ehime.jp/site/uchikoza/",
+  "maps_url": "https://maps.google.com/?cid=1340552713424353649",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJHftTq8R_RTURfu8rYuPe6V8": {
+  "name": "Ozu Castle",
+  "address": "903 Ōzu, Ozu, Ehime 795-0012, Japan",
+  "phone": "+81 893-24-1146",
+  "website": "http://www.ozucastle.jp/",
+  "maps_url": "https://maps.google.com/?cid=6911300171362725758",
+  "hours": [
+   "Monday: 9:00 AM – 4:30 PM",
+   "Tuesday: 9:00 AM – 4:30 PM",
+   "Wednesday: 9:00 AM – 4:30 PM",
+   "Thursday: 9:00 AM – 4:30 PM",
+   "Friday: 9:00 AM – 4:30 PM",
+   "Saturday: 9:00 AM – 4:30 PM",
+   "Sunday: 9:00 AM – 4:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1630"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1630"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1630"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1630"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1630"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1630"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1630"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJyYp5bFk6UDUR1E-NO2tLIUU": {
+  "name": "Imabari Station",
+  "address": "1 Chome-1 Nakahiyoshicho, Imabari, Ehime 794-0055, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=4981345586781179860",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJRwsl6qmJTzURpVNHZx_aWNI": {
+  "name": "Shimonada Station",
+  "address": "Futamicho Okubo, Iyo, Ehime 799-3311, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=15157104374326973349",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJB2V6-jUAUTURePqJH6MRcUQ": {
+  "name": "Onomichi Station",
+  "address": "1-1 Higashigoshochō, Onomichi, Hiroshima 722-0036, Japan",
+  "phone": null,
+  "website": "https://www.westjr.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=4931742459253881464",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ8526nXirUTUR_CK9lT3kPv8": {
+  "name": "Innoshima Bridge",
+  "address": "Mukaishimacho Tachibana, Onomichi, Hiroshima 722-0071, Japan",
+  "phone": "+81 78-291-1033",
+  "website": "https://www.jb-honshi.co.jp/shimanami/about/shimanami/p02.html",
+  "maps_url": "https://maps.google.com/?cid=18392388881384022780",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJ2_-6D3k5UDURdc8ja5NncRA": {
+  "name": "Sunrise Itoyama",
+  "address": "2-chōme-8-1 Sunabachō, Imabari, Ehime 794-0001, Japan",
+  "phone": "+81 898-41-3196",
+  "website": "https://www.sunrise-itoyama.jp/",
+  "maps_url": "https://maps.google.com/?cid=1184842059830513525",
+  "hours": [
+   "Monday: 7:00 AM – 11:00 PM",
+   "Tuesday: 7:00 AM – 11:00 PM",
+   "Wednesday: 7:00 AM – 11:00 PM",
+   "Thursday: 7:00 AM – 11:00 PM",
+   "Friday: 7:00 AM – 11:00 PM",
+   "Saturday: 7:00 AM – 11:00 PM",
+   "Sunday: 7:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2300"
+    },
+    "open": {
+     "day": 1,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "0700"
+    }
+   }
+  ]
+ },
+ "ChIJDxK9gGtWUDURNbvsDOf-bPk": {
+  "name": "Mihara Station",
+  "address": "Japan, 〒723-0014 Hiroshima, Mihara, Shiromachi, 1-chōme−1, 広島県三原市城町１丁目１−１",
+  "phone": "+81 848-62-4770",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=17973020481236548405",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJmWoPDjFFUDURB5HEnsMYlYU": {
+  "name": "Ōkunoshima Island",
+  "address": "Ōkunoshima Island, Tadanoumicho, Takehara, Hiroshima 729-2311, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=9625627007035674887",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJfaSIM-laUDURIzUQAf-HTMg": {
+  "name": "忠海港",
+  "address": "1-chōme-2-1 Tadanoumi Nakamachi, Takehara, Hiroshima 729-2316, Japan",
+  "phone": "+81 846-26-0853",
+  "website": "http://sanyo-shosen.jp/omishima/",
+  "maps_url": "https://maps.google.com/?cid=14433060435119846691",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJrczM0S1DUDURmNz6VEUPut4": {
+  "name": "Takehara Townscape Conservation Area",
+  "address": "3 Chome-8 Honmachi, Takehara, Hiroshima 725-0022, Japan",
+  "phone": "+81 846-22-1473",
+  "website": "https://www.takeharakankou.jp/spot/4305",
+  "maps_url": "https://maps.google.com/?cid=16049157012541070488",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJl8guRQCxWjURa0_IRzWrsmM": {
+  "name": "Otorii",
+  "address": "1-1 Miyajimachō, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "phone": "+81 829-44-2020",
+  "website": "http://www.en.itsukushimajinja.jp/",
+  "maps_url": "https://maps.google.com/?cid=7183992600935288683",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJKasIGVq3WjUR-XtDpbGXq0k": {
+  "name": "Miyajimaguchi",
+  "address": "Miyajimaguchi, Hatsukaichi, Hiroshima 739-0411, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=5308503375023930361",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJGUy2HtSwWjURk5ao-WBFAf0": {
+  "name": "Mount Misen",
+  "address": "Mount Misen, Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=18230929049380230803",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJNzVvcmOxWjURWDjMK_z9F-A": {
+  "name": "Shishiiwa Observatory",
+  "address": "Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "phone": null,
+  "website": "http://www.miyajima.or.jp/course/course_ropeway.html",
+  "maps_url": "https://maps.google.com/?cid=16147654248468592728",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJCcnfu8uwWjURP_wHx2YZPro": {
+  "name": "Daishoin",
+  "address": "210 Miyajimachō, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "phone": "+81 829-44-0111",
+  "website": "https://daisho-in.com/",
+  "maps_url": "https://maps.google.com/?cid=13420191868827204671",
+  "hours": [
+   "Monday: 8:00 AM – 5:00 PM",
+   "Tuesday: 8:00 AM – 5:00 PM",
+   "Wednesday: 8:00 AM – 5:00 PM",
+   "Thursday: 8:00 AM – 5:00 PM",
+   "Friday: 8:00 AM – 5:00 PM",
+   "Saturday: 8:00 AM – 5:00 PM",
+   "Sunday: 8:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJdS8mkbewWjUR580CS14cuiI": {
+  "name": "Momijidani Park",
+  "address": "Miyajimacho, Hatsukaichi, Hiroshima 739-0588, Japan",
+  "phone": "+81 829-30-9141",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=2502343734268710375",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJtyvayxKiWjURgIGSanFnMPE": {
+  "name": "Hiroshima Peace Memorial Museum",
+  "address": "1-2 Nakajimachō, Naka Ward, Hiroshima, 730-0811, Japan",
+  "phone": "+81 82-241-4004",
+  "website": "https://hpmmuseum.jp/",
+  "maps_url": "https://maps.google.com/?cid=17379504698839695744",
+  "hours": [
+   "Monday: 7:30 AM – 7:00 PM",
+   "Tuesday: 7:30 AM – 7:00 PM",
+   "Wednesday: 7:30 AM – 7:00 PM",
+   "Thursday: 7:30 AM – 7:00 PM",
+   "Friday: 7:30 AM – 7:00 PM",
+   "Saturday: 7:30 AM – 7:00 PM",
+   "Sunday: 7:30 AM – 7:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1900"
+    },
+    "open": {
+     "day": 0,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1900"
+    },
+    "open": {
+     "day": 1,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1900"
+    },
+    "open": {
+     "day": 2,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1900"
+    },
+    "open": {
+     "day": 3,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1900"
+    },
+    "open": {
+     "day": 4,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1900"
+    },
+    "open": {
+     "day": 5,
+     "time": "0730"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1900"
+    },
+    "open": {
+     "day": 6,
+     "time": "0730"
+    }
+   }
+  ]
+ },
+ "ChIJqYAn2wyiWjURlsDG4Hpn5jQ": {
+  "name": "Atomic Bomb Dome",
+  "address": "1-chōme-1-10 Ōtemachi, Naka Ward, Hiroshima, 730-0051, Japan",
+  "phone": "+81 82-504-2898",
+  "website": "https://www.city.hiroshima.lg.jp/atomicbomb-peace/index.html",
+  "maps_url": "https://maps.google.com/?cid=3811847912070496406",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJk131errUVDURzfGb4SH3mUY": {
+  "name": "Akashiko(Akashi Port)",
+  "address": "Japan, 〒673-0892 Hyogo, Akashi, Honmachi, 1-chōme−20, 兵庫県明石市本町２丁目１０－１",
+  "phone": "+81 799-72-2015",
+  "website": "http://www.jenova-line.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=5087368978982760909",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJvQWLwY2CAGAR4s4Yut0P6Rk": {
+  "name": "Iwaya Port",
+  "address": "Iwaya, Awaji, Hyogo 656-2401, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=1867040965506158306",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJK4kXo7CxVDUR3k0Qw_M3nXw": {
+  "name": "Sumoto Bus Center",
+  "address": "2 Minato, Sumoto, Hyogo 656-0027, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=8979394752135843294",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJw8zUBFKdAGARyKzXji-dXII": {
+  "name": "Awaji Yumebutai",
+  "address": "Japan, 〒656-2306 Hyogo, Awaji, Yumebutai, 2番地",
+  "phone": "+81 799-74-1000",
+  "website": "https://www.yumebutai.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=9393555750373534920",
+  "hours": [
+   "Monday: 7:00 AM – 11:00 PM",
+   "Tuesday: 7:00 AM – 11:00 PM",
+   "Wednesday: 7:00 AM – 11:00 PM",
+   "Thursday: 7:00 AM – 11:00 PM",
+   "Friday: 7:00 AM – 11:00 PM",
+   "Saturday: 7:00 AM – 11:00 PM",
+   "Sunday: 7:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2300"
+    },
+    "open": {
+     "day": 1,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "0700"
+    }
+   }
+  ]
+ },
+ "ChIJO9CGW4i3VDURPglN0FloZz8": {
+  "name": "Izanagi Shrine",
+  "address": "740 Taga, Awaji, Hyogo 656-1521, Japan",
+  "phone": "+81 799-80-5001",
+  "website": "https://kuniuminoshima.jp/",
+  "maps_url": "https://maps.google.com/?cid=4568735081946745150",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJi87buD5hUzURp5JeNHBv-TA": {
+  "name": "Tokushima Prefectural Uzu-no-Michi Walkway",
+  "address": "Japan, 〒772-0053 Tokushima, Naruto, Narutochō Tosadomariura, Fukuike 内 Naruto Park",
+  "phone": "+81 88-683-6262",
+  "website": "http://www.uzunomichi.jp/",
+  "maps_url": "https://maps.google.com/?cid=3528974310727127719",
+  "hours": [
+   "Monday: 9:00 AM – 6:00 PM",
+   "Tuesday: 9:00 AM – 6:00 PM",
+   "Wednesday: 9:00 AM – 6:00 PM",
+   "Thursday: 9:00 AM – 6:00 PM",
+   "Friday: 9:00 AM – 6:00 PM",
+   "Saturday: 9:00 AM – 6:00 PM",
+   "Sunday: 9:00 AM – 6:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1800"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1800"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1800"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1800"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1800"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1800"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1800"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJTTywUk1hUzURAuv1wNfSl5A": {
+  "name": "Naruto Park",
+  "address": "Fukuike Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "phone": "+81 88-683-6262",
+  "website": "http://www.uzunomichi.jp/",
+  "maps_url": "https://maps.google.com/?cid=10419028087042075394",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJGw03L0xhUzURYVnncKS10Xg": {
+  "name": "Otsuka Museum of Art",
+  "address": "Fukuike-65-1 Narutochō Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "phone": "+81 88-687-3737",
+  "website": "https://o-museum.or.jp/",
+  "maps_url": "https://maps.google.com/?cid=8705939272557353313",
+  "hours": [
+   "Monday: 9:30 AM – 5:00 PM",
+   "Tuesday: 9:30 AM – 5:00 PM",
+   "Wednesday: 9:30 AM – 5:00 PM",
+   "Thursday: 9:30 AM – 5:00 PM",
+   "Friday: 9:30 AM – 5:00 PM",
+   "Saturday: 9:30 AM – 5:00 PM",
+   "Sunday: 9:30 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0930"
+    }
+   }
+  ]
+ },
+ "ChIJwxSKdqpmUzUR1hRLuTVFP6A": {
+  "name": "Gupo Tourist Port",
+  "address": "Oge Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "phone": "+81 88-687-0101",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=11547024066645529814",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJTTpWakKDUTURulcrfDvSu24": {
+  "name": "Gate in the Sky",
+  "address": "2800 Takayachō, Kanonji, Kagawa 768-0001, Japan",
+  "phone": null,
+  "website": "https://www.city.kanonji.kagawa.jp/soshiki/21/13387.html",
+  "maps_url": "https://maps.google.com/?cid=7979202317745084346",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJXWVFHiyDUTURWqZBK7r8NKY": {
+  "name": "Kotohiki Park",
+  "address": "13 Ariakecho, Kanonji, Kagawa 768-0062, Japan",
+  "phone": "+81 875-23-3933",
+  "website": "https://www.city.kanonji.kagawa.jp/soshiki/21/1467.html",
+  "maps_url": "https://maps.google.com/?cid=11976475185604830810",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJ1VUFtyKDUTURWnpfxpD6JgI": {
+  "name": "Kan-Onji Station",
+  "address": "1 Chome-4 Sakaemachi, Kanonji, Kagawa 768-0072, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=155086736901241434",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJWyKVAIqDUTURRnmfGtEhSE0": {
+  "name": "銭形展望台",
+  "address": "1-chōme-1-1 Yahatachō, Kanonji, Kagawa 768-0062, Japan",
+  "phone": "+81 875-23-3933",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=5568738121222158662",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJtbHKrxd4UTURoYTcbbaD6o8": {
+  "name": "Chichibugahama Beach",
+  "address": "Otsu-273-1 Niochō Nio, Mitoyo, Kagawa 769-1404, Japan",
+  "phone": "+81 875-56-5880",
+  "website": "http://www.mitoyo-kanko.com/chichibugahama/",
+  "maps_url": "https://maps.google.com/?cid=10370245911524443297",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJG5Pp12B5UTURRGfkQd4e7oA": {
+  "name": "Takuma Station",
+  "address": "715 Takumachō Matsusaki, Mitoyo, Kagawa 769-1102, Japan",
+  "phone": "+81 875-83-2056",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=9290397021248972612",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJK3mVCYfrUzURNl7XQRlvOB4": {
+  "name": "Takamatsu Castle Park",
+  "address": "2-1 Tamamochō, Takamatsu, Kagawa 760-0030, Japan",
+  "phone": "+81 87-851-1521",
+  "website": "http://www.takamatsujyo.com/",
+  "maps_url": "https://maps.google.com/?cid=2177612574103133750",
+  "hours": [
+   "Monday: 7:00 AM – 5:00 PM",
+   "Tuesday: 7:00 AM – 5:00 PM",
+   "Wednesday: 7:00 AM – 5:00 PM",
+   "Thursday: 7:00 AM – 5:00 PM",
+   "Friday: 7:00 AM – 5:00 PM",
+   "Saturday: 7:00 AM – 5:00 PM",
+   "Sunday: 7:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0700"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0700"
+    }
+   }
+  ]
+ },
+ "ChIJwZ8XekeTUzUR-xBGML3cGYE": {
+  "name": "Shikoku Village",
+  "address": "91 Yashima Nakamachi, Takamatsu, Kagawa 761-0112, Japan",
+  "phone": "+81 87-843-3111",
+  "website": "http://www.shikokumura.or.jp/",
+  "maps_url": "https://maps.google.com/?cid=9302709210427298043",
+  "hours": [
+   "Monday: 9:30 AM – 5:00 PM",
+   "Tuesday: Closed",
+   "Wednesday: 9:30 AM – 5:00 PM",
+   "Thursday: 9:30 AM – 5:00 PM",
+   "Friday: 9:30 AM – 5:00 PM",
+   "Saturday: 9:30 AM – 5:00 PM",
+   "Sunday: 9:30 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0930"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0930"
+    }
+   }
+  ]
+ },
+ "ChIJPaurWC6TUzURh2AvYZxvgFw": {
+  "name": "Yashima-Sanjo",
+  "address": "Yashima Higashimachi, Takamatsu, Kagawa 761-0111, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=6665450165944410247",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJC6fjlY3mAGARSshZ6CLIrhs": {
+  "name": "Osaka Station",
+  "address": "3-chōme-1-1 Umeda, Kita Ward, Osaka, 530-0001, Japan",
+  "phone": null,
+  "website": "http://www.jr-odekake.net/eki/top.php?id=0610130",
+  "maps_url": "https://maps.google.com/?cid=1994751737224349770",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJq2y-7eSOAGARmG3UthE-6tg": {
+  "name": "Sannomiya Station",
+  "address": "1 Chome-3 Kitanagasadori, Chuo Ward, Kobe, Hyogo 650-0012, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=15630373702545468824",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJGwTum1mOAGARxcn1pAt8E0k": {
+  "name": "Kobesannomiya Ferry Terminal",
+  "address": "3-7 Shinkōchō, Chuo Ward, 神戸市中央区 Hyogo 650-0041, Japan",
+  "phone": "+81 78-327-3333",
+  "website": "http://www.kobe-fc.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=5265688778780297669",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJlTsPurfUVDURNiWm_0whKHg": {
+  "name": "Akashi Station",
+  "address": "1-chome-1 Oakashicho, Akashi, Hyogo 673-0891, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=8658206898210088246",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJzV3k6YjrUzUR20YlrkzEDtY": {
+  "name": "Takamatsu Station",
+  "address": "Japan, 〒760-0011 Kagawa, Takamatsu, Hamanochō, 1, １−２０",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=15424481607408764635",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJCR0s22FtUzURLNDpqrRSHgc": {
+  "name": "Tokushima Station",
+  "address": "1-chōme-61 Terashimahonchōnishi, Tokushima, 770-0831, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=512938343481856044",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJIx85zUoZTjUR1OI6-NQP0Qk": {
+  "name": "Kochi Station",
+  "address": "2 Chome-1 Sakaedacho, Kochi, 780-0061, Japan",
+  "phone": "+81 88-822-8229",
+  "website": "http://www.jr-shikoku.co.jp/01_trainbus/kakueki/kochi/",
+  "maps_url": "https://maps.google.com/?cid=707364023845970644",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ0z9B6IvlTzURW8Iccrn1GZE": {
+  "name": "松山市駅",
+  "address": "5 Chome Minatomachi, Matsuyama, Ehime 790-0012, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=10455658186749559387",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJLceXcQDlTzURlgkgfVWs7VE": {
+  "name": "JR松山駅だんだん通り",
+  "address": "1-chōme-14-2 Minamiedo, Matsuyama, Ehime 790-0062, Japan",
+  "phone": null,
+  "website": "https://dandan-dori.jp/",
+  "maps_url": "https://maps.google.com/?cid=5903564169724037526",
+  "hours": [
+   "Monday: 5:45 AM – 10:00 PM",
+   "Tuesday: 5:45 AM – 10:00 PM",
+   "Wednesday: 5:45 AM – 10:00 PM",
+   "Thursday: 5:45 AM – 10:00 PM",
+   "Friday: 5:45 AM – 10:00 PM",
+   "Saturday: 5:45 AM – 10:00 PM",
+   "Sunday: 5:45 AM – 10:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2200"
+    },
+    "open": {
+     "day": 0,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2200"
+    },
+    "open": {
+     "day": 1,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2200"
+    },
+    "open": {
+     "day": 2,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2200"
+    },
+    "open": {
+     "day": 3,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2200"
+    },
+    "open": {
+     "day": 4,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2200"
+    },
+    "open": {
+     "day": 5,
+     "time": "0545"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2200"
+    },
+    "open": {
+     "day": 6,
+     "time": "0545"
+    }
+   }
+  ]
+ },
+ "ChIJm6mjidP6TzURqROpGgIz17c": {
+  "name": "Matsuyama tourist port terminal",
+  "address": "5-chōme-2259-1 Takahamamachi, Matsuyama, Ehime 791-8081, Japan",
+  "phone": null,
+  "website": "http://www.kankoko.com/",
+  "maps_url": "https://maps.google.com/?cid=13247112913063842729",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJLRys-AuiWjUR2gZszJ1_I8I": {
+  "name": "Hiroshima Bus Center",
+  "address": "6 Motomachi, Naka Ward, Hiroshima, 730-0011, Japan",
+  "phone": null,
+  "website": "http://www.h-buscenter.com/",
+  "maps_url": "https://maps.google.com/?cid=13989165183259117274",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJO-6KAsejWjURx0YiwERsxj8": {
+  "name": "Hiroshima-ko Sambashi (Hiroshima Harbor Pier)",
+  "address": "1 Chome-13 Ujinakaigan, Minami Ward, Hiroshima, 734-0011, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=4595479512315217607",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJO1MgvFOfWjUR6-cLRTI_QSg": {
+  "name": "HIROSHIMA STATION",
+  "address": "1-２番３７号 Matsubarachō, Minami Ward, Hiroshima, 732-0822, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=2900669120142632939",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ-0f9tkhhUzURgUCYua1HcbQ": {
+  "name": "鳴門公園口（バス）",
+  "address": "Fukuike Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=13002252410664009857",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJlcKds9fvUzURHNYAwBALjb8": {
+  "name": "Shikoku Kisen Co.,Ltd (Miyanoura Port)",
+  "address": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 宮ノ浦２２４９−４０",
+  "phone": "+81 87-892-3104",
+  "website": "https://www.shikokukisen.com/",
+  "maps_url": "https://maps.google.com/?cid=13802700599529100828",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJqdhpTJpRUDURobWG4RXYqfc": {
+  "name": "生口島［瀬戸田港］（航路）",
+  "address": "Setodacho Setoda, Onomichi, Hiroshima 722-2411, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=17846032586921915809",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJvdwVN0ZSUDURnrs5FKaKltg": {
+  "name": "瀬戸田ＢＳ",
+  "address": "Setodacho Mitera, Onomichi, Hiroshima 722-2401, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=15606814004607564702",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJI_GWUwdPUDURxcsS8FzXI3M": {
+  "name": "大三島ＢＳ",
+  "address": "Kamiuracho Amazaki, Imabari, Ehime 794-1403, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=8296711732711312325",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJadr7N6NPUDUR0D4ZOnX8FFk": {
+  "name": "井口港",
+  "address": "Kamiuracho Inokuchi, Imabari, Ehime 794-1402, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=6419032949325905616",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJs4Lv_21JUDURYfedhVBJRrU": {
+  "name": "Miyakubocho Miyakubo",
+  "address": "Miyakubocho Miyakubo, Imabari, Ehime 794-2203, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=13062208379422635873",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJb_i0tbIBUTUR6p6_4bolJ-Q": {
+  "name": "向島［兼吉］",
+  "address": "Mukaishimacho, Onomichi, Hiroshima 722-0000, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=16440150449320861418",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJZwW2W0iKUTURMrnzgupFfTs": {
+  "name": "Obokekyo Mannaka",
+  "address": "1520 Yamashirochō Nishiu, Miyoshi, Tokushima 779-5451, Japan",
+  "phone": "+81 883-84-1211",
+  "website": "https://www.mannaka.co.jp/",
+  "maps_url": "https://maps.google.com/?cid=4286659293848254770",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJS8odMJbrUzURaN7VgGduWbE": {
+  "name": "WeBase Takamatsu",
+  "address": "Japan, 〒760-0052 Kagawa, Takamatsu, Kawaramachi, 1-chōme−２−３",
+  "phone": "+81 87-813-4411",
+  "website": "https://we-base.jp/takamatsu/",
+  "maps_url": "https://maps.google.com/?cid=12779366808462679656",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJU-wn2gINUzUR94WNIAhofbU": {
+  "name": "Tokushima",
+  "address": "Tokushima, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=13077723277068961271",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJmSEEiW4pUjUR1tUDr_KAwFo": {
+  "name": "4S STAY Awa Ikeda ekimae",
+  "address": "1804-9 Ikedachō Sarada, Miyoshi, Tokushima 778-0003, Japan",
+  "phone": "+81 80-4127-5397",
+  "website": "https://4s-stay.com/",
+  "maps_url": "https://maps.google.com/?cid=6539368438748665302",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: 11:00 AM – 11:00 PM",
+   "Wednesday: 11:00 AM – 11:00 PM",
+   "Thursday: 11:00 AM – 11:00 PM",
+   "Friday: 11:00 AM – 11:00 PM",
+   "Saturday: 10:00 AM – 11:00 PM",
+   "Sunday: 10:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "1100"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "1100"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "1100"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "1100"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJYQlrv9X_UDURMa-XPVvqfXs": {
+  "name": "Onomichi",
+  "address": "Onomichi, Hiroshima, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=8898526116350242609",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJFbYN5LEBUTURD9jKrJnRORY": {
+  "name": "Onomichi Guest House Fuji Hostel",
+  "address": "3-30 Toyohi Motomachi, Onomichi, Hiroshima 722-0034, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=1601541600466098191",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJf7vlJLIBUTURY8ZRe2woj0k": {
+  "name": "Onomichi Guest House Anago-no-Nedoko",
+  "address": "2-chōme-4-9 Tsuchidō, Onomichi, Hiroshima 722-0035, Japan",
+  "phone": "+81 848-38-1005",
+  "website": "http://anago.onomichisaisei.com/",
+  "maps_url": "https://maps.google.com/?cid=5300499732828898915",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ___TmXOiWjURXFZIPQqoZ-w": {
+  "name": "The Evergreen Hostel",
+  "address": "Japan, 〒730-0802 Hiroshima, Naka Ward, Honkawachō, 2-chōme−4−１７ 2F",
+  "phone": "+81 90-6306-7236",
+  "website": "http://evergreenhostel.com/",
+  "maps_url": "https://maps.google.com/?cid=17034768877483480668",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJGQAbiG6iWjUR1EU4rmqQCKQ": {
+  "name": "J-Hoppers Hiroshima Guesthouse",
+  "address": "5-16 Dohashichō, Naka Ward, Hiroshima, 730-0854, Japan",
+  "phone": "+81 82-233-1360",
+  "website": "https://hiroshima.j-hoppers.com/",
+  "maps_url": "https://maps.google.com/?cid=11819856009897723348",
+  "hours": [
+   "Monday: 8:00 AM – 10:00 PM",
+   "Tuesday: 8:00 AM – 10:00 PM",
+   "Wednesday: 8:00 AM – 10:00 PM",
+   "Thursday: 8:00 AM – 10:00 PM",
+   "Friday: 8:00 AM – 10:00 PM",
+   "Saturday: 8:00 AM – 10:00 PM",
+   "Sunday: 8:00 AM – 10:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2200"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2200"
+    },
+    "open": {
+     "day": 1,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2200"
+    },
+    "open": {
+     "day": 2,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2200"
+    },
+    "open": {
+     "day": 3,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2200"
+    },
+    "open": {
+     "day": 4,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2200"
+    },
+    "open": {
+     "day": 5,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2200"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJ4wWTiYPlTzURojXnv25GTbs": {
+  "name": "Casablanca",
+  "address": "106-2 Miyatamachi, Matsuyama, Ehime 790-0066, Japan",
+  "phone": "+81 89-941-3305",
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=13496521099779192226",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJv11Fb1jWUzURqGDYkKi-5yI": {
+  "name": "Kotohira Park Hotel",
+  "address": "706-7 Enai, Kotohira, Nakatado District, Kagawa 766-0004, Japan",
+  "phone": "+81 877-73-3939",
+  "website": "http://kph.anabuki-enter.jp/",
+  "maps_url": "https://maps.google.com/?cid=2515188548103594152",
+  "hours": [
+   "Monday: Open 24 hours",
+   "Tuesday: Open 24 hours",
+   "Wednesday: Open 24 hours",
+   "Thursday: Open 24 hours",
+   "Friday: Open 24 hours",
+   "Saturday: Open 24 hours",
+   "Sunday: Open 24 hours"
+  ],
+  "periods": [
+   {
+    "open": {
+     "day": 0,
+     "time": "0000"
+    }
+   }
+  ]
+ },
+ "ChIJnTSfFoO7VDURDsqpABiNNuE": {
+  "name": "AWAJI TOURIST TROPHY HOUSE",
+  "address": "266-2 Goshikichō Tsushi, Sumoto, Hyogo 656-1301, Japan",
+  "phone": "+81 90-3263-5174",
+  "website": "http://www1.sumoto.gr.jp/aw1576552/index.html",
+  "maps_url": "https://maps.google.com/?cid=16228313441506019854",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ1Zg9zaxPUDURJxwiPtsDATU": {
+  "name": "I-LINK HOSTEL ＆ CAFE SHIMANAMI",
+  "address": "7345-1 Kamiurachō Inokuchi, Imabari, Ehime 794-1402, Japan",
+  "phone": "+81 897-72-8308",
+  "website": "https://shimanami.bike/",
+  "maps_url": "https://maps.google.com/?cid=3819338199162035239",
+  "hours": [
+   "Monday: 5:00 – 7:30 PM",
+   "Tuesday: Closed",
+   "Wednesday: Closed",
+   "Thursday: 5:00 – 7:30 PM",
+   "Friday: 5:00 – 7:30 PM",
+   "Saturday: 12:00 – 2:30 PM, 5:00 – 7:30 PM",
+   "Sunday: 12:00 – 2:30 PM, 5:00 – 7:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1430"
+    },
+    "open": {
+     "day": 0,
+     "time": "1200"
+    }
+   },
+   {
+    "close": {
+     "day": 0,
+     "time": "1930"
+    },
+    "open": {
+     "day": 0,
+     "time": "1700"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1930"
+    },
+    "open": {
+     "day": 1,
+     "time": "1700"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1930"
+    },
+    "open": {
+     "day": 4,
+     "time": "1700"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1930"
+    },
+    "open": {
+     "day": 5,
+     "time": "1700"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1430"
+    },
+    "open": {
+     "day": 6,
+     "time": "1200"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1930"
+    },
+    "open": {
+     "day": 6,
+     "time": "1700"
+    }
+   }
+  ]
+ },
+ "ChIJt0SkCotPUDURc8dyP0szUXg": {
+  "name": "Wakka",
+  "address": "6691-1 Kamiurachō Inokuchi, Imabari, Ehime 794-1402, Japan",
+  "phone": "+81 897-72-8705",
+  "website": "https://wakka.site/",
+  "maps_url": "https://maps.google.com/?cid=8669767155944966003",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: Closed",
+   "Wednesday: Closed",
+   "Thursday: Closed",
+   "Friday: Closed",
+   "Saturday: 11:00 AM – 5:00 PM",
+   "Sunday: 11:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "1100"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "1100"
+    }
+   }
+  ]
+ },
+ "ChIJJckITlk6UDURH4cSsZVSN9U": {
+  "name": "Shimanami Guesthouse CYCLO NO IE",
+  "address": "1-chōme-1-12 Kitahōraichō, Imabari, Ehime 794-0028, Japan",
+  "phone": null,
+  "website": "https://www.cyclonoie.com/",
+  "maps_url": "https://maps.google.com/?cid=15363839456672122655",
+  "hours": null,
+  "periods": null
+ },
+ "ChIJ4WHu5yvuUzURCXiEZmVSozw": {
+  "name": "Chichu Art Museum",
+  "address": "3449-1, Naoshima, Kagawa District, Kagawa 761-3110, Japan",
+  "phone": "+81 87-892-3755",
+  "website": "https://benesse-artsite.jp/art/chichu.html",
+  "maps_url": "https://maps.google.com/?cid=4369426658944645129",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: 10:00 AM – 5:00 PM",
+   "Wednesday: 10:00 AM – 5:00 PM",
+   "Thursday: 10:00 AM – 5:00 PM",
+   "Friday: 10:00 AM – 5:00 PM",
+   "Saturday: 10:00 AM – 5:00 PM",
+   "Sunday: 10:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJ3QaO37P0UzURVNzwCk7YH_Q": {
+  "name": "Teshima Art Museum",
+  "address": "607 Teshimakarato, Tonosho, Shozu District, Kagawa 761-4662, Japan",
+  "phone": "+81 879-68-3555",
+  "website": "https://benesse-artsite.jp/art/teshima-artmuseum.html",
+  "maps_url": "https://maps.google.com/?cid=17591016499235052628",
+  "hours": [
+   "Monday: 10:00 AM – 5:00 PM",
+   "Tuesday: Closed",
+   "Wednesday: 10:00 AM – 5:00 PM",
+   "Thursday: 10:00 AM – 5:00 PM",
+   "Friday: 10:00 AM – 5:00 PM",
+   "Saturday: 10:00 AM – 5:00 PM",
+   "Sunday: 10:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJu-H0aC_uUzURhcnP5-wFTPA": {
+  "name": "Benesse House Museum",
+  "address": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 琴弾地",
+  "phone": "+81 50-1794-1100",
+  "website": "https://benesse-artsite.jp/art/benessehouse-museum.html",
+  "maps_url": "https://maps.google.com/?cid=17315221182392289669",
+  "hours": [
+   "Monday: 8:00 AM – 9:00 PM",
+   "Tuesday: 8:00 AM – 9:00 PM",
+   "Wednesday: 8:00 AM – 9:00 PM",
+   "Thursday: 8:00 AM – 9:00 PM",
+   "Friday: 8:00 AM – 9:00 PM",
+   "Saturday: 8:00 AM – 9:00 PM",
+   "Sunday: 8:00 AM – 9:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2100"
+    },
+    "open": {
+     "day": 0,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2100"
+    },
+    "open": {
+     "day": 1,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2100"
+    },
+    "open": {
+     "day": 2,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2100"
+    },
+    "open": {
+     "day": 3,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2100"
+    },
+    "open": {
+     "day": 4,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2100"
+    },
+    "open": {
+     "day": 5,
+     "time": "0800"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2100"
+    },
+    "open": {
+     "day": 6,
+     "time": "0800"
+    }
+   }
+  ]
+ },
+ "ChIJibi8HCnuUzURellSAO4Wd6c": {
+  "name": "Lee Ufan Museum",
+  "address": "Japan, 〒761-3110 Kagawa, Kagawa District, Naoshima, 字倉浦１３９０",
+  "phone": "+81 87-892-3754",
+  "website": "https://benesse-artsite.jp/art/lee-ufan.html",
+  "maps_url": "https://maps.google.com/?cid=12067138938025957754",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: 10:00 AM – 5:00 PM",
+   "Wednesday: 10:00 AM – 5:00 PM",
+   "Thursday: 10:00 AM – 5:00 PM",
+   "Friday: 10:00 AM – 5:00 PM",
+   "Saturday: 10:00 AM – 5:00 PM",
+   "Sunday: 10:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   }
+  ]
+ },
+ "ChIJJ5IsvsPxUzURC0XbLKgczkI": {
+  "name": "Art House Project: Kadoya",
+  "address": "803-1, Naoshima, Kagawa District, Kagawa 761-3110, Japan",
+  "phone": null,
+  "website": "http://benesse-artsite.jp/art/arthouse.html#ieproject2",
+  "maps_url": "https://maps.google.com/?cid=4813816560338289931",
+  "hours": [
+   "Monday: Closed",
+   "Tuesday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM",
+   "Wednesday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM",
+   "Thursday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM",
+   "Friday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM",
+   "Saturday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM",
+   "Sunday: 10:00 AM – 12:00 PM, 1:00 – 4:30 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1200"
+    },
+    "open": {
+     "day": 0,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 0,
+     "time": "1630"
+    },
+    "open": {
+     "day": 0,
+     "time": "1300"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1200"
+    },
+    "open": {
+     "day": 2,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1630"
+    },
+    "open": {
+     "day": 2,
+     "time": "1300"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1200"
+    },
+    "open": {
+     "day": 3,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1630"
+    },
+    "open": {
+     "day": 3,
+     "time": "1300"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1200"
+    },
+    "open": {
+     "day": 4,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1630"
+    },
+    "open": {
+     "day": 4,
+     "time": "1300"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1200"
+    },
+    "open": {
+     "day": 5,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1630"
+    },
+    "open": {
+     "day": 5,
+     "time": "1300"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1200"
+    },
+    "open": {
+     "day": 6,
+     "time": "1000"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1630"
+    },
+    "open": {
+     "day": 6,
+     "time": "1300"
+    }
+   }
+  ]
+ },
+ "ChIJMb4ZDa4BUTURx4YGYg-YHwQ": {
+  "name": "Kousanji Temple",
+  "address": "553-2 Setodachō Setoda, Onomichi, Hiroshima 722-2411, Japan",
+  "phone": "+81 845-27-0800",
+  "website": "http://www.kousanji.or.jp/",
+  "maps_url": "https://maps.google.com/?cid=297123292266268359",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJ7Zgm54RRUDUROQHQ2URwhtk": {
+  "name": "The Hill Of Hope",
+  "address": "553-2 Setodachō Setoda, Onomichi, Hiroshima 722-2411, Japan",
+  "phone": "+81 845-27-0800",
+  "website": "http://www.kousanji.or.jp/hill_of_hope.html",
+  "maps_url": "https://maps.google.com/?cid=15674338994123964729",
+  "hours": [
+   "Monday: 9:00 AM – 5:00 PM",
+   "Tuesday: 9:00 AM – 5:00 PM",
+   "Wednesday: 9:00 AM – 5:00 PM",
+   "Thursday: 9:00 AM – 5:00 PM",
+   "Friday: 9:00 AM – 5:00 PM",
+   "Saturday: 9:00 AM – 5:00 PM",
+   "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "1700"
+    },
+    "open": {
+     "day": 0,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "1700"
+    },
+    "open": {
+     "day": 1,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "1700"
+    },
+    "open": {
+     "day": 2,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "1700"
+    },
+    "open": {
+     "day": 3,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "1700"
+    },
+    "open": {
+     "day": 4,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "1700"
+    },
+    "open": {
+     "day": 5,
+     "time": "0900"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "1700"
+    },
+    "open": {
+     "day": 6,
+     "time": "0900"
+    }
+   }
+  ]
+ },
+ "ChIJH4XTMNblTzURtekmo516GY8": {
+  "name": "Dōgo Onsen Annex Asuka-no-Yu",
+  "address": "19-22 Dōgoyunomachi, Matsuyama, Ehime 790-0842, Japan",
+  "phone": "+81 89-932-1126",
+  "website": "https://dogo.jp/onsen/asuka",
+  "maps_url": "https://maps.google.com/?cid=10311407639307151797",
+  "hours": [
+   "Monday: 6:00 AM – 11:00 PM",
+   "Tuesday: 6:00 AM – 11:00 PM",
+   "Wednesday: 6:00 AM – 11:00 PM",
+   "Thursday: 6:00 AM – 11:00 PM",
+   "Friday: 6:00 AM – 11:00 PM",
+   "Saturday: 6:00 AM – 11:00 PM",
+   "Sunday: 6:00 AM – 11:00 PM"
+  ],
+  "periods": [
+   {
+    "close": {
+     "day": 0,
+     "time": "2300"
+    },
+    "open": {
+     "day": 0,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 1,
+     "time": "2300"
+    },
+    "open": {
+     "day": 1,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 2,
+     "time": "2300"
+    },
+    "open": {
+     "day": 2,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 3,
+     "time": "2300"
+    },
+    "open": {
+     "day": 3,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 4,
+     "time": "2300"
+    },
+    "open": {
+     "day": 4,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 5,
+     "time": "2300"
+    },
+    "open": {
+     "day": 5,
+     "time": "0600"
+    }
+   },
+   {
+    "close": {
+     "day": 6,
+     "time": "2300"
+    },
+    "open": {
+     "day": 6,
+     "time": "0600"
+    }
+   }
+  ]
+ },
+ "ChIJ0-5bkOnlTzURhm0fYy8l9Y0": {
+  "name": "Shinonomeguchi Station",
+  "address": "3 Chome Okaido, Matsuyama, Ehime 790-0004, Japan",
+  "phone": null,
+  "website": null,
+  "maps_url": "https://maps.google.com/?cid=10229123014098644358",
+  "hours": null,
+  "periods": null
+ }
+}

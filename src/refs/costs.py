@@ -200,10 +200,11 @@ ATTRACTIONS = [
  ("Nakabu-an somen workshop", "Shodoshima", "¥1,200",
   "Sessions 10:00 / 11:00 / 12:30 / 13:30, 45 min", "CLOSED Tue/Wed/Thu except holidays",
   "YES — phone 0879-82-3669 by the previous day", "nakabuan"),
- ("Ritsurin Garden", "Takamatsu", "not yet confirmed",
-  "not yet confirmed", "—", "No", "jg_ritsurin"),
- ("Konpira-san main shrine", "Kotohira", "FREE to enter (785 steps)",
-  "not yet confirmed", "—", "No", "konpira_off"),
+ # Ritsurin and Konpira had placeholder rows here reading "not yet confirmed".
+ # Both were resolved later in this list (Ritsurin ¥500 with October hours;
+ # Konpira grounds FREE, 08:30–17:00) but the placeholders were never removed,
+ # so every deliverable stated the price twice and contradicted itself. Resolve
+ # a placeholder by DELETING it, not by appending the answer.
  ("Ōboke gorge cruise", "Iya Valley", "¥1,500",
   "09:00–17:00, last boat 16:30", "Year-round; cancelled in high wind or high water",
   "No", "oboke_boat"),
@@ -362,12 +363,16 @@ ATTRACTIONS.extend([
   "No closing day at all; may shut on a gale warning", "No", "ritsurin"),
  ("Konpira-san — grounds and main shrine", "Kotohira", "FREE",
   "Worship area and shop 08:30–17:00", "None", "No", "konpira"),
- ("Konpira-san — Treasure House", "Kotohira", "not published on the official site — ring 0877-75-2121",
-  "not published", "OPEN 1 Oct–30 Nov, closed Tuesdays — so it IS open on your dates",
-  "No", "konpira_museum"),
+ ("Konpira-san — Treasure House", "Kotohira", "¥800 (high school + university ¥400, JHS and under free)",
+  "09:00–17:00, last entry 16:30",
+  "OPEN DAILY 1 Oct–30 Nov except TUESDAYS (the next weekday if Tuesday is a holiday). "
+  "The opening-day scheme was revised on 1 April 2026",
+  "No", "konpira_treasure"),
  ("Konpira-san — Takahashi Yuichi gallery", "Kotohira", "not published",
-  "not published", "CLOSED in October — it only opens weekends/holidays in the autumn season",
-  "No", "konpira_museum"),
+  "not published",
+  "In October, WEEKENDS AND PUBLIC HOLIDAYS ONLY — its summer run ends 30 September. "
+  "Under the scheme revised 1 April 2026",
+  "No", "konpira_opendays"),
  ("Kanamaru-za kabuki theatre", "Kotohira", "¥500 (JHS/HS ¥300, primary ¥200)",
   "09:00–17:00, last entry 16:30", "Open all year, bar performance days", "No", "kanamaruza"),
  ("Tamamo Park (Takamatsu Castle)", "Takamatsu", "¥300 — UNDER 18 FREE",
@@ -379,6 +384,12 @@ ATTRACTIONS.extend([
   "not published", "not published",
   "The official Yashima Navi portal does not publish prices, hours or the shuttle fare — "
   "ring ahead if you plan to go", "yashima_navi"),
+ ("Yashima Aquarium", "Yashima, Takamatsu", "CLOSED — do not plan for it",
+  "—",
+  "SHUT for rebuilding since 7 Apr 2025, reopening spring 2027, so it is closed for this trip. "
+  "It trades meanwhile as Ichiba Aquarium at 40-12 Setouchichō, Takamatsu — down by the fish "
+  "market near JR Shōwachō, NOT on the Yashima plateau",
+  "n/a", "yashima_aq_closed"),
 ])
 
 
