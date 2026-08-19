@@ -174,3 +174,29 @@ def icon_for(folder, glyph):
     if glyph.startswith("custom:"):
         return glyph
     return f"{glyph}-{FOLDERS[folder][1]}"
+
+
+# A trailhead, an open hillside or a free island has no telephone of its own.
+# The entry format keeps the field anyway and names who to ring INSTEAD -- the
+# body that actually controls access, which is what the traveller needs when
+# the last bus is in doubt or the lift is not turning. A blank teaches nothing;
+# "ring the chairlift operator" is actionable.
+# Numbers verified via Google Places against the named operator, Aug 2026.
+CONTACTS = {
+    "Ōkunoshima":            ("+81 846-26-3036", "the Poison Gas Museum on the island"),
+    "Mt Tsurugi":            ("+81 883-62-2772", "the Tsurugi chairlift at Minokoshi, which controls access"),
+    "Yashima":               ("+81 87-841-9418", "Yashima-ji, the temple on the plateau"),
+    "Oku-Iya double vine bridges": ("+81 883-88-2211", "Miyoshi City, Higashi-Iya branch office"),
+    "Takaya Shrine":         ("+81 875-24-2150", "Kanonji City Tourism Association"),
+    "Mt Misen":              ("+81 829-44-0316", "Miyajima Ropeway, which controls the ascent"),
+    "Mt Misen ropeway top":  ("+81 829-44-0316", "Miyajima Ropeway"),
+    "Art House Project, Honmura": ("+81 50-1794-1100", "Benesse Art Site Naoshima"),
+    # The four walking routes, which are paths rather than places
+    "Konpira-san — the stone stairway": ("+81 877-75-2121", "the shrine office"),
+    "Takaya Shrine — the 270 steps from the lower shrine": (
+        "+81 875-24-2150", "Kanonji City Tourism Association — they also run the shuttle"),
+    "Kazurabashi → Biwa Falls → riverside path": (
+        "+81 883-88-2211", "Miyoshi City, Higashi-Iya branch office"),
+    "Ōboke station lookout loop": (
+        "+81 883-84-1211", "Ōboke-kyō Mannaka, the boat operator at the pier"),
+}

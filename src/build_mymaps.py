@@ -164,7 +164,10 @@ def describe(label, folder, det, trail=None, query=""):
         parts.append(section("🌊 Tides", [t[2] for t in td[:1]]))
 
     # -- The invariant footer
-    phone = det.get("phone") or "not stated"
+    phone = det.get("phone")
+    if not phone:
+        alt = mapcat.CONTACTS.get(label)
+        phone = f"{alt[0]} — {alt[1]}" if alt else "not stated"
     link = det.get("maps_url") or ""
     foot = f"{RULE}<br>Phone number: {phone}"
     parts.append(foot)
