@@ -2,9 +2,9 @@
 # Override for CI, which installs into the system interpreter:  make PY=python
 PY ?= .venv/bin/python
 
-.PHONY: all sheets dashboard map mymaps places geocode clean setup
+.PHONY: all sheets dashboard map mymaps preview places mapcodes geocode clean setup
 
-all: sheets dashboard map mymaps   ## rebuild every deliverable
+all: sheets dashboard map mymaps preview  ## rebuild every deliverable
 
 sheets:                        ## the four .xlsx workbooks + CSVs -> out/sheets/
 	$(PY) -m src.build_sheets
@@ -23,8 +23,14 @@ mymaps:                        ## full categorised map -> out/shikoku-map.kmz
 	$(PY) -m src.build_mymaps
 	$(PY) $(SKILL)/scripts/build_map.py out/shikoku-mymaps.json out/shikoku-map
 
+preview:                       ## reviewable page of the map -> out/map-preview.html
+	$(PY) -m src.build_map_preview
+
 places:                        ## refresh address/phone/website from Google (costs API calls)
 	$(PY) -m src.fetch_places
+
+mapcodes:                      ## fetch any missing Denso map codes
+	$(PY) -m src.fetch_mapcodes
 
 geocode:                       ## resolve any new PLACES entries (costs API calls)
 	$(PY) -m src.geocode
