@@ -201,3 +201,64 @@ CONTACTS = {
     "Ōboke station lookout loop": (
         "+81 883-84-1211", "Ōboke-kyō Mannaka, the boat operator at the pier"),
 }
+
+
+# The itinerary refers to places by a shorthand key -- "Kobe" for the Sannomiya
+# ferry terminal, "Matsuyama" for the Iyotetsu city station as opposed to JR.
+# That reads fine inside a day's plan, where the context is obvious, and badly
+# on a map, where a pin called "Kobe" sits on one specific quay.
+#
+# Google's own name is not a reliable substitute: it calls the Kubo bus stop
+# "Miyoshi" (the whole city) and Kameura "Gupo Tourist Port". So these are
+# written out by hand, naming the FACILITY and, where it matters, the island or
+# valley it is on.
+PIN_NAMES = {
+    "Osaka":                "Osaka Station",
+    "Kobe":                 "Kobe Sannomiya Ferry Terminal",
+    "Kobe Sannomiya":       "Sannomiya Station, Kobe",
+    "Akashi":               "Akashi Station",
+    "Akashi Port":          "Akashi Port — Jenova Line ferry to Awaji",
+    "Iwaya Port":           "Iwaya Port, Awaji Island",
+    "JR Himeji Stn":        "Himeji Station",
+    "Himeji Port":          "Himeji Port — ferry to Shōdoshima",
+    "Fukuda Port":          "Fukuda Port, Shōdoshima",
+    "Kusakabe Port":        "Kusakabe Port, Shōdoshima",
+    "Tonoshō":              "Tonoshō Port, Shōdoshima",
+    "Takamatsu":            "Takamatsu Station",
+    "Takamatsu Port":       "Takamatsu Port",
+    "Kotohira":             "Kotohira Station",
+    "Awa-Ikeda":            "Awa-Ikeda Station",
+    "Ōboke":                "Ōboke Station",
+    "Kubo":                 "Kubo bus stop, Higashi-Iya",
+    "Nishijima":            "Nishijima — Mt Tsurugi chairlift top station",
+    "Tokushima Stn":        "Tokushima Station",
+    "Naruto-kōen-guchi":    "Naruto-kōen-guchi bus stop",
+    "Kameura":              "Kameura Kankō Port — Naruto whirlpool cruises",
+    "Kōchi":                "Kōchi Station",
+    "Matsuyama":            "Matsuyama-shi Station — Iyotetsu, not JR",
+    "JR Matsuyama Stn":     "JR Matsuyama Station",
+    "Matsuyama Kanko Port": "Matsuyama Kankō Port — ferry to Hiroshima",
+    "Matsuyama ropeway":    "Matsuyama Castle ropeway — Shinonome-guchi station",
+    "Shimonada":            "Shimonada Station — the seaside platform",
+    "Imabari":              "Imabari Station",
+    "Ōmishima":             "Iguchi Port, Ōmishima",
+    "Ōmishima BS":          "Ōmishima bus stop — Shimanami Liner",
+    "Setoda Port":          "Setoda Port, Ikuchijima",
+    "Setoda BS":            "Setoda bus stop — Shimanami Liner",
+    "Onomichi":             "Onomichi Station",
+    "Mihara":               "Mihara Station",
+    "Tadanoumi":            "Tadanoumi Port — ferry to Ōkunoshima",
+    "Hiroshima":            "Hiroshima Station",
+    "Hiroshima Port":       "Hiroshima Port, Ujina",
+    "Hiroshima Bus Centre": "Hiroshima Bus Centre",
+    "Miyajima":             "Miyajimaguchi Station — for the Miyajima ferry",
+    "Miyanoura":            "Miyanoura Port, Naoshima",
+    "Takuma":               "Takuma Station",
+    "Kan-onji":             "Kanonji Station",
+    # Lodging whose key omits where it is
+    "Hirokiya":             "Hirokiya Ryokan, Shōdoshima",
+    "Chigusa":              "Chigusa Ryokan, Shōdoshima",
+    "WAKKA":                "WAKKA, Ōmishima",
+    "WeBase":               "WeBase Takamatsu",
+    "4S STAY":              "4S STAY Awa-Ikeda",
+}

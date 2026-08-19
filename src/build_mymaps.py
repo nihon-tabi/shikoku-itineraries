@@ -34,6 +34,7 @@ from .build_map import TRANSIT, LODGING, DROP, ALIAS
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "out")
 DETAILS = os.path.join(HERE, "refs", "places_details.json")
+MAPCODES = os.path.join(HERE, "refs", "mapcodes.json")
 
 RULE = "_" * 40
 EMOJI = {
@@ -45,6 +46,15 @@ EMOJI = {
 
 def _details():
     return json.load(open(DETAILS)) if os.path.exists(DETAILS) else {}
+
+
+def _mapcodes():
+    """lat,lon -> Denso map code, from src.fetch_mapcodes.
+
+    Present even though every option is car-free: a pin outlives the itinerary
+    it was built for, and the code is what a rental car's nav or a taxi driver
+    can actually use. Quoted from the converter, never computed."""
+    return json.load(open(MAPCODES)) if os.path.exists(MAPCODES) else {}
 
 
 def _norm(s):
@@ -90,6 +100,21 @@ def _match(label, rows, key=0):
     return hits
 
 
+def clean_url(u):
+    """Drop the tracking parameters the Places API bolts on.
+
+    A website comes back as ...?utm_source=google_maps&utm_medium=organic and a
+    maps link as ...&g_mp=<base64>. Neither is meant for a human to read, and
+    both make the entry look machine-generated."""
+    if not u:
+        return u
+    for junk in ("?utm_source=", "&utm_source=", "?g_mp=", "&g_mp="):
+        i = u.find(junk)
+        if i != -1:
+            u = u[:i]
+    return u
+
+
 def section(title, lines):
     body = "<br>".join(f"•\t{l}" for l in lines if l)
     return f"{RULE}<br>{title}<br>{body}" if body else ""
@@ -109,11 +134,11 @@ def japanese_name(query):
     return best if len(best) > 1 else ""
 
 
-def describe(label, folder, det, trail=None, query=""):
+def describe(label, folder, det, trail=None, query="", mapcode=None, display=None):
     """Compose one entry in the house format."""
     parts = []
     ja = japanese_name(query)
-    head = f"{EMOJI[folder]} {label}" + (f" ({ja})" if ja else "")
+    head = f"{EMOJI[folder]} {display or label}" + (f" ({ja})" if ja else "")
     blurb = BLURBS.get(label, "")
     parts.append(head + (f"<br>{blurb}" if blurb else ""))
 
@@ -137,7 +162,7 @@ def describe(label, folder, det, trail=None, query=""):
         if closed and closed != "—":
             ha.append(f"Closing days / notes: {closed}")
     if det.get("website"):
-        ha.append(f"Website: {det['website']}")
+        ha.append(f"Website: {clean_url(det['website'])}")
     parts.append(section("🕒 Hours & Admission", ha))
 
     # -- Trail detail
@@ -168,8 +193,9 @@ def describe(label, folder, det, trail=None, query=""):
     if not phone:
         alt = mapcat.CONTACTS.get(label)
         phone = f"{alt[0]} — {alt[1]}" if alt else "not stated"
-    link = det.get("maps_url") or ""
+    link = clean_url(det.get("maps_url") or "")
     foot = f"{RULE}<br>Phone number: {phone}"
+    foot += f"<br>Map code: {mapcode or 'not stated'}"
     parts.append(foot)
     if link:
         parts.append(link)
@@ -177,7 +203,7 @@ def describe(label, folder, det, trail=None, query=""):
 
 
 def build():
-    geo, det_all = _geo(), _details()
+    geo, det_all, codes = _geo(), _details(), _mapcodes()
     trail_by_key = {}
     for t in TRAILHEADS:
         trail_by_key[_norm(t[0].split("—")[0])] = t
@@ -194,21 +220,26 @@ def build():
         label = ALIAS.get(name, name)
         det = det_all.get(g.get("place_id"), {})
 
+        # LODGING is tested BEFORE transit: "4S STAY 阿波池田駅前" contains 駅 and
+        # was being filed as a station because of where it stands.
         if label in mapcat.SIGHTS:
             folder, glyph = mapcat.SIGHTS[label]
-        elif TRANSIT.search(name + q):
-            folder, glyph = "Stations, Ports and Stops", mapcat.transit_glyph(name, q)
         elif LODGING.search(name + q):
             folder, glyph = "Accommodation", "1602"
+        elif TRANSIT.search(name + q):
+            folder, glyph = "Stations, Ports and Stops", mapcat.transit_glyph(name, q)
         else:
             unmapped.append(label)
             continue
 
         trail = trail_by_key.get(_norm(label))
+        mc = codes.get(f"{g['lat']:.6f},{g['lng']:.6f}")
         folders.setdefault(folder, []).append({
-            "name": label, "lat": g["lat"], "lon": g["lng"],
+            "name": mapcat.PIN_NAMES.get(label, label),
+            "lat": g["lat"], "lon": g["lng"],
             "icon": mapcat.icon_for(folder, glyph),
-            "description": describe(label, folder, det, trail, q),
+            "description": describe(label, folder, det, trail, q, mc,
+                                    mapcat.PIN_NAMES.get(label, label)),
         })
 
     # Trailheads that are not already a sight pin get their own entry, in the
@@ -222,8 +253,32 @@ def build():
         folders.setdefault("Nature views & Hikes", []).append({
             "name": t[0], "lat": lat, "lon": lon,
             "icon": mapcat.icon_for("Nature views & Hikes", glyph),
-            "description": describe(t[0], "Nature views & Hikes", {}, t, t[1]),
+            "description": describe(t[0], "Nature views & Hikes", {}, t, t[1],
+                                    codes.get(f"{lat:.6f},{lon:.6f}")),
         })
+
+    # Guard against the geocoder resolving a place to one of its own parts.
+    # "ホテル祖谷温泉" returned the hotel's OPEN-AIR BATH, 190 m downhill, because
+    # the bath is separately listed and better rated than the hotel. Two tells:
+    # a Plus Code address (the geocoder had no street address to give) and a
+    # resolved name that reads like a sub-facility.
+    PLUS = re.compile(r"\b[23456789CFGHJMPQRVWX]{4}\+[23456789CFGHJMPQRVWX]{2,}")
+    PART = ("Open-air", "露天", "足湯", "Foot Bath", "Parking", "駐車", "Bus Stop",
+            "Entrance", "入口", "Ticket", "売店", "Gift Shop")
+    suspect = []
+    for fname, places in folders.items():
+        for pl in places:
+            d = pl["description"]
+            if PLUS.search(d):
+                suspect.append((pl["name"], "Plus Code address — weak geocode"))
+            for w in PART:
+                if f"{w}" in d.split("____")[0]:
+                    suspect.append((pl["name"], f"resolved name contains {w!r}"))
+                    break
+    if suspect:
+        print(f"\n⚠ {len(suspect)} pin(s) may point at a sub-facility rather than the place:")
+        for nm, why in suspect:
+            print(f"   {nm}: {why}")
 
     spec = {
         "name": "Shikoku, Setouchi and Hiroshima — October 2026",
