@@ -84,6 +84,47 @@ DWELL.extend([
  ("Yamaroku Soy Sauce", "30–60 min", "yamaroku",
   "Free, no reservation, 09:00–17:00, open year-round. Cedar-barrel warehouses you walk "
   "straight into."),
+
+ # Visit durations found by a dedicated 所要時間 / 滞在時間 sweep, Aug 2026.
+ # 17 of 34 places searched produced a figure whose source page is provably
+ # about that place. The other 17 are left blank on purpose: several promising
+ # hits turned out to describe a same-named site elsewhere -- a 琵琶の滝 in Nara,
+ # Tomioka Silk Mill standing in for Benesse House -- and a wrong duration is
+ # worse than none, because the traveller builds a day around it.
+ ("A-Bomb Dome", "about 1 h", "dw_abomb",
+  "\u201cAbout 1 hour is the guide. 30 minutes if you are just looking, 3 hours or more if you take it slowly.\u201d It is outdoors and free, so the time is yours to choose."),
+ ("Art House Project, Honmura", "3 h to do it properly", "dw_arthouse",
+  "Benesse's own model plan builds Honmura into a 4\u20135 h island visit. A visitor who had 1 h 30 wrote that it was \u201cvery tight\u201d and gave up on Kinza and Go\u2019o Shrine."),
+ ("Awa Odori Kaikan", "2\u20133 h for everything; ~1 h for the show alone", "dw_awaodori",
+  "Jalan reviewers repeatedly log a 2\u20133 h stay. That covers the museum, a show and the ropeway; the performance by itself is about an hour."),
+ ("Awaji Yumebutai", "1 h greenhouse only; 1 h 30 with the Yumebutai grounds", "dw_yumebutai",
+  "The greenhouse's own FAQ: \u201cabout 1 hour for the greenhouse alone, about 1 hour 30 including a walk around the Yumebutai area\u201d, and about 2 h if you add Akashi Kaikyo Park."),
+ ("Chichu Art Museum", "60\u201390 min recommended, 30 min minimum", "dw_chichu",
+  "Stated as a minimum stay of 30 minutes and a recommended 60\u201390. The building is part of the work, so rushing it defeats the point."),
+ ("K\u014dsanji", "about 2 h 30", "dw_kousanji",
+  "The temple museum complex alone is given as about 2 h 30."),
+ ("Hill of Hope", "1 h 30 for K\u014dsanji and the Hill together", "dw_hillhope",
+  "\u201cThe route takes you round the K\u014dsanji precinct first, then up to the Hill of Hope. Both together took about 1 hour 30.\u201d The marble hill sits above the temple and is reached through it."),
+ ("Itsukushima Shrine", "30 min at a normal pace; 40\u201350 if you linger", "dw_itsuku",
+  "\u201cThe shrine takes about 30 minutes at a normal pace \u2014 though I ended up spending 40 or 50.\u201d A Miyajima half-day plan allots it 45 minutes."),
+ ("Izanagi Shrine", "45 min", "dw_izanagi",
+  "\u201c45 minutes is plenty for a visit.\u201d"),
+ ("K\u014dchi Castle", "30 min to 1 h", "dw_kochijo",
+  "Tripadvisor reviewers give 30 minutes to an hour; a K\u014dchi half-day plan allows about 60 minutes for the castle."),
+ ("Makino Botanical Garden", "2 h for a first visit; 1 h if pushed, 4 h to see it all", "dw_makino",
+  "The garden publishes its own model courses: a 1-hour route, a 1 h 30 route, \u201cMakino for the first time\u201d at 2 hours, and a full 4-hour circuit."),
+ ("Mt Misen ropeway top", "about 2 h for the ropeway and Shishiiwa lookout", "dw_misen",
+  "The tourist association's own two-hour course: roughly 20\u201330 min each way on the ropeway including the change at Kayatani, plus about 20 min at the Shishiiwa lookout. The summit is a further 30 min of steps beyond this."),
+ ("Peace Memorial Museum", "60 min typical; 30 min main building only; 2 h 30 to do it justice", "dw_peace",
+  "\u201cAbout 60 minutes to view, or about 30 for the main building alone.\u201d Other guides put a thorough visit at 2 h 30, and warn that busy periods need 2.5\u20133 h."),
+ ("Shikoku Mura", "about 2 h 30", "dw_shikokumura",
+  "Given as about 2 h 30 for the open-air museum; another guide says 1\u20132 h is enough if you are moving briskly. It is a hillside site, so the time is mostly walking."),
+ ("Uchiko", "about 1 h 30 strolling", "dw_uchiko",
+  "The town's own suggested walk: \u201cabout 1 hour 30 taken slowly\u201d, covering the main townscape and its shops."),
+ ("Yashima", "about 3 h", "dw_yashima",
+  "Given as about 3 h for the plateau. A visitor who had 1 h 30 between shuttle buses managed the lookout and the temple but no more."),
+ ("\u014ctsuka Museum", "about 2 h average", "dw_otsuka",
+  "\u201cJust walking the galleries takes an hour, so reckon on about 2 hours average.\u201d The full route is over 4 km of corridor."),
 ])
 
 

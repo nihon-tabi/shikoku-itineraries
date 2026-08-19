@@ -193,6 +193,29 @@ SOURCES.update({
  "nishiawa":     ("Nishi-Awa Tourism — Mt Tsurugi official trail descriptions", "https://nishi-awa.jp/tsurugisan/", "official"),
  "miyajima_toz": ("Miyajima Tourism Association — Mt Misen trail courses", "https://www.miyajima.or.jp/course/course_tozan3.html", "official"),
  "kankakei_trl": ("Kankakei Ropeway — the two gorge walking trails", "https://www.kankakei.co.jp/miryoku/", "operator"),
+
+ # --- How long people actually spend. Found by searching 所要時間 / 滞在時間 in
+ # --- Japanese; only figures whose page is demonstrably about THIS place are
+ # --- kept. Several candidates were discarded because the page turned out to
+ # --- describe a same-named site elsewhere (a 琵琶の滝 in Nara, Tomioka Silk Mill).
+ "dw_abomb":     ("Tabi-shiori — A-Bomb Dome, time needed", "https://tabi-shiori-map.com/spots/atomic-bomb-dome/", "third-party"),
+ "dw_arthouse":  ("Benesse Art Site Naoshima — model plan for a 4–5 h visit centred on Honmura", "https://benesse-artsite.jp/plan/detail/02.html", "operator"),
+ "dw_awaodori":  ("Jalan — Awa Odori Kaikan visitor reviews, stated stay length", "https://www.jalan.net/kankou/spt_guide000000222095/", "traveller"),
+ "dw_yumebutai": ("Awaji Yumebutai greenhouse — the operator's own FAQ", "https://awaji-botanicalgarden.com/よくあるご質問/", "operator"),
+ "dw_chichu":    ("Shizulife — Chichu Art Museum viewing-time guide", "https://shizulife.com/chichyuu-bijyutsukan-naoshima/", "third-party"),
+ "dw_kousanji":  ("Tabi-shiori — Kōsanji Museum, time needed", "https://tabi-shiori-map.com/spots/kousanji-museum/", "third-party"),
+ "dw_hillhope":  ("Banzoku — Kōsanji and the Hill of Hope together, time needed", "https://banzokubiology.com/kousanji-required-time/", "third-party"),
+ "dw_itsuku":    ("Travelover Aki — Itsukushima Shrine, measured visit", "https://traveloveraki.com/miyajima/", "traveller"),
+ "dw_izanagi":   ("Traveler Cipher — Izanagi Jingū, measured visit", "https://traveler-cipher.hatenablog.com/entry/2025/12/08/113629", "traveller"),
+ "dw_kochijo":   ("Tripadvisor — Kōchi Castle, reviewer-stated duration", "https://www.tripadvisor.jp/ShowUserReviews-g298234-d320885-r579354719-Kochi_Castle-Kochi", "traveller"),
+ "dw_makino":    ("Makino Botanical Garden — the garden's own model courses", "https://www.makino.or.jp/course/detail.php?id=32", "operator"),
+ "dw_misen":     ("Miyajima Tourist Association — the two-hour ropeway and Misen course", "https://www.miyajima.or.jp/new/blog/ropeway2hour/", "official"),
+ "dw_peace":     ("Tabi-shiori — Hiroshima Peace Memorial Museum, time needed", "https://tabi-shiori-map.com/spots/hiroshima-peace-memorial-museum/", "third-party"),
+ "dw_peace2":    ("Hiroshima-plus — museum, main building only vs the whole thing", "https://hiroshima-plus.com/spots/広島平和記念資料館/", "third-party"),
+ "dw_shikokumura": ("Tabi-shiori — Shikoku Mura Museum, time needed", "https://tabi-shiori-map.com/spots/shikokumura-museum/", "third-party"),
+ "dw_uchiko":    ("We Love Uchiko — the town's own suggested stroll", "https://www.we-love-uchiko.jp/stroll/stroll2/", "official"),
+ "dw_yashima":   ("Tabi-shiori — Yashima, time needed", "https://tabi-shiori-map.com/spots/yashima/", "third-party"),
+ "dw_otsuka":    ("Shiraganegi — Ōtsuka Museum, average stay", "https://shiraganegi.com/archives/1920", "traveller"),
  "konpira_off":  ("Konpira-san — the shrine's own visitor guide", "https://www.konpira.or.jp/articles/20200616_guide/article.htm", "official"),
  "konpira_treasure": ("Konpira-san — Treasure House, the shrine's own page (¥800, 09:00–17:00, last entry 16:30)",
                       "https://www.konpira.or.jp/articles/20200629_treasure-house/article.htm", "operator"),
