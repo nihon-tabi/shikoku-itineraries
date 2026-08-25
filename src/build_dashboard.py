@@ -469,7 +469,7 @@ function dayBody(d){
     ${d.strand.map(x=>`<div class="item">
       <div class="what">${esc(x.what)}</div>
       <div class="det">${esc(x.detail)}</div>
-      <dl>${row("Check",x.check)}${row("Ask",x.who)}${row("By",x.by)}${row("If it fails",x.fallback)}</dl>
+      <dl>${row("Check online",x.check)}${row("If that fails",x.who)}${row("By",x.by)}${row("If it all fails",x.fallback)}</dl>
       ${(x.links&&x.links.length)?`<div class="stlinks">${x.links.map(l=>
         `<a href="${l[1]}" target="_blank" rel="noopener">${esc(l[0])}<span class="tier t-${
           l[2].replace(/ /g,"-")}">${l[2]}</span></a>`).join("")}</div>`:""}

@@ -594,8 +594,8 @@ def build_strand(ws, opt):
     order = {"UNPUBLISHED": 0, "UNVERIFIED": 1, "UNREADABLE": 2, "CONFIRMED": 3}
     rows.sort(key=lambda t: (order.get(t[2]["state"], 9), t[0]))
     head = ["Date", "What can strand you", "State", "What is known",
-            "What to check, and where", "Open this page", "Who to ask", "By when",
-            "If it fails"]
+            "Check online first", "Open this page", "If that fails", "By when",
+            "If it all fails"]
     n_open = sum(1 for _, _, x in rows if x["state"] != "CONFIRMED")
     _title_block(ws, "Miss one of these and you sleep where you stand",
                  f"{len(rows)} services with no later alternative. "

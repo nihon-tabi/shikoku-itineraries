@@ -575,10 +575,17 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
      "The spring/summer diagram ran a final 19:22 Chichibugahama → 19:48 Kan-onji. The "
      "AUTUMN diagram replaces it and is not out: re-checked 25 August 2026 and the "
      "operator page still shows the 春・夏ダイヤ.",
-     check="mitoyochuo-kanko.co.jp → Hearts Shuttle → look for the 秋・冬ダイヤ. Read the "
-           "LAST Chichibugahama departure and its Kan-onji arrival.",
-     who="三豊中央観光 0875-57-1717 (books the pass) · 三豊市観光交流局 0875-56-5880",
-     by="Early September 2026 — then reserve the pass by 17:00 THREE DAYS before you go.",
+     check="ONLINE FIRST, NO CALL NEEDED — open the operator page below and look for a "
+           "秋ダイヤ / 秋・冬ダイヤ link replacing the 春・夏ダイヤ. Read the LAST Chichibugahama "
+           "departure and its Kan-onji arrival. The page is Japanese but the times are "
+           "digits, and browser translation handles the rest. Look again a few days before "
+           "you fly, in case it moved.",
+     who="ONLY IF THE PAGE IS STILL BLANK: your Takamatsu accommodation will ring "
+         "三豊中央観光 0875-57-1717 (who also take the booking) or 三豊市観光交流局 "
+         "0875-56-5880 for you. Front desks do this constantly — write the question on "
+         "paper and hand it over rather than phoning yourself.",
+     by="Watch the page from early September 2026, then reserve the pass by 17:00 THREE "
+        "DAYS before you go.",
      fallback="NONE on a public holiday. 'mobi' was withdrawn 31 May 2025; the 三豊市 "
               "community bus does not run Sundays or holidays; the 讃･瀬戸シャトルタクシー is "
               "weekday-only. It is the Hearts Shuttle or a taxi you arrange yourself. "
@@ -590,11 +597,16 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
      "NOT yet published — the city page (updated 17 Aug 2026) carries August and "
      "September only, so the 12:00-up / 13:30-down times in this plan come from an "
      "earlier month and may move.",
-     check="観音寺市 page 0048814 → シャトルバス時刻表 → the 令和8年10月 PDF. Confirm the last "
-           "descent. Also check that day for a 運休 notice — 27 September 2026 was "
-           "cancelled outright for a triathlon, so it does happen.",
-     who="（一社）観音寺市観光協会, 観音寺市有明町3-37 — the ticket machine is inside",
-     by="As soon as the October PDF appears; tickets themselves cannot be reserved.",
+     check="ONLINE, AND EASY — the city page below lists one PDF per month (令和8年8月, "
+           "令和8年9月 …). Wait for 令和8年10月 to appear, open it, read the last descent. The "
+           "times are digits; no Japanese needed. Check the same page for a 運休 notice on "
+           "your date — 27 September 2026 was cancelled outright for a triathlon, so it "
+           "does happen. (The 'ページ番号 0048814' on that page is the city's permanent page "
+           "ID — search it on their site if the link ever breaks.)",
+     who="ONLY IF THE OCTOBER PDF NEVER APPEARS: your accommodation can ring "
+         "（一社）観音寺市観光協会, 観音寺市有明町3-37 — the ticket machine sits inside their "
+         "office, so they know the times.",
+     by="Watch the page from early September; the tickets themselves cannot be reserved.",
      fallback="Tickets sell out on fine days — go at 09:00 when the machine opens, "
               "¥1,000 NOTES ONLY. If the shuttle is cancelled for weather (気象警報), the "
               "alternatives are a ¥3,600 taxi each way or a 50-minute climb of 350 "
@@ -905,9 +917,11 @@ dict(date="2026-10-18", title="Kōchi — market, castle, then the Pacific",
      "on Sundays and holidays, only SIX on weekdays — 18 October 2026 is a Sunday, so "
      "you get the full nine. ⚠️ TIER: this is a third-party site. Tosaden publishes its "
      "own timetable as IMAGES, which is why it could not be read from the operator.",
-     check="Confirm the last 桂浜 departure AT THE TICKET DESK when you buy the MY遊 pass "
-           "at Kōchi station. Ask for it in writing or photograph the board.",
-     who="Tosaden Kotsu — ask at the JR Kōchi station bus counter",
+     check="NO CALL NEEDED. The third-party page below is readable right now and carries "
+           "the times; the official page has the same table but only as images. Then "
+           "confirm the last 桂浜 departure AT THE TICKET DESK when you buy the MY遊 pass at "
+           "Kōchi station, and photograph the board while you are there.",
+     who="The JR Kōchi station bus counter, in person. Nothing here needs a phone call.",
      by="On the morning, before you board.",
      fallback="Katsurahama is 13 km from the city with no rail. A taxi back is the only "
               "other option and it is not cheap.",
@@ -1025,10 +1039,15 @@ dict(date="2026-10-22", title="Rabbit island, then Hiroshima",
      "Ōkunoshima at all. A SECOND operator (休暇村客船) also works this route and is "
      "probably where the '18:30' and 'every 30–45 min' in this plan came from, but its "
      "timetable sits behind a bot wall and could NOT be read. Treat 18:30 as unconfirmed.",
-     check="Read BOTH operators before you go: 大三島フェリー at "
-           "sanyo-shosen.jp/omishima/time.html, and the 休暇村大久野島 boat. Then confirm "
-           "the last sailing at the Tadanoumi ticket window — and ask which operator it is.",
-     who="休暇村大久野島 0846-26-0321",
+     check="ONLINE: the 大三島フェリー timetable below is readable now and gives 17:16 — take "
+           "that as your working deadline. Its 運航情報 notices sit on the same page, so "
+           "check them too (the second jetty has closed for repairs before). The second "
+           "operator's page is bot-walled from here but may open in a normal browser — "
+           "try it, and if it loads, read its last sailing.",
+     who="NO PHONE CALL NEEDED IF YOU DO ONE THING: confirm the last sailing AT THE "
+         "TADANOUMI TICKET WINDOW when you buy, and ask which operator it is — a "
+         "face-to-face question with a printed timetable in front of you. Only if you "
+         "want certainty in advance, have your hotel ring 休暇村大久野島 0846-26-0321.",
      by="On the morning, at the port, before you cross.",
      fallback="NONE. Ōkunoshima has one hotel and no other way off. Miss the last boat "
               "and you are on the island for the night. The operator warns of delays at "
@@ -1656,9 +1675,15 @@ dict(date="2026-10-23", title="Rabbit island, then Hiroshima",
      "OCTOBER. The next boat, 18:40 from 盛, does NOT stop there at all. A SECOND operator "
      "(休暇村客船) also works the route and is probably where '18:30' and 'every 30–45 min' "
      "came from, but its site is behind a bot wall and could NOT be read.",
-     check="Read BOTH operators, then confirm the last sailing at the Tadanoumi ticket "
-           "window — and ask which operator it is.",
-     who="休暇村大久野島 0846-26-0321",
+     check="ONLINE: the 大三島フェリー timetable below is readable now and gives 17:16 — take "
+           "that as your working deadline. Its 運航情報 notices sit on the same page, so "
+           "check them too (the second jetty has closed for repairs before). The second "
+           "operator's page is bot-walled from here but may open in a normal browser — "
+           "try it, and if it loads, read its last sailing.",
+     who="NO PHONE CALL NEEDED IF YOU DO ONE THING: confirm the last sailing AT THE "
+         "TADANOUMI TICKET WINDOW when you buy, and ask which operator it is — a "
+         "face-to-face question with a printed timetable in front of you. Only if you "
+         "want certainty in advance, have your hotel ring 休暇村大久野島 0846-26-0321.",
      by="On the morning, at the port, before you cross.",
      fallback="NONE. One hotel on the island and no other way off. The operator warns of "
               "delays at busy times and its second jetty has been closed for repairs before.",
@@ -2484,9 +2509,15 @@ dict(date="2026-10-17", title="Rabbit island",
      "OCTOBER. The next boat, 18:40 from 盛, does NOT stop there at all. A SECOND operator "
      "(休暇村客船) also works the route and is probably where '18:30' and 'every 30–45 min' "
      "came from, but its site is behind a bot wall and could NOT be read.",
-     check="Read BOTH operators, then confirm the last sailing at the Tadanoumi ticket "
-           "window — and ask which operator it is.",
-     who="休暇村大久野島 0846-26-0321",
+     check="ONLINE: the 大三島フェリー timetable below is readable now and gives 17:16 — take "
+           "that as your working deadline. Its 運航情報 notices sit on the same page, so "
+           "check them too (the second jetty has closed for repairs before). The second "
+           "operator's page is bot-walled from here but may open in a normal browser — "
+           "try it, and if it loads, read its last sailing.",
+     who="NO PHONE CALL NEEDED IF YOU DO ONE THING: confirm the last sailing AT THE "
+         "TADANOUMI TICKET WINDOW when you buy, and ask which operator it is — a "
+         "face-to-face question with a printed timetable in front of you. Only if you "
+         "want certainty in advance, have your hotel ring 休暇村大久野島 0846-26-0321.",
      by="On the morning, at the port, before you cross.",
      fallback="NONE. One hotel on the island and no other way off. The operator warns of "
               "delays at busy times and its second jetty has been closed for repairs before.",
