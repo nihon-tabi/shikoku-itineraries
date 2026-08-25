@@ -56,7 +56,10 @@ def _days(opt, k):
                 d=d["date"], dow=dt.strftime("%a"), dnum=dt.day,
                 mon=dt.strftime("%b"), t=d["title"],
                 sleep=linkify(_esc(d["sleep"])),
-                strand=[{kk: _esc(vv) for kk, vv in x.items()} for x in d.get("strand", [])],
+                strand=[dict({kk: _esc(vv) for kk, vv in x.items() if kk != "links"},
+                            links=[list(SOURCES[lk]) for lk in x.get("links", [])
+                                   if lk in SOURCES])
+                        for x in d.get("strand", [])],
                 book=[autolink(linkify(_esc(x))) for x in d.get("book", [])],
                 alts=alts,
                 flow=alts[0]["flow"], do=alts[0]["do"], travel=alts[0]["travel"],
@@ -194,6 +197,12 @@ h1 em{font-style:normal;color:var(--accent)}
   border-radius:999px;white-space:nowrap;letter-spacing:.04em}
 .st-CONFIRMED{background:var(--ok-bg);color:var(--ok)}
 .st-UNPUBLISHED,.st-UNVERIFIED,.st-UNREADABLE{background:var(--bad);color:#fff}
+.stlinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.stlinks a{display:inline-flex;align-items:center;gap:6px;background:var(--card);
+  border:1px solid var(--bad);border-radius:999px;padding:4px 10px;font-size:12.5px;
+  font-weight:600;color:var(--bad-ink);text-decoration:none;line-height:1.3}
+.stlinks a:hover{background:var(--bad);color:#fff}
+.stlinks a:hover .tier{background:#ffffff2e;color:#fff}
 .strandsum li{margin-bottom:10px}
 .warnbox{background:var(--warn-bg);border-radius:8px;padding:10px 12px 10px 0}
 .warnbox ul{padding-left:28px}
@@ -436,6 +445,9 @@ function dayBody(d){
       <div class="what">${esc(x.what)} <span class="st-badge st-${esc(x.state)}">${esc(x.state)}</span></div>
       <div class="det">${esc(x.detail)}</div>
       <dl>${row("Check",x.check)}${row("Ask",x.who)}${row("By",x.by)}${row("If it fails",x.fallback)}</dl>
+      ${(x.links&&x.links.length)?`<div class="stlinks">${x.links.map(l=>
+        `<a href="${l[1]}" target="_blank" rel="noopener">${esc(l[0])}<span class="tier t-${
+          l[2].replace(/ /g,"-")}">${l[2]}</span></a>`).join("")}</div>`:""}
     </div>`).join("")}</div>`:"";
   const trav=`<div class="sec"><p class="lbl">Getting there</p><p>${a.travel}</p></div>`;
   const warn=a.watch.length?`<div class="sec"><p class="lbl">Watch out for</p>

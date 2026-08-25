@@ -594,22 +594,27 @@ def build_strand(ws, opt):
     order = {"UNPUBLISHED": 0, "UNVERIFIED": 1, "UNREADABLE": 2, "CONFIRMED": 3}
     rows.sort(key=lambda t: (order.get(t[2]["state"], 9), t[0]))
     head = ["Date", "What can strand you", "State", "What is known",
-            "What to check, and where", "Who to ask", "By when", "If it fails"]
+            "What to check, and where", "Open this page", "Who to ask", "By when",
+            "If it fails"]
     n_open = sum(1 for _, _, x in rows if x["state"] != "CONFIRMED")
     _title_block(ws, "Miss one of these and you sleep where you stand",
                  f"{len(rows)} services with no later alternative. "
                  f"{n_open} still need confirming — those are listed first, in red. "
                  "A CONFIRMED row was read off the operator's own current timetable.", 8)
-    _header(ws, 4, head, wraps=(3, 4, 5, 7))
-    _w(ws, [11, 40, 15, 62, 56, 34, 26, 52])
+    _header(ws, 4, head, wraps=(3, 4, 5, 8))
+    _w(ws, [11, 38, 14, 58, 50, 40, 30, 24, 48])
     BAD, BAD_BG = "FFC01B1B", "FFFDECEC"
     r = 5
     for date, title, x in rows:
-        vals = [date, x["what"], x["state"], x["detail"],
-                x["check"], x["who"], x["by"], x["fallback"]]
+        # SOURCES keys, NOT method descriptions — resolve() maps the latter and
+        # silently returns None for the former, which renders as an empty column.
+        links = [SOURCES[lk] for lk in x.get("links", []) if lk in SOURCES]
+        vals = [date, x["what"], x["state"], x["detail"], x["check"],
+                None,                       # filled below, as clickable links
+                x["who"], x["by"], x["fallback"]]
         bad = x["state"] != "CONFIRMED"
         for c, v in enumerate(vals, 1):
-            cell = ws.cell(r, c, v)
+            cell = ws.cell(r, c) if v is None else ws.cell(r, c, v)
             cell.font = Font(name=SANS, size=10,
                              bold=(c in (2, 3)),
                              color=(BAD if bad and c in (2, 3) else INK))
@@ -617,8 +622,22 @@ def build_strand(ws, opt):
             cell.border = GRID
             if bad:
                 cell.fill = PatternFill("solid", fgColor=BAD_BG)
-        ws.row_dimensions[r].height = max(74, 11.5 * (len(x["detail"]) // 60 + 2))
-        r += 1
+        # One clickable page per row of its own, so the link text stays readable
+        # and the tier travels with it. Extra links spill into continuation rows
+        # that repeat nothing else — the eye reads them as belonging above.
+        for n, (label, url, tier) in enumerate(links):
+            rr = r + n
+            if n:
+                for c in range(1, len(vals) + 1):
+                    cc = ws.cell(rr, c)
+                    cc.border = GRID
+                    if bad:
+                        cc.fill = PatternFill("solid", fgColor=BAD_BG)
+                ws.row_dimensions[rr].height = 30
+            _link(ws, rr, 6, f"{label}  [{tier}]", url, size=9.5, bold=(n == 0))
+            ws.cell(rr, 6).alignment = Alignment(wrap_text=True, vertical="top")
+        ws.row_dimensions[r].height = max(74, 11.5 * (len(x["detail"]) // 56 + 2))
+        r += max(1, len(links))
     if not rows:
         ws.cell(5, 1, "Nothing on this option has a single point of failure "
                       "for getting back.").font = Font(name=SANS, size=11, color=INK)

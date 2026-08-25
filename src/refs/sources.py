@@ -50,6 +50,9 @@ SOURCES = {
  "shimanami_cyc":  ("Shimanami Japan — rental cycle terminals and fees", "https://shimanami-cycle.or.jp/rental/rental/", "operator"),
  "dive_hiroshima": ("Hiroshima Prefecture — Ōkunoshima access", "https://dive-hiroshima.com/en/feature/usagi-okunoshima/", "official"),
  "omishima_fare":  ("Ōmishima Ferry — fare table (http only)", "http://sanyo-shosen.jp/omishima/fare.html", "operator"),
+ "omishima_time":  ("Ōmishima Ferry — TIMETABLE, incl. the ※ Feb–Oct-only call at Ōkunoshima", "http://sanyo-shosen.jp/omishima/time.html", "operator"),
+ "qkamura_ohkuno": ("Kyukamura Ōkunoshima — the second operator's boat (bot-walled, unread)", "https://www.qkamura.or.jp/ohkuno/access/", "official"),
+ "myyu_times":     ("Katsurahama guide — the MY-YU departure times Tosaden publishes only as images", "https://katurahama.com/maiyuubusjikokuhyou/", "third-party"),
  "rabbit_island":  ("Tadanoumi Port — official Ōkunoshima site", "http://rabbit-island.info/en/", "official"),
  "geiyo":          ("Geiyo Bus — Kaguya-hime expressway line", "https://www.geiyo.co.jp/expwy_bus.html", "operator"),
  "hiroden_pass":   ("Hiroden — one-day tram & ferry pass", "https://www.hiroden.co.jp/ticket-pass/bargain-tickets/oneday.html", "operator"),
@@ -310,7 +313,7 @@ SOURCES.update({
 
 
 SOURCES.update({
- "takaya_shuttle": ("Kan-onji City — Takaya Shrine shuttle bus (updated 12 Aug 2026)",
+ "takaya_shuttle": ("Kan-onji City — Takaya Shrine shuttle bus (Aug + Sep timetables only as of 25 Aug 2026)",
                     "https://www.city.kanonji.kagawa.jp/soshiki/21/22812.html", "official"),
  "takaya_access":  ("Kan-onji City — Takaya Shrine, the 270 steps and the road ban",
                     "https://www.city.kanonji.kagawa.jp/soshiki/21/13387.html", "official"),

@@ -30,9 +30,12 @@ RATE_NOTE = "Seeded 0.01858 on 16 Aug 2026; B1 refreshes itself via Google Finan
 # Anything not CONFIRMED must say exactly WHAT to check, WHERE, WHO to ring and
 # BY WHEN — a warning the traveller cannot act on is just anxiety.
 
-def _S(what, state, detail, check="", who="", by="", fallback=""):
-    return dict(what=what, state=state, detail=detail,
-                check=check, who=who, by=by, fallback=fallback)
+# `links` is what the traveller actually clicks. Pass SOURCES keys so the tier
+# travels with the link — the page you must check to clear an UNPUBLISHED row is
+# usually the operator's, and knowing that is half the value.
+def _S(what, state, detail, check="", who="", by="", fallback="", links=()):
+    return dict(what=what, state=state, detail=detail, check=check,
+                who=who, by=by, fallback=fallback, links=list(links))
 
 
 GLOSSARY = [
@@ -563,7 +566,8 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
      fallback="NONE on a public holiday. 'mobi' was withdrawn 31 May 2025; the 三豊市 "
               "community bus does not run Sundays or holidays; the 讃･瀬戸シャトルタクシー is "
               "weekday-only. It is the Hearts Shuttle or a taxi you arrange yourself. "
-              "Last local Kan-onji → Takamatsu is 22:34."),
+              "Last local Kan-onji → Takamatsu is 22:34.",
+     links=["hearts_shuttle", "chichibu"]),
   _S("Takaya Shrine shuttle — the only way up and down without a 350 m climb",
      "UNPUBLISHED",
      "Runs Saturdays, Sundays and public holidays, 10:00–18:30. October's timetable is "
@@ -578,7 +582,8 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
      fallback="Tickets sell out on fine days — go at 09:00 when the machine opens, "
               "¥1,000 NOTES ONLY. If the shuttle is cancelled for weather (気象警報), the "
               "alternatives are a ¥3,600 taxi each way or a 50-minute climb of 350 "
-              "vertical metres."),
+              "vertical metres.",
+     links=["takaya_shuttle", "takaya_mitoyo"]),
  ],
  sleep="Takamatsu — WeBase hostel",
  legs=[("Takamatsu","Kan-onji","10:13 (direct rapid, :13 past each hour to 18:13)","11:16–11:29","JR Yosan Line rapid — no surcharge",1240),
@@ -766,7 +771,8 @@ dict(date="2026-10-16", title="Mt Tsurugi — the one day that goes deep up the 
      who="Awa-Ikeda Bus Terminal (Shikoku Kotsu) 0883-72-1231",
      by="Check again in early October 2026, after the 1 October revision.",
      fallback="None. There is no taxi rank at Minokoshi and no accommodation you can "
-              "walk to. If a bus is late, everything after it is lost."),
+              "walk to. If a bus is late, everything after it is lost.",
+     links=["miyoshi_en", "jr_oboke"]),
   _S("The Mt Tsurugi bus wing only runs DAILY between 1 Oct and 3 Nov",
      "CONFIRMED",
      "Quoted from the sheet: “Buses for Mt. Tsurugi operate only Saturday, Sunday and "
@@ -778,7 +784,8 @@ dict(date="2026-10-16", title="Mt Tsurugi — the one day that goes deep up the 
      by="Early October 2026.",
      fallback="Outside the window it is weekends and holidays only, and from 24 November "
               "it stops altogether. If the window moves, this day becomes the Nagoro "
-              "alternative instead."),
+              "alternative instead.",
+     links=["miyoshi_en"]),
  ],
  sleep="Awa-Ikeda — 4S STAY",
  alt_label="Mt Tsurugi and the chairlift",
@@ -887,7 +894,8 @@ dict(date="2026-10-18", title="Kōchi — market, castle, then the Pacific",
      who="Tosaden Kotsu — ask at the JR Kōchi station bus counter",
      by="On the morning, before you board.",
      fallback="Katsurahama is 13 km from the city with no rail. A taxi back is the only "
-              "other option and it is not cheap."),
+              "other option and it is not cheap.",
+     links=["myyu_times", "myyu"]),
  ],
  sleep="Kōchi — central, near Hirome Market",
  legs=[("Katsurahama and Makino","—","—","—","MY-YU tourist bus pass (¥600 with a foreign passport)",600),
@@ -1008,7 +1016,8 @@ dict(date="2026-10-22", title="Rabbit island, then Hiroshima",
      by="On the morning, at the port, before you cross.",
      fallback="NONE. Ōkunoshima has one hotel and no other way off. Miss the last boat "
               "and you are on the island for the night. The operator warns of delays at "
-              "busy times, and its second jetty has been closed for repairs before now."),
+              "busy times, and its second jetty has been closed for repairs before now.",
+     links=["omishima_time", "qkamura_ohkuno", "rabbit_island"]),
  ],
  sleep="Hiroshima — The Evergreen Hostel or J-Hoppers",
  legs=[("Onomichi","Mihara","not published","not published","JR Sanyo Line local train",None),
@@ -1706,7 +1715,8 @@ def _make_A2():
      who="徳島バス 088-622-1826",
      by="Early October 2026.",
      fallback="If you miss the 17:45, get any bus to 鳴門駅前 and take JR from 鳴門 via "
-              "池谷 into Tokushima — slower, but it exists. Do not rely on it after dark."),
+              "池谷 into Tokushima — slower, but it exists. Do not rely on it after dark.",
+     links=["tokubus_naruto", "tokubus_narutofare"]),
  ],
  sleep="Tokushima — Hostel PAQ, 8 min walk from the station",
  legs=[("徳島駅前 Tokushima Stn","大塚国際美術館前 Ōtsuka Museum","08:10","09:30","Tokushima Bus, Naruto Park line — CASH ONLY, no IC",720),
@@ -1783,7 +1793,8 @@ def _make_A2():
      by="Early October 2026.",
      fallback="Miss the 14:22 and there is no later through-train — the 18:19 only "
               "reaches Tosa-Yamada. You would be in the valley for the night. Ōboke has "
-              "been unstaffed since 2010."),
+              "been unstaffed since 2010.",
+     links=["jr_oboke", "miyoshi_en"]),
  ],
  alt_label="The vine bridge, then the 14:22",
  alts=[
