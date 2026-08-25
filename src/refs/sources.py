@@ -17,6 +17,7 @@ SOURCES = {
  "sf_himeji":      ("Shikoku Ferry — Himeji–Fukuda route page", "https://www.shikokuferry.com/route1", "operator"),
  "sf_takamatsu":   ("Shikoku Ferry — Tonoshō–Takamatsu route page", "https://www.shikokuferry.com/route2", "operator"),
  "sf_angel":       ("Shikoku Ferry — Angel Road tide table", "https://www.shikokuferry.com/angel", "operator"),
+ "kisen_naoshima": ("Shikoku Kisen — Takamatsu ⇄ Miyanoura (Naoshima) timetable and fares", "https://www.shikokukisen.com/takamatsu-miyanoura/", "operator"),
  "olive_bus":      ("Shodoshima Olive Bus — fares and passes", "https://www.shodoshima-olive-bus.com/ticket/", "operator"),
  "olive_routes":   ("Shodoshima Olive Bus — route index", "https://www.shodoshima-olive-bus.com/dia/", "operator"),
  "kankakei_rw":    ("Kankakei Ropeway — official fares", "https://www.kankakei.co.jp/ropeway/", "operator"),

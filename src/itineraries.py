@@ -496,8 +496,24 @@ dict(date="2026-10-11", title="Angel Road at dawn, then across to Takamatsu",
         "Takamatsu goes quiet early: travellers describe it as 'virtually dead' by 21:30. "
         "Eat before 20:00.",
         "Ritsurin's own foliage peaks 3 December. You will see it green — go anyway."],
+ strand=[
+  _S("The last ferry between Shodoshima and Takamatsu",
+     "CONFIRMED",
+     "Shikoku Ferry's own timetable, 15 sailings each way, 60 minutes, ¥700. LAST 土庄発 "
+     "20:10 → 高松 21:10; last 高松発 20:20 → 土庄 21:20. ⚠️ AND A TRAP: on WEEKDAYS the "
+     "土庄発 19:30 and the 高松発 15:10 are 危険物搭載車両の航送指定便 — hazardous-cargo sailings "
+     "ORDINARY PASSENGERS CANNOT BOARD. On a weekday the real gap before the last boat is "
+     "18:40 → 20:10.",
+     check="Confirm both directions on the route page; the operator warns diagrams change "
+           "for engine maintenance.",
+     who="Shikoku Ferry — ask at the Takamatsu or Tonoshō 乗り場",
+     by="Before you set out that morning.",
+     fallback="A separate 高速艇 also works this route on its own timetable. Otherwise it is "
+              "a night on Shodoshima.",
+     links=["sf_takamatsu"]),
+ ],
  sleep="Takamatsu — WeBase hostel, Kawaramachi",
- legs=[("Tonoshō Port","Takamatsu Port","15/day, last 20:40","+60 min","Shikoku Ferry (car ferry)",700),
+ legs=[("Tonoshō Port","Takamatsu Port","15/day, last 20:10 → 21:10","+60 min","Shikoku Ferry (car ferry)",700),
        ("Takamatsu","Ritsurin Kōen","every 15 min","+7 min","Kotoden to Ritsurin-kōen — RAISED to ¥250 on 1 Oct 2026 (JR is ¥240)",250)]),
 
 dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror beach",
@@ -1153,6 +1169,28 @@ dict(date="2026-10-11", title="The Naruto whirlpools, then Tokushima",
         "⚠️ 鳴門公園口 is alight-only. Plan the return from 鳴門公園 towards Tokushima, not "
         "back across the bridge.",
         "The Uzu-no-michi + Eddy combined ticket is ¥900 against ¥1,130 bought separately."],
+ strand=[
+  _S("Getting OFF Awaji — the cross-bridge bus runs three times on a Sunday",
+     "CONFIRMED",
+     "Awaji Kōtsū's 淡路・徳島線 is the only ordinary-passenger bus over the Ōnaruto Bridge: "
+     "4 runs on a weekday, 3 at weekends. 11 October 2026 is a SUNDAY, so the crossings are "
+     "07:00, 11:15 and 16:00 — taking the 07:00 is what makes the day fit. ⚠️ 鳴門公園口 is "
+     "ALIGHT-ONLY: you can get off there, you cannot board there to go back.",
+     check="Re-read the timetable PDF; Awaji Kōtsū revises on 1 April.",
+     who="Awaji Kōtsū — Sumoto Bus Centre",
+     by="Early October 2026.",
+     fallback="Miss the 16:00 and there is no fourth crossing. Awaji has no railway at all.",
+     links=["awaji_toku"]),
+  _S("The last bus from Naruto Park down into Tokushima",
+     "CONFIRMED",
+     "Tokushima Bus, revised 1 April 2026: only EIGHT runs a day come through to 徳島駅前, "
+     "the last leaving 鳴門公園 at 17:45 and reaching Tokushima 19:18. ¥720, CASH ONLY.",
+     check="Re-read the PDF; Tokushima Bus revises 1 April and 1 October.",
+     who="徳島バス 088-622-1826",
+     by="Early October 2026.",
+     fallback="Any bus to 鳴門駅前, then JR 鳴門 → 池谷 → 徳島.",
+     links=["tokubus_naruto", "tokubus_narutofare"]),
+ ],
  sleep="Tokushima — Hostel PAQ",
  legs=[("洲本バスセンター Sumoto Bus Centre","鳴門公園口 Naruto-kōen-guchi (ALIGHT ONLY)","07:00","07:31","Awaji Kōtsū — alight only",1380),
        ("鳴門公園 Naruto Park","渦の道 Uzu-no-michi glass walkway","—","—","Walkway under the bridge",510),
@@ -1230,6 +1268,21 @@ dict(date="2026-10-14", title="The vine bridge",
  watch=["LAST BUS BACK IS 17:41.",
         "Cash only — coins and ¥1,000 notes.",
         "Skip Ochiai village: 400 vertical metres, viewpoint is taxi-only."],
+ strand=[
+  _S("The last bus out of the Iya valley is 17:41",
+     "CONFIRMED",
+     "Northbound departures from かずら橋夢舞台 are 08:11, 09:11, 11:13, 12:11, 13:11, 14:16, "
+     "15:11 and then 17:41, which is the last of the day. ⚠️ The 15:11 is a trap — it "
+     "reaches 大歩危駅前 at 15:32, fifteen minutes after the 15:17 train, and leaves you on "
+     "an unstaffed platform until 17:42. Take the 14:16.",
+     check="Re-read the sheet after the 1 October 2026 revision.",
+     who="Awa-Ikeda Bus Terminal (Shikoku Kotsu) 0883-72-1231",
+     by="Early October 2026.",
+     fallback="None. No taxi rank at the vine bridge and nothing to walk to. The buses are "
+              "CASH ONLY — coins and ¥1,000 notes, and there is nowhere up the valley to "
+              "break a bigger note.",
+     links=["miyoshi_en", "jr_oboke"]),
+ ],
  sleep="Awa-Ikeda — 4S STAY",
  legs=[("大歩危駅前 Ōboke-ekimae (in front of JR Ōboke)","かずら橋夢舞台 Kazurabashi Yumebutai","08:58","09:19","Shikoku Kotsu, Iya line",670),
        ("かずら橋夢舞台 Kazurabashi Yumebutai","大歩危駅前 Ōboke-ekimae","14:16 (or 15:11)","14:37 (or 15:32)","Shikoku Kotsu, Iya line",670)]),
@@ -1273,6 +1326,22 @@ dict(date="2026-10-15", title="Mt Tsurugi — the one day that goes deep up the 
         "Return on the 14:55 — the alternative gives you two minutes on the mountain.",
         "Peak colour is 25 Oct – 1 Nov, so you get the start of it.",
         "Carry food; there are no shops up there."],
+ strand=[
+  _S("The four-bus chain out of the valley — 14:55 down, then 17:41 is the last bus",
+     "CONFIRMED",
+     "Miyoshi City's own English sheet: Mt Tsurugi 14:55 → Kubo 15:45, Kubo 16:44 → "
+     "Kazurabashi Yumebutai 17:30, Yumebutai 17:41 → 大歩危駅前 18:07, train 18:19. The only "
+     "earlier return from the mountain is 11:12, which gives you two minutes up there. "
+     "The sheet also states Mt Tsurugi buses run DAILY only 1 Oct–3 Nov, so this day "
+     "exists solely because it falls inside that window.",
+     check="Re-read the sheet after the 1 October 2026 revision, and confirm the daily "
+           "window has not moved.",
+     who="Awa-Ikeda Bus Terminal (Shikoku Kotsu) 0883-72-1231",
+     by="Early October 2026.",
+     fallback="None. No taxi rank at Minokoshi, nothing to walk to. If a bus is late, "
+              "everything after it is lost.",
+     links=["miyoshi_en", "jr_oboke"]),
+ ],
  sleep="Awa-Ikeda — 4S STAY",
  alt_label="Mt Tsurugi and the chairlift",
  alts=[dict(NAGORO_ALT, legs=[l for l in NAGORO_ALT["legs"]
@@ -1335,7 +1404,7 @@ dict(date="2026-10-17", title="Ritsurin at dawn, the Gate in the Sky, then over 
   ("~14:00", "ZENIGATA SUNAE — a 122-metre Edo coin raked into the sand of Kotohiki Park "
    "since 1633. Free, 24 hours, floodlit to 22:00, minutes from the shuttle stop."),
   ("evening", "Back east, collect the bags, and the ferry to 土庄港 Tonoshō — 15 a day, last "
-   "20:50. ⚠️ Chichibugahama is NOT worth adding today: 14–17 October has no mirror window "
+   "20:20 → 21:20. ⚠️ Chichibugahama is NOT worth adding today: 14–17 October has no mirror window "
    "at all."),
  ],
  do=["RITSURIN GARDEN AT FIRST LIGHT — it opens at 06:00 in October, and a Takamatsu "
@@ -1370,6 +1439,22 @@ dict(date="2026-10-17", title="Ritsurin at dawn, the Gate in the Sky, then over 
         "Do NOT book the Jumbo Ferry from Sakate — it docks at Takamatsu-HIGASHI port, "
         "15 minutes away from the walkable one. It's the most common mistake here.",
         "Ritsurin's foliage peaks 3 December; you'll see it green."],
+ strand=[
+  _S("The last ferry between Takamatsu and Shodoshima",
+     "CONFIRMED",
+     "Shikoku Ferry's own timetable, 15 sailings each way, 60 minutes, ¥700. LAST 高松発 "
+     "20:20 → 土庄 21:20. LAST 土庄発 20:10 → 高松 21:10. ⚠️ AND A TRAP: the 土庄発 19:30 and "
+     "the 高松発 15:10 are 危険物搭載車両の航送指定便 on WEEKDAYS — hazardous-cargo sailings that "
+     "ORDINARY PASSENGERS CANNOT BOARD. On a weekday the real gap before the last boat is "
+     "18:40 → 20:10.",
+     check="Confirm both directions on the route page; ferry diagrams change with engine "
+           "maintenance and the operator says so on the page.",
+     who="Shikoku Ferry — ask at the Takamatsu or Tonoshō 乗り場",
+     by="Before you set out that morning.",
+     fallback="A high-speed boat (高速艇) also works this route and is a separate timetable. "
+              "Otherwise it is a night on Shodoshima.",
+     links=["sf_takamatsu"]),
+ ],
  sleep="Tonoshō, Shodoshima",
  legs=[("Takamatsu","Ritsurin Kōen","every 15 min from 06:00","+7 min","Kotoden to Ritsurin-kōen — RAISED to ¥250 on 1 Oct 2026 (JR is ¥240)",250),
        ("Takamatsu","Kan-onji","10:13 (direct rapid, :13 past each hour)","11:16–11:29","JR Yosan Line rapid — no surcharge",1240),
@@ -1378,7 +1463,7 @@ dict(date="2026-10-17", title="Ritsurin at dawn, the Gate in the Sky, then over 
        ("Takaya Shrine","Ariake Ground","13:30 (no 13:00 run)","+25 min","Same shuttle — return included in the ¥1,500 above",None),
        ("Zenigata Sunae","Kotohiki Park viewpoint","—","few min from the shuttle stop","On foot — free, open 24 h",0),
        ("Kan-onji","Takamatsu","~1–2 per hour","+1h03–1h16","JR Yosan Line local train",1240),
-       ("Takamatsu Port","Tonoshō Port","15/day, last 20:50","+60 min","Shikoku Ferry",700)]),
+       ("Takamatsu Port","Tonoshō Port","15/day, last 20:20 → 21:20","+60 min","Shikoku Ferry",700)]),
 
 dict(date="2026-10-18", title="Kankakei Gorge, then the soy-sauce coast",
  book=["☎ NAKABU-AN — phone 0879-82-3669 THE DAY BEFORE. No online booking, no walk-up. "
@@ -1460,6 +1545,22 @@ dict(date="2026-10-19", title="Angel Road in the morning, then back to Takamatsu
         "there is no evening fallback and you will have crossed to the island for nothing. "
         "Re-check the date before you travel: https://www.shikokuferry.com/angel",
         "The soy-sauce district shuts between 16:00 and 17:00."],
+ strand=[
+  _S("The last ferry between Takamatsu and Shodoshima",
+     "CONFIRMED",
+     "Shikoku Ferry's own timetable, 15 sailings each way, 60 minutes, ¥700. LAST 高松発 "
+     "20:20 → 土庄 21:20. LAST 土庄発 20:10 → 高松 21:10. ⚠️ AND A TRAP: the 土庄発 19:30 and "
+     "the 高松発 15:10 are 危険物搭載車両の航送指定便 on WEEKDAYS — hazardous-cargo sailings that "
+     "ORDINARY PASSENGERS CANNOT BOARD. On a weekday the real gap before the last boat is "
+     "18:40 → 20:10.",
+     check="Confirm both directions on the route page; ferry diagrams change with engine "
+           "maintenance and the operator says so on the page.",
+     who="Shikoku Ferry — ask at the Takamatsu or Tonoshō 乗り場",
+     by="Before you set out that morning.",
+     fallback="A high-speed boat (高速艇) also works this route and is a separate timetable. "
+              "Otherwise it is a night on Shodoshima.",
+     links=["sf_takamatsu"]),
+ ],
  sleep="Takamatsu — WeBase hostel",
  legs=[("Tonoshō Port","Takamatsu Port","15/day","+60 min","Shikoku Ferry",700)]),
 
@@ -1547,6 +1648,22 @@ dict(date="2026-10-23", title="Rabbit island, then Hiroshima",
         "Don't pick the rabbits up — they panic and break bones, and there's no vet.",
         "Allow 4–5 hours.",
         "Bag storage ¥500 at the port."],
+ strand=[
+  _S("The last boat OFF Ōkunoshima — this plan's '18:30' does not match the operator",
+     "UNVERIFIED",
+     "大三島フェリー's timetable gives the last call at 大久野島 heading to 忠海 as ※17:16, "
+     "arriving 17:30 — and the ※ means that sailing serves the island only FEBRUARY TO "
+     "OCTOBER. The next boat, 18:40 from 盛, does NOT stop there at all. A SECOND operator "
+     "(休暇村客船) also works the route and is probably where '18:30' and 'every 30–45 min' "
+     "came from, but its site is behind a bot wall and could NOT be read.",
+     check="Read BOTH operators, then confirm the last sailing at the Tadanoumi ticket "
+           "window — and ask which operator it is.",
+     who="休暇村大久野島 0846-26-0321",
+     by="On the morning, at the port, before you cross.",
+     fallback="NONE. One hotel on the island and no other way off. The operator warns of "
+              "delays at busy times and its second jetty has been closed for repairs before.",
+     links=["omishima_time", "qkamura_ohkuno", "rabbit_island"]),
+ ],
  sleep="Hiroshima — The Evergreen Hostel or J-Hoppers",
  legs=[("Onomichi","Mihara","not published","not published","JR Sanyo Line local train",None),
        ("Mihara","Tadanoumi","—","+22 min","JR Kure Line local train",320),
@@ -1640,7 +1757,31 @@ def _make_A2():
     oboke = copy.deepcopy(days[i])
     oboke["date"] = "2026-10-15"
 
-    tsurugi = copy.deepcopy(days[i + 2])          # 16 Oct, untouched
+    # 16 Oct keeps Mt Tsurugi, but gains Option A's ORIGINAL unhurried vine-bridge
+    # day as a third choice — built from A's own day rather than rewritten, so the
+    # two cannot drift. Taking it here means the 17th becomes one of its easy
+    # variants, which is the point: the traveller decides how tight they want the
+    # departure morning to be, on the night before, knowing the weather.
+    vine = copy.deepcopy(days[i + 1])             # A's 15 Oct vine-bridge day
+    tsurugi = copy.deepcopy(days[i + 2])          # 16 Oct
+    tsurugi["alts"] = list(tsurugi.get("alts", [])) + [dict(
+        vine,
+        label="The vine bridge today instead — unhurried, and it frees the 17th",
+        watch=["⭐ TAKE THIS IF YOU WANT AN EASY DEPARTURE MORNING. Doing the bridge today "
+               "means the 17th becomes 'a slow morning at Ōboke' or the 08:15 straight to "
+               "Kōchi — no bus deadline on a day you are also carrying luggage.",
+               "The cost is Mt Tsurugi, which is the single best thing in the valley and "
+               "the one day of the trip with foliage actually turning. Do not trade it "
+               "away lightly.",
+               "⚠️ THE LAST BUS BACK TO ŌBOKE IS 17:41. There is no later one and no taxi "
+               "rank.",
+               "⚠️ THE 15:11 BUS IS A TRAP. It reaches 大歩危駅前 at 15:32, fifteen minutes "
+               "after the 15:17 train, so it costs you two hours on an unstaffed platform. "
+               "The 14:16 gets you the 15:17.",
+               "The buses take cash only — coins and ¥1,000 notes.",
+               "This is a long, slow day: 11:00–15:11 in the valley with nothing timetabled. "
+               "That is the trade for the unhurried version."])]
+
 
     naruto = dict(date="2026-10-14", title="Naruto — the whirlpools on a spring tide",
  do=["THE NARUTO WHIRLPOOLS from the glass-floored walkway slung under the Ōnaruto Bridge, "
@@ -2075,9 +2216,11 @@ dict(date="2026-10-11", title="Naoshima — the art island",
   ("10:00–16:30", "THE ART HOUSE PROJECT at 本村 Honmura — whole abandoned houses given to "
    "individual artists. ¥1,200 for five sites. ⚠️ Minamidera and Kinza need their own booked "
    "slots; Kinza admits ONE PERSON EVERY 15 MINUTES."),
-  ("17:00 — do not miss it", "THE LAST FERRY BACK. Miss it and you are sleeping on the "
-   "island. Even if you book nothing, the coast road, the pumpkins and the bathhouse are "
-   "worth the crossing on their own."),
+  ("17:00, or pay for the 19:45", "THE LAST BOAT BACK, and it is NOT the 17:00 ferry. "
+   "Shikoku Kisen also runs a 高速旅客船 (high-speed passenger boat) at 19:45 that reaches "
+   "Takamatsu at 20:15 in thirty minutes — ¥1,590 against the ferry's ¥680. ⚠️ Sold at the "
+   "WINDOW only, CASH only, one-way tickets only, and it takes no bicycles. So a late "
+   "finish costs ¥910, not a night on the island — but only if you have the cash."),
  ],
  book=["⚠️ CHICHU ART MUSEUM and TESHIMA ART MUSEUM are dated, timed tickets and there "
        "are NO door sales once a slot sells out. This is the only thing on the whole trip "
@@ -2098,12 +2241,30 @@ dict(date="2026-10-11", title="Naoshima — the art island",
  watch=["⚠️ BOOK THE GALLERIES AHEAD — several now use timed entry and turning up on the day "
         "may not work.",
         "⚠️ CASH. The ferries are cash only, and so are some of the island shops.",
-        "First ferry out 08:12; the last one back leaves at 17:00. Miss it and you are "
+        "First ferry out 08:12. The last FERRY back is 17:00 — but the 19:45 高速旅客船 gets "
+       "you home at 20:15 for ¥1,590 against the ferry's ¥680, so a late finish costs "
+       "money, not a night on the island. "
         "sleeping on the island."],
+ strand=[
+  _S("The last boat off Naoshima is NOT the 17:00 ferry",
+     "CONFIRMED",
+     "Shikoku Kisen: the last FERRY 宮浦 → 高松 is 17:00 (60 min, ¥680). But a 高速旅客船 "
+     "leaves at 19:45 and reaches Takamatsu at 20:15 in thirty minutes for ¥1,590. So a "
+     "late finish costs ¥910, not a night on the island. ⚠️ The fast boat is sold at the "
+     "WINDOW only, CASH only, one-way tickets only, and takes NO bicycles — so if you hired "
+     "one, the 17:00 ferry really is your deadline.",
+     check="Confirm both timetables on the route page before you cross.",
+     who="四国汽船 087-821-5100 · 直島（宮ノ浦）切符売り場 087-892-3104",
+     by="On the morning, before you sail.",
+     fallback="Naoshima has accommodation, but in October it books out — do not treat "
+              "staying over as a plan.",
+     links=["kisen_naoshima"]),
+ ],
  sleep="Takamatsu — WeBase",
  legs=[("Takamatsu Port","Miyanoura, Naoshima","08:12","+50 min","Shikoku Kisen ferry (5 sailings/day)",680),
        ("Naoshima","island bus, all day","every hour","10 min end to end","Town bus, flat fare",100),
-       ("Miyanoura","Takamatsu Port","17:00","+60 min","Shikoku Kisen ferry",680)]),
+       ("Miyanoura","Takamatsu Port","17:00 (last FERRY)","+60 min","Shikoku Kisen ferry",680),
+       ("Miyanoura","Takamatsu Port","19:45 (last boat of any kind)","20:15","Shikoku Kisen 高速旅客船 — window sales, CASH ONLY, no bikes",1590)]),
 
 dict(date="2026-10-12", title="Shodoshima — Kankakei Gorge and the soy-sauce coast",
  do=["KANKAKEI GORGE by ropeway — one of Japan's three great gorges, a five-minute cable "
@@ -2127,25 +2288,42 @@ dict(date="2026-10-12", title="Shodoshima — Kankakei Gorge and the soy-sauce c
   ("afternoon", "YAMAROKU SOY SAUCE at 安田 Yasuda — a working brewery, free, no reservation, "
    "open to 17:00. Or the Olive Park, Japan's first olive grove, flat, with the bus stopping "
    "at the gate. Not both: the island's buses are not frequent enough."),
-  ("last 20:40",
+  ("last 20:10 → 21:10",
    "土庄港 Tonoshō back to 高松港 Takamatsu. ⚠️ CHECK THIS BEFORE YOU SET OUT — it is the one "
    "thing today that can strand you on an island."),
  ],
  travel="An hour on the ferry from Takamatsu, then the island bus and the free town shuttle "
         "up to the ropeway.",
- watch=["⚠️ This is a long day trip. The last ferry back to Takamatsu leaves Tonoshō at 20:40 "
+ watch=["⚠️ This is a long day trip. The last ferry back to Takamatsu leaves Tonoshō at 20:10, "
+        "reaching Takamatsu at 21:10 "
         "— check it before you set out.",
         "The Kankakei shuttle is FREE, 8 runs a day, and runs every day in October — but "
         "stops completely for the whole of November.",
         "⚠️ From 1 October 2026 the ALL SHIKOKU pass no longer covers the Shodoshima ferry "
         "or the Olive Bus. Not that you should buy that pass on this itinerary.",
         "Foliage here peaks 27 November — about six weeks after you."],
+ strand=[
+  _S("The last ferry between Takamatsu and Shodoshima",
+     "CONFIRMED",
+     "Shikoku Ferry's own timetable, 15 sailings each way, 60 minutes, ¥700. LAST 高松発 "
+     "20:20 → 土庄 21:20. LAST 土庄発 20:10 → 高松 21:10. ⚠️ AND A TRAP: the 土庄発 19:30 and "
+     "the 高松発 15:10 are 危険物搭載車両の航送指定便 on WEEKDAYS — hazardous-cargo sailings that "
+     "ORDINARY PASSENGERS CANNOT BOARD. On a weekday the real gap before the last boat is "
+     "18:40 → 20:10.",
+     check="Confirm both directions on the route page; ferry diagrams change with engine "
+           "maintenance and the operator says so on the page.",
+     who="Shikoku Ferry — ask at the Takamatsu or Tonoshō 乗り場",
+     by="Before you set out that morning.",
+     fallback="A high-speed boat (高速艇) also works this route and is a separate timetable. "
+              "Otherwise it is a night on Shodoshima.",
+     links=["sf_takamatsu"]),
+ ],
  sleep="Takamatsu — WeBase",
  legs=[("Takamatsu Port","Tonoshō, Shodoshima","15 sailings/day","+60 min","Shodoshima ferry (car ferry, not the ¥1,400 fast boat)",700),
        ("Tonoshō Port","Kusakabe Port","09:40","10:12","Olive Bus, Sakate Line",500),
        ("Kusakabe Port","Kouuntei (ropeway base)","10:30","10:42","FREE town shuttle, 12 min",0),
        ("Kankakei base","Summit and back","every 12 min","~5 min each way","Ropeway",2340),
-       ("Tonoshō Port","Takamatsu Port","last 20:40","+60 min","Shodoshima ferry",700)]),
+       ("Tonoshō Port","Takamatsu Port","15/day, last 20:10 → 21:10","+60 min","Shodoshima ferry",700)]),
 
 dict(date="2026-10-13", title="Kotohira — the shrine on the stairs",
  flow=[
@@ -2298,6 +2476,22 @@ dict(date="2026-10-17", title="Rabbit island",
         "⚠️ The ferry is CASH ONLY.",
         "Don't pick the rabbits up — they panic and break bones, and there's no vet.",
         "Allow 4–5 hours. A couple who budgeted three ended up running for the boat."],
+ strand=[
+  _S("The last boat OFF Ōkunoshima — this plan's '18:30' does not match the operator",
+     "UNVERIFIED",
+     "大三島フェリー's timetable gives the last call at 大久野島 heading to 忠海 as ※17:16, "
+     "arriving 17:30 — and the ※ means that sailing serves the island only FEBRUARY TO "
+     "OCTOBER. The next boat, 18:40 from 盛, does NOT stop there at all. A SECOND operator "
+     "(休暇村客船) also works the route and is probably where '18:30' and 'every 30–45 min' "
+     "came from, but its site is behind a bot wall and could NOT be read.",
+     check="Read BOTH operators, then confirm the last sailing at the Tadanoumi ticket "
+           "window — and ask which operator it is.",
+     who="休暇村大久野島 0846-26-0321",
+     by="On the morning, at the port, before you cross.",
+     fallback="NONE. One hotel on the island and no other way off. The operator warns of "
+              "delays at busy times and its second jetty has been closed for repairs before.",
+     links=["omishima_time", "qkamura_ohkuno", "rabbit_island"]),
+ ],
  sleep="Hiroshima",
  legs=[("Hiroshima Bus Centre","Tadanoumi Stn","4 round trips/day","+1h40","Geiyo Bus 'Kaguya-hime'",1500),
        ("Tadanoumi Port","Ōkunoshima and back","every 30–45 min","+15 min each way","Ferry — CASH ONLY",720),
