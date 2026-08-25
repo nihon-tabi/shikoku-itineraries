@@ -182,11 +182,23 @@ h1 em{font-style:normal;color:var(--accent)}
 .sec li::marker{color:var(--accent)}
 .sec p{margin:0;color:var(--ink-2);text-wrap:pretty}
 .strand{border:2px solid var(--bad);background:var(--bad-bg);border-radius:10px;
-  padding:12px 14px;margin:0 0 14px}
-.strand>.hd{display:flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.02em;
-  color:var(--bad);text-transform:uppercase;font-size:12.5px;margin-bottom:8px}
-.strand .item{border-top:1px solid var(--bad);padding-top:9px;margin-top:9px}
-.strand .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+  padding:0;margin:0 0 14px;overflow:hidden}
+.strand.ok{border-color:var(--rail-2);background:transparent}
+.strand>summary{display:flex;align-items:center;gap:8px;flex-wrap:wrap;cursor:pointer;
+  padding:9px 13px;list-style:none;font-size:12.5px;user-select:none}
+.strand>summary::-webkit-details-marker{display:none}
+.strand>summary::after{content:"\25be";margin-left:auto;color:var(--bad);font-size:14px;
+  transition:transform .18s ease}
+.strand[open]>summary::after{transform:rotate(180deg)}
+.strand.ok>summary::after{color:var(--ink-3)}
+.strand>summary:hover{background:var(--bad-bg)}
+.strand>summary .ttl{font-weight:800;letter-spacing:.02em;color:var(--bad);
+  text-transform:uppercase}
+.strand.ok>summary .ttl{color:var(--ink-2)}
+.strand>summary .sub{color:var(--ink-3);font-weight:600}
+.strand.ok>summary .dot{filter:grayscale(1);opacity:.55}
+.strand .item{border-top:1px solid var(--bad);padding:10px 13px 12px;margin:0}
+.strand.ok .item{border-top-color:var(--rail)}
 .strand .what{font-weight:700;color:var(--bad-ink);font-size:14.5px;line-height:1.35}
 .strand .det{color:var(--ink-2);font-size:13.5px;margin-top:4px}
 .strand dl{margin:7px 0 0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:13px}
@@ -439,16 +451,29 @@ function dayBody(d){
   /* The way BACK, in red, above everything else. A day is not planned until this
      is known, so it must be the first thing on the day — not buried in "watch out". */
   const row=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:"";
-  const st=(d.strand&&d.strand.length)?`<div class="strand">
-    <div class="hd"><span>&#128308;</span><span>Can strand you &mdash; check before this day</span></div>
+  const st=(d.strand&&d.strand.length)?(()=>{
+    /* Collapsible, but NOT uniformly: anything still unconfirmed opens itself,
+       because the whole point of the red is that it cannot be skimmed past. The
+       CONFIRMED ones have already been cleared, so they fold away and give the
+       day its space back. The summary bar carries the counts either way, so a
+       closed panel still says how much is unresolved. */
+    const open=d.strand.some(x=>x.state!=="CONFIRMED");
+    const nBad=d.strand.filter(x=>x.state!=="CONFIRMED").length;
+    const sub=nBad?`${nBad} still unconfirmed`:"all confirmed";
+    return `<details class="strand${open?"":" ok"}"${open?" open":""}>
+    <summary><span class="dot">&#128308;</span>
+      <span class="ttl">${d.strand.length} thing${d.strand.length>1?"s":""} can strand you</span>
+      <span class="sub">${sub}</span>
+      ${d.strand.map(x=>`<span class="st-badge st-${esc(x.state)}">${esc(x.state)}</span>`).join("")}
+    </summary>
     ${d.strand.map(x=>`<div class="item">
-      <div class="what">${esc(x.what)} <span class="st-badge st-${esc(x.state)}">${esc(x.state)}</span></div>
+      <div class="what">${esc(x.what)}</div>
       <div class="det">${esc(x.detail)}</div>
       <dl>${row("Check",x.check)}${row("Ask",x.who)}${row("By",x.by)}${row("If it fails",x.fallback)}</dl>
       ${(x.links&&x.links.length)?`<div class="stlinks">${x.links.map(l=>
         `<a href="${l[1]}" target="_blank" rel="noopener">${esc(l[0])}<span class="tier t-${
           l[2].replace(/ /g,"-")}">${l[2]}</span></a>`).join("")}</div>`:""}
-    </div>`).join("")}</div>`:"";
+    </div>`).join("")}</details>`;})():"";
   const trav=`<div class="sec"><p class="lbl">Getting there</p><p>${a.travel}</p></div>`;
   const warn=a.watch.length?`<div class="sec"><p class="lbl">Watch out for</p>
     <div class="warnbox"><ul>${a.watch.map(x=>`<li>${x}</li>`).join("")}</ul></div></div>`:"";
