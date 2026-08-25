@@ -18,8 +18,10 @@ ADMISSIONS = [
  ("Ōboke gorge cruise", 1500, "oboke_boat", "30 min. Last boat 16:30. Runs all year."),
  ("Mt Tsurugi chairlift, return", 2300, "tsurugi_lift", "From 1 Apr 2026. Closed 1 Dec–29 Apr."),
  ("Yamaroku Soy Sauce tour", 0, "yamaroku", "Free, no reservation, 09:00–17:00 daily."),
- ("Uzu-no-michi glass walkway", 510, "uzunomichi", "Option B only."),
- ("Wonder Naruto whirlpool cruise", 2000, "wonder_naruto", "Option B only. No reservation needed."),
+ ("Uzu-no-michi glass walkway", 510, "uzunomichi",
+  "Options A2 and B. Oct hours 09:00–17:00, last entry 16:30. ¥900 combined with the Eddy hall, against ¥1,130 separately."),
+ ("Wonder Naruto whirlpool cruise", 2000, "wonder_naruto",
+  "Options A2 and B. 12 sailings 09:00–16:20, no reservation. The ¥2,500 Aqua Eddy DOES need one."),
  ("Miyajima visitor tax", 100, "miyajima_tax",
   "Per person per visit since 1 Oct 2023. INCLUDED in the Hiroden ¥1,000 day pass."),
  ("Miyajima ropeway, return", 2000, "miyajima_rw", "¥1,500 with the Hiroden day pass."),
@@ -172,12 +174,15 @@ TIDES = [
   "The sandbar to the four islets surfaces around each low tide and is walkable for "
   "roughly six hours, twice a day. The ferry company publishes the daily window.",
   "sf_angel", []),
- ("Naruto whirlpools (Option B only)",
-  "Option B: 11 Oct",
+ ("Naruto whirlpools",
+  "Option A2: 14 Oct — 大潮 SPRING TIDE  ·  Option B: 11 Oct",
   "The vortices only form around PEAK TIDAL FLOW. The usable window scales with the "
   "tide's strength: spring tide (大潮, red on the calendar) ±2 hours, middle tide ±1.5, "
-  "neap tide only ±1. Pick the day off the calendar FIRST, then fit the buses round it — "
-  "on a Sunday the cross-bridge bus runs three times.",
+  "neap tide only ±1. Pick the day off the calendar FIRST, then fit the buses round it.\n"
+  "14 OCT 2026 IS 大潮: published 満潮 08:00 and 干潮 14:30, so the windows are 06:00–10:00 "
+  "and 12:30–16:30 — the afternoon one sits inside Uzu-no-michi's October opening. "
+  "13 Oct is also 大潮 (07:30 / 13:50). On Option B's 11 Oct the cross-bridge bus runs "
+  "only three times, because it is a Sunday.",
   "uzu_tide", ["uzu_kisen_tide", "uzusio_tide_en"]),
 ]
 

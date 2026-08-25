@@ -1,7 +1,7 @@
 # Shikoku itineraries — October 2026
 
-Three costed, sourced itineraries for two backpackers crossing Shikoku car-free,
-on local trains, between Osaka and Kyushu.
+Five costed, sourced itineraries for two backpackers crossing Shikoku car-free,
+on local trains, between Osaka and Kyushu — three routes, plus two variants of A.
 
     ... → Osaka (leave 9 Oct 2026) → [ SHIKOKU ] → Ōkunoshima (rabbit island)
         → Hiroshima → Miyajima → Kyushu
@@ -9,6 +9,8 @@ on local trains, between Osaka and Kyushu.
 | | |
 |---|---|
 | **A** | Himeji → Shodoshima → down through Shikoku. 16 days. Cleanest logistics, catches Kōchi's Sunday market. |
+| **A2** | A plus a second Tokushima night, spent on the Naruto whirlpools on 14 Oct — the one 大潮 spring tide this trip touches. Same 16 days: the vine bridge moves into the 17th's dead morning. |
+| **A3** | A without Kōchi, via Kotohira instead. 15 days. Drops the Sunday market, buys back a day and ¥3,100 a head. |
 | **B** | Awaji Island → the Naruto whirlpools → Shikoku. 17 days. Buys the whirlpools; hangs on a four-a-day bus and a tide table. |
 | **C** | One week, two bases, barely any packing. 11 days. Cheapest and least tiring; never sees inland or southern Shikoku. |
 
@@ -47,7 +49,7 @@ Nothing in `out/` is edited by hand — it is regenerated from `src/`.
 
 ```
 src/                  the single source of truth
-  itineraries.py        the three options, day by day, plus glossary,
+  itineraries.py        the options, day by day, plus glossary,
                         foliage table and the Shimanami variants
   variants.py           splices a Shimanami variant in and shifts later dates
   refs/                 everything the itineraries are checked against
@@ -56,7 +58,7 @@ src/                  the single source of truth
     trails.py             trailhead GPS, YAMAP/AllTrails routes, difficulty
     costs.py              admission, hours, booking deadlines, dwell, currency
     places_geo.json       geocode cache (rebuild with `make geocode`)
-  build_sheets.py       -> out/sheets/Shikoku-Option-{A,B,C}.xlsx + CSVs
+  build_sheets.py       -> out/sheets/Shikoku-Option-{A,A2,A3,B,C}.xlsx + CSVs
   build_shimanami.py    -> out/sheets/Shimanami-Kaido.xlsx
   build_dashboard.py    -> out/dashboard.html + out/dashboard-artifact.html
   geocode.py            resolves new PLACES entries (costs API calls)

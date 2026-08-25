@@ -662,7 +662,8 @@ BODY = """
     <div class="seg" id="seg" role="tablist" aria-label="Choose route">
       <div class="pill" id="pill"></div>
       <button role="tab" aria-selected="true" data-k="A">A &middot; Himeji &amp; Shodoshima</button>
-      <button role="tab" aria-selected="false" data-k="A2">A2 &middot; A without Kōchi</button>
+      <button role="tab" aria-selected="false" data-k="A2">A2 &middot; A + Naruto</button>
+      <button role="tab" aria-selected="false" data-k="A3">A3 &middot; A without Kōchi</button>
       <button role="tab" aria-selected="false" data-k="B">B &middot; Awaji &amp; whirlpools</button>
       <button role="tab" aria-selected="false" data-k="C">C &middot; One week, two bases</button>
     </div>

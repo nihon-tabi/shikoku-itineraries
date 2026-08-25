@@ -66,6 +66,7 @@ SOURCES = {
  "uzu_tide":       ("Uzu-no-michi — official tide calendar", "https://www.uzunomichi.jp/tide-calendar/", "operator"),
  "wonder_naruto":  ("Uzushio Cruise — Wonder Naruto fares", "https://www.uzusio.com/geton/", "operator"),
  "tokubus_naruto": ("Tokushima Bus — Naruto Park line timetable (PDF)", "https://www.tokubus.co.jp/themes/default/pdf/kaisei260401/c1_sogo_narutopark.pdf", "operator"),
+ "tokubus_narutofare":("Tokushima Bus — Naruto Park line fare table (PDF)", "https://www.tokubus.co.jp/files/20240124/33affbc7ab91dd2fe8d6dcb6b6a071f598a66e39.pdf", "operator"),
  "tokubus_fare":   ("NAVITIME / japan-guide (operator publishes only a graphic matrix)", "https://www.japan-guide.com/e/e7852.html", "third-party"),
  "srn_takmat":     ("Shikoku Rail Note — Takamatsu–Matsuyama by local train", "https://shikoku-railway-note.com/takamatsu-matsuyama-futsu-densha/", "third-party"),
  "seishun18":      ("JR — Seishun 18 kippu product page", "https://jr-group.jp/seishun18/", "operator"),

@@ -1018,7 +1018,7 @@ dict(date="2026-10-11", title="The Naruto whirlpools, then Tokushima",
  legs=[("洲本バスセンター Sumoto Bus Centre","鳴門公園口 Naruto-kōen-guchi (ALIGHT ONLY)","07:00","07:31","Awaji Kōtsū — alight only",1380),
        ("鳴門公園 Naruto Park","渦の道 Uzu-no-michi glass walkway","—","—","Walkway under the bridge",510),
        ("亀浦観光港 Kameura Port","Whirlpool cruise","12 sailings 9:00–16:20","+~30 min","Wonder Naruto (no reservation needed)",2000),
-       ("鳴門公園 Naruto Park","徳島駅 Tokushima Stn","21 weekday departures","+~80 min","Tokushima Bus",390)]),
+       ("鳴門公園 Naruto Park","徳島駅 Tokushima Stn","last through-bus 17:45 (weekday)","+~86 min","Tokushima Bus, Naruto Park line — fare revised 1 Apr 2026",720)]),
 
 dict(date="2026-10-12", title="Tokushima on foot",
  do=["Awa Odori Kaikan — the dance-festival museum, with daily live performances and a "
@@ -1447,7 +1447,194 @@ dict(date="2026-10-25", title="Peace Memorial Park, then on to Kyushu",
 OPTIONS = {"A": A, "B": B}
 
 # ─────────────────────────────────────────────────────────────────────────────
-# OPTION A2 — Option A with Kōchi swapped out for Kotohira.
+# OPTION A2 — Option A with a second Tokushima night, bought for free.
+#
+# The traveller asked whether east Tokushima deserves two nights. The answer is
+# yes, and for one dated reason: 14 October 2026 is a 大潮 SPRING TIDE at Naruto,
+# with the operator's own viewing window running 12:30–16:30 — squarely inside
+# Uzu-no-michi's October opening. That is as good as the whirlpools get, and
+# Option A currently spends the day on a train instead.
+#
+# The night is NOT taken out of Iya. Option A's vine-bridge day carries
+# 11:00–15:11 of forced dead time (the return buses are what they are), and its
+# 17 October is a travel day with an empty morning. Fold the bridge into that
+# morning and the whole block closes up one day shorter with nothing lost but
+# loitering — and Kōchi's Sunday market, the reason Option A exists, stays on
+# Sunday.
+#
+# Built by transforming A rather than copy-pasting it, so the two cannot drift.
+
+def _make_A2():
+    import copy
+    a2 = copy.deepcopy(A)
+    a2["key"] = "A2"
+    a2["name"] = "Option A2 — Option A plus Naruto, on a spring tide"
+    a2["verdict"] = (
+        "Option A with a second night in Tokushima, spent on the Naruto whirlpools on "
+        "the one date this trip touches a 大潮 spring tide. It costs no Iya day and no "
+        "Kōchi Sunday market: the vine bridge moves into the 17th's empty morning, which "
+        "was dead time anyway. ¥3,000 a head more than Option A in fares and tickets, "
+        "plus ¥3,300 if you do the Ōtsuka Museum; the beds are a wash, since a Tokushima "
+        "night replaces an Awa-Ikeda one. Take this unless you want the slower "
+        "vine-bridge day more than you want the whirlpools.")
+    days = a2["days"]
+    i = next(n for n, d in enumerate(days) if d["date"] == "2026-10-14")
+    assert "Ōboke" in days[i]["title"], days[i]["title"]
+    assert "vine bridge" in days[i + 1]["title"], days[i + 1]["title"]
+    assert "Tsurugi" in days[i + 2]["title"], days[i + 2]["title"]
+    assert "Kōchi" in days[i + 3]["title"], days[i + 3]["title"]
+
+    # The 13th stops being "the rest day before the mountains" — tomorrow is Naruto.
+    d13 = days[i - 1]
+    assert d13["date"] == "2026-10-13"
+    d13["flow"] = [(w, t.replace("Nothing today is tight — this is the rest day before the "
+                                "mountains.",
+                                "Nothing today is tight. Do the DAYTIME show today and keep "
+                                "the evening one for tomorrow, when you get back from Naruto."))
+                   for w, t in d13["flow"]]
+    d13["watch"] = ["Nothing tricky today — but read tomorrow's tide note tonight, because "
+                    "tomorrow is built around it.",
+                    "The 3-in-1 set (museum + day show + ropeway) is ¥2,640 against ¥3,300 "
+                    "bought separately, per person."]
+
+    # A's Ōboke-boat day slides one day later, unchanged in every other respect.
+    oboke = copy.deepcopy(days[i])
+    oboke["date"] = "2026-10-15"
+
+    tsurugi = copy.deepcopy(days[i + 2])          # 16 Oct, untouched
+
+    naruto = dict(date="2026-10-14", title="Naruto — the whirlpools on a spring tide",
+ do=["THE NARUTO WHIRLPOOLS from the glass-floored walkway slung under the Ōnaruto Bridge, "
+     "and from a boat in among them if you want both.",
+     "THE ŌTSUKA MUSEUM OF ART by the bridge — full-size ceramic reproductions of a "
+     "thousand Western masterpieces, one of the strangest museums anywhere.",
+     "Back in Tokushima for the Awa Odori EVENING show, generally rated above the daytime "
+     "one, or Mt Bizan after dark."],
+ flow=[
+  ("why today, and not another day",
+   "TODAY IS A 大潮 SPRING TIDE. The operator publishes 満潮 08:00 and 干潮 14:30, and its own "
+   "rule is 「観潮には、この時刻を中心に、大潮は前後２時間、中潮は前後１時間半、小潮は前後１時間までが"
+   "最適です」 — so the windows are 06:00–10:00 and 12:30–16:30. The afternoon one sits "
+   "squarely inside Uzu-no-michi's October opening, which is why the day is shaped this "
+   "way. Re-check your own date before you travel: https://www.uzunomichi.jp/tide-calendar/"),
+  ("08:10 → 09:30",
+   "THE BUS TO THE MUSEUM. 徳島駅前 to 大塚国際美術館前, ¥720. ⚠️ CASH ONLY — the operator's "
+   "own fare sheet says IC cards do not work on board; the on-board changer takes ¥100 and "
+   "¥500 coins and ¥1,000 notes only."),
+  ("09:30 – 12:15",
+   "THE ŌTSUKA MUSEUM OF ART, which opens at 09:30. ¥3,300 on the day, ¥3,160 bought in "
+   "advance — the most expensive admission on the whole trip, per person. Travellers "
+   "report about two hours as the average stay; it is a three-hour museum if you let it "
+   "be. Closed Mondays, so today (a Wednesday) is fine."),
+  ("12:18 → 12:31",
+   "UP TO THE PARK. Thirteen minutes on the same bus line, ¥110. There is also a 13:00 → "
+   "13:13 if the museum holds you."),
+  ("12:30 – 16:30, the spring-tide window",
+   "UZU-NO-MICHI — a 450-metre walkway slung under the road deck with glass floor panels "
+   "45 metres directly above the churn. ¥510, 09:00–17:00 in October, last entry 16:30. "
+   "Allow an hour. AND/OR THE BOAT: Wonder Naruto is ¥2,000, 12 sailings 09:00–16:20, no "
+   "reservation needed, and puts you in among them rather than above them. The Aqua Eddy "
+   "has an underwater window but DOES need booking."),
+  ("your bags are not a problem",
+   "Uzu-no-michi and the Eddy hall next door both have FREE coin lockers, open to closing "
+   "time, and take cases too big for them at the counter for ¥400 a day."),
+  ("16:25 → 17:51",
+   "BACK TO TOKUSHIMA. ⚠️ Only EIGHT return runs a day come all the way through to "
+   "徳島駅前; the rest stop at 鳴門駅前. The through departures from 鳴門公園 are 10:25, 12:45, "
+   "13:25, 14:45, 15:45, 16:25, 17:00 and 17:45, and 17:45 → 19:18 is the last."),
+  ("20:00, if you have the legs",
+   "THE AWA ODORI EVENING SHOW, ¥1,600, a different famous troupe each night and generally "
+   "rated above the daytime one. It ends about 20:50. The Bizan ropeway runs to 21:00 "
+   "until 31 October if you would rather have the night view."),
+ ],
+ travel="One bus out along the coast and one back, about ninety minutes each way. Nothing "
+        "else moves today.",
+ watch=["⭐ THE TIDE IS THE DAY. 14 October is 大潮 — the strongest tide grade — with the "
+        "afternoon window running 12:30–16:30. On a neap tide the same visit gives you an "
+        "hour and much less to look at.",
+        "⚠️ THE BUS IS CASH ONLY and there are only eight through-runs back to Tokushima. "
+        "Last one leaves 鳴門公園 at 17:45.",
+        "⚠️ ŌTSUKA IS ¥3,300 A HEAD and ticket sales stop at 16:00. If that is not your "
+        "kind of museum, the alternative morning is TEMPLES 1–5 of the 88-temple "
+        "pilgrimage — flat, fully signposted, free, and the classic first day for henro "
+        "pilgrims. Then go out to Naruto after lunch for the same tide window.",
+        "The Uzu-no-michi + Eddy combined ticket is ¥900 against ¥1,130 bought separately."],
+ sleep="Tokushima — Hostel PAQ, 8 min walk from the station",
+ legs=[("徳島駅前 Tokushima Stn","大塚国際美術館前 Ōtsuka Museum","08:10","09:30","Tokushima Bus, Naruto Park line — CASH ONLY, no IC",720),
+       ("大塚国際美術館前 Ōtsuka Museum","鳴門公園 Naruto Park","12:18 (or 13:00)","12:31 (or 13:13)","Same bus line — 13 min",110),
+       ("鳴門公園 Naruto Park","渦の道 Uzu-no-michi glass walkway","—","—","Walkway under the bridge",510),
+       ("亀浦観光港 Kameura Port","Whirlpool cruise","12 sailings 9:00–16:20","+~30 min","Wonder Naruto (no reservation needed)",2000),
+       ("鳴門公園 Naruto Park","徳島駅前 Tokushima Stn","16:25 (last through-bus 17:45)","17:51 (19:18)","Tokushima Bus — only 8 through-runs a day",720)])
+
+    bridge_kochi = dict(date="2026-10-17",
+ title="The vine bridge in the morning, then down the gorge to Kōchi",
+ do=["IYA KAZURABASHI and BIWA FALLS before lunch, then the Dosan Line south.",
+     "The ride itself — the line below Ōboke is switchbacks, tunnels and river crossings, "
+     "and you are on it for a couple of hours.",
+     "Hirome Market in the evening: about sixty stalls, shared tables. Order katsuo no "
+     "tataki, bonito seared over burning rice straw."],
+ flow=[
+  ("07:45 → 08:14",
+   "DOWN TO ŌBOKE ON THE FIRST LOCAL, with the bags. Two ways to handle them, and they "
+   "lead to different afternoons — pick one now, at the ticket machine, not at 12:30. "
+   "EITHER stash them in Ōboke's lockers (⚠️ every one is ¥500, COINS ONLY, the station "
+   "has been unstaffed since 2010 and there is no change machine — break a note at the "
+   "Awa-Ikeda 7-Eleven first) OR leave them at Awa-Ikeda's ¥400 lockers and use the "
+   "alternative return below."),
+  ("08:58 → 09:19",
+   "THE BUS TO KAZURABASHI, ¥670. Cash only — coins and ¥1,000 notes. There is nothing up "
+   "the valley to break a note at."),
+  ("09:20 – 11:45",
+   "IYA KAZURABASHI — 45 metres of woven mountain vine hanging 14 metres above the river, "
+   "rebuilt every three years, with the slats spaced wide enough to see straight down "
+   "between them. Legend says the Heike built these so they could cut them behind "
+   "themselves. Five minutes from the bus stop. Then BIWA FALLS, a 50-metre waterfall "
+   "literally fifty metres to your left as you step off the bridge. Lunch at the "
+   "michi-no-eki: Iya soba, which is what a valley too steep to grow rice eats instead."),
+  ("12:11 → 12:32",
+   "THE 12:11 BUS OUT, and take it rather than the 13:11. Both reach 大歩危駅前 in time for "
+   "the 14:22, but the 13:11 arrives at 13:32 with no margin at all and the 14:22 is the "
+   "last thing that gets you to Kōchi today."),
+  ("14:22 →",
+   "THE DOSAN LINE SOUTH. ⚠️ ONLY TWO LOCAL TRAINS A DAY RUN THROUGH TO KŌCHI — 08:15 and "
+   "14:22. This leg IS the sightseeing; there is nothing to do but look out of the window."),
+  ("the bags-at-Awa-Ikeda variant",
+   "If you left the bags at Awa-Ikeda instead: same 12:11 bus, then 大歩危 12:58 → "
+   "Awa-Ikeda, collect them, and take the 13:49 Awa-Ikeda → Kōchi local. Same evening in "
+   "Kōchi, no coin problem, and one more train."),
+  ("on arrival",
+   "⚠️ KŌCHI DOES NOT TAKE NATIONAL IC CARDS — it has its own, Iruca. Cash from here on, "
+   "for buses, trams and JR."),
+ ],
+ travel="First local down the valley, the one bus line that serves the vine bridge, back "
+        "out by lunchtime, and then two hours south through the gorge.",
+ watch=["⚠️ THE 14:22 IS THE DEADLINE, and the 12:11 bus is what protects it. The 13:11 "
+        "reaches 大歩危駅前 at 13:32 and still works, but with no slack; the next bus after "
+        "that is 14:16 → 14:37, which is fifteen minutes too late.",
+        "⚠️ Miss the 14:22 and there is no later through-train — you are in the valley for "
+        "the night.",
+        "The valley buses are CASH ONLY — coins and ¥1,000 notes.",
+        "What you give up against Option A: about two hours of loitering at the bridge and "
+        "the flat 1 km Ōboke station lookout loop. That is the entire cost of the extra "
+        "Naruto day.",
+        "Kōchi does not accept national IC cards. Cash from here on.",
+        "Hirome Market divides people: 'very crowded and loud', 'I got overstimulated'. The "
+        "stalls just outside are calmer."],
+ sleep="Kōchi — central, near Hirome Market",
+ legs=[("Awa-Ikeda","Ōboke","07:45","08:14","JR Dosan Line local train",530),
+       ("大歩危駅前 Ōboke-ekimae (in front of JR Ōboke)","かずら橋夢舞台 Kazurabashi Yumebutai","08:58","09:19","Shikoku Kotsu, Iya line — CASH ONLY",670),
+       ("かずら橋夢舞台 Kazurabashi Yumebutai","大歩危駅前 Ōboke-ekimae","12:11 (not the 13:11)","12:32","Shikoku Kotsu, Iya line — CASH ONLY",670),
+       ("Ōboke","Kōchi","14:22","not published","JR Dosan Line local (2 through-trains a day)",1430)])
+
+    days[i:i + 4] = [naruto, oboke, tsurugi, bridge_kochi]
+    return a2
+
+A2 = _make_A2()
+OPTIONS["A2"] = A2
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPTION A3 — Option A with Kōchi swapped out for Kotohira.
 #
 # Kōchi is the most expensive and most fragile part of Option A: a ¥1,430 local
 # that runs through only twice a day to get in, and a ¥4,000 reservation-only
@@ -1459,11 +1646,11 @@ OPTIONS = {"A": A, "B": B}
 # Built by transforming A rather than copy-pasting it, so the two can never
 # drift. Everything after the swap shifts one day earlier.
 
-def _make_A2():
+def _make_A3():
     import copy, datetime
     a2 = copy.deepcopy(A)
-    a2["key"] = "A2"
-    a2["name"] = "Option A2 — Option A without Kōchi, via Kotohira instead"
+    a2["key"] = "A3"
+    a2["name"] = "Option A3 — Option A without Kōchi, via Kotohira instead"
     a2["verdict"] = (
         "Option A with its weakest link removed. You lose Kōchi's 300-year-old Sunday "
         "market and the castle, and you gain Konpira-san, the oldest kabuki theatre in "
@@ -1559,8 +1746,8 @@ dict(date="2026-10-18", title="Right across to Matsuyama, on the west coast, and
                      - datetime.timedelta(days=1)).isoformat()
     return a2
 
-A2 = _make_A2()
-OPTIONS["A2"] = A2
+A3 = _make_A3()
+OPTIONS["A3"] = A3
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1932,7 +2119,7 @@ dict(date="2026-10-19", title="Peace Memorial Park, then on to Kyushu",
 OPTIONS["C"] = C
 
 # switcher order: A, then its Kōchi-free sibling, then B, then the one-week plan
-for _k in ("A", "A2", "B", "C"):
+for _k in ("A", "A2", "A3", "B", "C"):
     OPTIONS[_k] = OPTIONS.pop(_k)
 
 

@@ -166,6 +166,22 @@ PLACES = {
 }
 
 
+# Option A2 shares Option A's dates everywhere except 14–17 October, so inherit
+# A's manual pins wholesale and then override the four days that differ. (A3
+# re-dates everything after 17 October, so it cannot inherit this way and
+# relies on auto-detection from its prose.)
+for _d, _v in [(k[:-1], v) for k, v in list(MAPS.items()) if k.endswith("A")]:
+    MAPS[_d + "A2"] = _v
+
+MAPS["2026-10-14A2"] = [("Ōtsuka Museum of Art", "大塚国際美術館"), ("Uzu-no-michi", "渦の道 鳴門"),
+                        ("Naruto Park", "鳴門公園"), ("Kameura", "亀浦観光港 鳴門"),
+                        ("Awa Odori Kaikan", "阿波おどり会館 Tokushima")]
+MAPS["2026-10-15A2"] = MAPS["2026-10-14A"]
+MAPS["2026-10-16A2"] = MAPS["2026-10-16A"]
+MAPS["2026-10-17A2"] = [("Iya Kazurabashi vine bridge", "祖谷のかずら橋"), ("Biwa Falls", "琵琶の滝 祖谷"),
+                        ("Ōboke Station", "大歩危駅 Oboke Station"),
+                        ("Hirome Market", "ひろめ市場 Kochi")]
+
 def places_in(text):
     """Return [(name, mapurl)] for every PLACES key appearing in `text`,
     longest first so 'Iya Kazurabashi' wins over 'Kazurabashi'."""

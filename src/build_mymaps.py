@@ -315,6 +315,27 @@ def build():
         for nm, why in suspect:
             print(f"   {nm}: {why}")
 
+    # The third way a geocode goes wrong: it lands on an ADMINISTRATIVE CENTROID
+    # rather than the place. "久保 バス停 三好市" resolved to "Miyoshi, Tokushima,
+    # Japan" — the city centre, 30 km from the actual bus stop, and nothing about
+    # the coordinate looked wrong. The tell is the formatted address itself: a
+    # real place has a street, a block or a building number in it, so an address
+    # that is only a city and a prefecture means the geocoder never found the
+    # thing you asked for. Resolve those with a Places text search and pin the
+    # result by hand.
+    vague = []
+    for query, rec in sorted(_geo().items()):
+        addr = (rec.get("formatted") or "").strip()
+        if "—" in addr:            # hand-set, with a note saying why
+            continue
+        if not re.search(r"\d", addr) and addr.count(",") <= 2:
+            vague.append((query, addr))
+    if vague:
+        print(f"\n⚠ {len(vague)} geocode(s) resolved to an address with no street detail —")
+        print("   likely an administrative centroid, not the place:")
+        for q, a in vague:
+            print(f"   {q}  ->  {a!r}")
+
     spec = {
         "name": "Shikoku, Setouchi and Hiroshima — October 2026",
         "description": ("Every place across all four itinerary options. Prices are "

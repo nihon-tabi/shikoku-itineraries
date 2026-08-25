@@ -90,10 +90,10 @@
   "place_id": "ChIJ4wWTiYPlTzURojXnv25GTbs"
  },
  "ゲストハウス ヤドカーリー 尾道": {
-  "formatted": "Onomichi, Hiroshima, Japan",
-  "lat": 34.4089,
-  "lng": 133.204914,
-  "place_id": "ChIJYQlrv9X_UDURMa-XPVvqfXs"
+  "formatted": "広島県尾道市土堂１丁目９−１３ — ゲストハウス ヤドカーリ",
+  "lat": 34.4060592,
+  "lng": 133.1972752,
+  "place_id": "ChIJZyJIFksAUTUR_gh3tP29zfc"
  },
  "サンライズ糸山": {
   "formatted": "2-chōme-8-1 Sunabachō, Imabari, Ehime 794-0001, Japan",
@@ -126,10 +126,10 @@
   "place_id": "ChIJu-H0aC_uUzURhcnP5-wFTPA"
  },
  "ホステルパク 徳島": {
-  "formatted": "Tokushima, Japan",
-  "lat": 34.070365,
-  "lng": 134.554954,
-  "place_id": "ChIJU-wn2gINUzUR94WNIAhofbU"
+  "formatted": "徳島県徳島市中通町２丁目５ — HOSTEL PAQ tokushima",
+  "lat": 34.0705702,
+  "lng": 134.5516533,
+  "place_id": "ChIJtXOjw4VtUzURLYRmprB1YoA"
  },
  "ホテル祖谷温泉": {
   "formatted": "Matsumoto-367-28 Ikedachō Matsuo, Miyoshi, Tokushima 778-0165, Japan",
@@ -168,10 +168,10 @@
   "place_id": "ChIJRwsl6qmJTzURpVNHZx_aWNI"
  },
  "久保 バス停 三好市": {
-  "formatted": "Miyoshi, Tokushima, Japan",
-  "lat": 34.026023,
-  "lng": 133.807246,
-  "place_id": "ChIJj38fyzovUjURMcNvV1FL7-8"
+  "formatted": "徳島県三好市東祖谷久保 — Kubo bus stop (Places API, type bus_stop). The plain geocoder returned the Miyoshi city centroid, 30 km away.",
+  "lat": 33.8641747,
+  "lng": 133.9452949,
+  "place_id": "ChIJuTaHm9Q6UjURdo1SklZ8syk"
  },
  "亀浦観光港 うずしお観潮船": {
   "formatted": "Oge Narutocho Tosadomariura, Naruto, Tokushima 772-0053, Japan",
@@ -887,10 +887,10 @@
   "place_id": "ChIJTTpWakKDUTURulcrfDvSu24"
  },
  "高松港 Takamatsu Port": {
-  "formatted": "Port of Takamatsu, Japan",
-  "lat": 34.366667,
-  "lng": 134.05,
-  "place_id": "ChIJ3bscbmbsUzUROMHM-8Kz-kw"
+  "formatted": "香川県高松市サンポート８−２２ — 高松港, the Shodoshima/Naoshima ferry berth",
+  "lat": 34.3541501,
+  "lng": 134.0487144,
+  "place_id": "ChIJkRDDUfHsUzURq6ODV9JO0Wk"
  },
  "高松駅 Takamatsu Station": {
   "formatted": "Japan, 〒760-0011 Kagawa, Takamatsu, Hamanochō, 1 Takamatsu Station, １−２０",
