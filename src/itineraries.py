@@ -16,6 +16,20 @@ Each day:
 RATE_NOTE = "Seeded 0.01858 on 16 Aug 2026; B1 refreshes itself via Google Finance."
 
 GLOSSARY = [
+    ("Manchō / kanchō", "満潮 / 干潮",
+     "High tide and low tide. 満 is 'full', 干 is 'dry'. A Japanese tide table (潮見表, "
+     "shiomihyō) prints both times for every date.",
+     "Four things on this trip are locked to these two numbers, and they are NOT locked "
+     "the same way — see the Tides tab. Beware the homophone: 干潮 (low tide) and 観潮 "
+     "(whirlpool-viewing) are both KANCHŌ, so a 観潮船 kanchōsen is a whirlpool boat, "
+     "nothing to do with low water."),
+    ("Ōshio / nakashio / koshio", "大潮 / 中潮 / 小潮",
+     "Spring, middle and neap tide — how BIG the day's tide is, which is a separate "
+     "thing from whether it is high or low. Spring tides fall around new and full moon "
+     "and move the most water; neap tides move the least.",
+     "This sets how wide your viewing window is at Naruto: the operator allows ±2 hours "
+     "either side of the listed time on a 大潮, ±1.5 on a 中潮 and only ±1 on a 小潮. On "
+     "渦の道's calendar 大潮 prints in RED, 中潮 in blue, 小潮 in black."),
     ("Seishun 18 kippu", "青春18きっぷ",
      "A seasonal JR ticket giving 3 or 5 days of unlimited travel on SLOW trains only "
      "(local + rapid), for a flat price. Despite the name it has no age limit.",
@@ -1512,11 +1526,16 @@ def _make_A2():
      "one, or Mt Bizan after dark."],
  flow=[
   ("why today, and not another day",
-   "TODAY IS A 大潮 SPRING TIDE. The operator publishes 満潮 08:00 and 干潮 14:30, and its own "
+   "TODAY IS A 大潮 SPRING TIDE. Both of today's times are whirlpool windows — at Naruto, "
+   "unlike a sandbar or a torii, the water level reveals nothing; what the tide sets is how "
+   "hard the strait runs, and it runs hardest around BOTH turning points. The operator "
+   "publishes 満潮 08:00 (北流, flowing north) and 干潮 14:30 (南流, flowing south), and its own "
    "rule is 「観潮には、この時刻を中心に、大潮は前後２時間、中潮は前後１時間半、小潮は前後１時間までが"
    "最適です」 — so the windows are 06:00–10:00 and 12:30–16:30. The afternoon one sits "
-   "squarely inside Uzu-no-michi's October opening, which is why the day is shaped this "
-   "way. Re-check your own date before you travel: https://www.uzunomichi.jp/tide-calendar/"),
+   "squarely inside Uzu-no-michi's October opening — the morning one overlaps it by an "
+   "hour — which is why the day is shaped this way. It also happens to be the 南流, which "
+   "local sources rate the stronger of the two, though the boat operator says neither is "
+   "inherently bigger. Re-check your own date: https://www.uzunomichi.jp/tide-calendar/"),
   ("08:10 → 09:30",
    "THE BUS TO THE MUSEUM. 徳島駅前 to 大塚国際美術館前, ¥720. ⚠️ CASH ONLY — the operator's "
    "own fare sheet says IC cards do not work on board; the on-board changer takes ¥100 and "

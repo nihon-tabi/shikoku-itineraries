@@ -176,14 +176,32 @@ TIDES = [
   "sf_angel", []),
  ("Naruto whirlpools",
   "Option A2: 14 Oct — 大潮 SPRING TIDE  ·  Option B: 11 Oct",
-  "The vortices only form around PEAK TIDAL FLOW. The usable window scales with the "
+  "The vortices only form around PEAK TIDAL FLOW. ⚠️ UNLIKE every other row "
+  "on this tab, high and low tide do NOT show you different things here — nothing is "
+  "revealed or covered by the water. BOTH listed times are whirlpool windows; what "
+  "changes is which way the strait runs (満潮→北流 north, 干潮→南流 south). Take "
+  "whichever fits the opening hours. The usable window scales with the "
   "tide's strength: spring tide (大潮, red on the calendar) ±2 hours, middle tide ±1.5, "
   "neap tide only ±1. Pick the day off the calendar FIRST, then fit the buses round it.\n"
   "14 OCT 2026 IS 大潮: published 満潮 08:00 and 干潮 14:30, so the windows are 06:00–10:00 "
   "and 12:30–16:30 — the afternoon one sits inside Uzu-no-michi's October opening. "
   "13 Oct is also 大潮 (07:30 / 13:50). On Option B's 11 Oct the cross-bridge bus runs "
-  "only three times, because it is a Sunday.",
-  "uzu_tide", ["uzu_kisen_tide", "uzusio_tide_en"]),
+  "only three times, because it is a Sunday.\n"
+  "SOURCES DISAGREE on whether one direction beats the other. Uzushio Cruise "
+  "(operator) says neither is inherently bigger — it depends on the day's "
+  "干満差. A local hotel (third-party) argues 南流 is stronger, because the Pacific "
+  "side has drawn down while the Harima-nada side is still high: "
+  "「なるべく干潮で、大潮の時期・大潮の時間帯が最善となります」. Option A2's afternoon "
+  "window is centred on 干潮 anyway, so the question does not change the plan.",
+  "uzu_tide", ["uzu_naruto_kankou", "uzu_how", "uzu_kaigetsu", "uzu_kisen_tide", "uzusio_tide_en"]),
+ ("Chichibugahama — the mirror beach",
+  "Options A, A2 and A3: 12 Oct  ·  window 16:00–17:45, sunset 17:36",
+  "A flat tidal beach that holds a film of water once the tide DROPS, turning the strand "
+  "into a reflection. It needs a low tide that lands near sunset, so most days have no "
+  "usable window at all — 14–17 October 2026 has none. Mitoyo publishes a PER-DATE "
+  "calendar; look up your own day rather than assuming. This is why 12 October is built "
+  "backwards from the beach.",
+  "chichibu", []),
 ]
 
 

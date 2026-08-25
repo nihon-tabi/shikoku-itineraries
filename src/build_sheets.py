@@ -587,7 +587,7 @@ def build_walks(ws, opt):
 
 def build_tides(ws):
     head = ["What depends on the tide", "When, on this trip", "The rule", "Tide table"]
-    _title_block(ws, "Three things here only work at the right water level",
+    _title_block(ws, f"{len(TIDES)} things here only work at the right water level",
                  "Check these BEFORE fixing the hour of the day. All are free to look up.", 4)
     _header(ws, 4, head, wraps=(3,))
     _w(ws, [34, 34, 82, 52])

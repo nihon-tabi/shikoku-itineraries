@@ -185,6 +185,9 @@ SOURCES.update({
  "miyajima_tide": ("Miyajima Tourist Association — monthly tide tables (Oct 2026)", "https://www.miyajima.or.jp/sio/sio10.html", "official"),
  "jma_tide":      ("Japan Meteorological Agency — national tide tables", "https://www.jma.go.jp/bosai/tide/", "official"),
  "uzu_kisen_tide":("Uzushio Kisen — whirlpool tide table", "https://www.uzushio-kisen.com/shiomihyou.html", "operator"),
+ "uzu_naruto_kankou":("Naruto Uzushio Tourism Association — tide table and when the whirlpools peak", "https://www.naruto-kankou.jp/uzu/", "official"),
+ "uzu_how":       ("Uzushio Cruise — how the whirlpools form, and 北流 vs 南流", "https://www.uzusio.com/know/", "operator"),
+ "uzu_kaigetsu":  ("Bay Resort Hotel Naruto Kaigetsu — which of high and low tide is stronger", "https://narutokaigetsu.jp/uzushio-time/", "third-party"),
  "uzusio_tide_en":("Uzushio Cruise — tide table, English", "https://www.uzusio.com/en/siomi/", "operator"),
 })
 
