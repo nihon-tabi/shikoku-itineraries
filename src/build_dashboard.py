@@ -56,6 +56,7 @@ def _days(opt, k):
                 d=d["date"], dow=dt.strftime("%a"), dnum=dt.day,
                 mon=dt.strftime("%b"), t=d["title"],
                 sleep=linkify(_esc(d["sleep"])),
+                strand=[{kk: _esc(vv) for kk, vv in x.items()} for x in d.get("strand", [])],
                 book=[autolink(linkify(_esc(x))) for x in d.get("book", [])],
                 alts=alts,
                 flow=alts[0]["flow"], do=alts[0]["do"], travel=alts[0]["travel"],
@@ -77,6 +78,7 @@ CSS = """
   --rail:#E1E5EA; --rail-2:#CDD3DB;
   --accent:#C0392B; --warn-bg:#8A64101A; --warn:#8A6410;
   --ok:#26624A; --ok-bg:#26624A14;
+  --bad:#C01B1B; --bad-bg:#C01B1B14; --bad-ink:#7A0F0F;
   --r:10px;
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
@@ -87,6 +89,7 @@ CSS = """
   --rail:#ffffff17; --rail-2:#ffffff2b;
   --accent:#E8705E; --warn:#D9A93F; --warn-bg:#D9A93F1F;
   --ok:#67B893; --ok-bg:#67B8931A;
+  --bad:#FF6B6B; --bad-bg:#FF6B6B1F; --bad-ink:#FFB3B3;
 }}
 :root[data-theme="dark"]{
   --paper:#0E1116; --card:#171B22; --sunk:#12161C;
@@ -94,6 +97,7 @@ CSS = """
   --rail:#ffffff17; --rail-2:#ffffff2b;
   --accent:#E8705E; --warn:#D9A93F; --warn-bg:#D9A93F1F;
   --ok:#67B893; --ok-bg:#67B8931A;
+  --bad:#FF6B6B; --bad-bg:#FF6B6B1F; --bad-ink:#FFB3B3;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
@@ -174,6 +178,23 @@ h1 em{font-style:normal;color:var(--accent)}
 .sec li{margin-bottom:5px;color:var(--ink-2);text-wrap:pretty}
 .sec li::marker{color:var(--accent)}
 .sec p{margin:0;color:var(--ink-2);text-wrap:pretty}
+.strand{border:2px solid var(--bad);background:var(--bad-bg);border-radius:10px;
+  padding:12px 14px;margin:0 0 14px}
+.strand>.hd{display:flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.02em;
+  color:var(--bad);text-transform:uppercase;font-size:12.5px;margin-bottom:8px}
+.strand .item{border-top:1px solid var(--bad);padding-top:9px;margin-top:9px}
+.strand .item:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.strand .what{font-weight:700;color:var(--bad-ink);font-size:14.5px;line-height:1.35}
+.strand .det{color:var(--ink-2);font-size:13.5px;margin-top:4px}
+.strand dl{margin:7px 0 0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:13px}
+.strand dt{color:var(--bad);font-weight:700;white-space:nowrap;font-size:11.5px;
+  text-transform:uppercase;letter-spacing:.03em;padding-top:2px}
+.strand dd{margin:0;color:var(--ink-2)}
+.st-badge{font-family:var(--mono);font-size:10.5px;font-weight:700;padding:2px 7px;
+  border-radius:999px;white-space:nowrap;letter-spacing:.04em}
+.st-CONFIRMED{background:var(--ok-bg);color:var(--ok)}
+.st-UNPUBLISHED,.st-UNVERIFIED,.st-UNREADABLE{background:var(--bad);color:#fff}
+.strandsum li{margin-bottom:10px}
 .warnbox{background:var(--warn-bg);border-radius:8px;padding:10px 12px 10px 0}
 .warnbox ul{padding-left:28px}
 .warnbox li{color:var(--ink-2);font-size:14px}
@@ -406,6 +427,16 @@ function dayBody(d){
        ).join("")}</ol></div>`
     :`<div class="sec"><p class="lbl">What you'll actually do &mdash; any order you like</p><ul>${
        a.do.map(x=>`<li>${x}</li>`).join("")}</ul></div>`;
+  /* The way BACK, in red, above everything else. A day is not planned until this
+     is known, so it must be the first thing on the day — not buried in "watch out". */
+  const row=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:"";
+  const st=(d.strand&&d.strand.length)?`<div class="strand">
+    <div class="hd"><span>&#128308;</span><span>Can strand you &mdash; check before this day</span></div>
+    ${d.strand.map(x=>`<div class="item">
+      <div class="what">${esc(x.what)} <span class="st-badge st-${esc(x.state)}">${esc(x.state)}</span></div>
+      <div class="det">${esc(x.detail)}</div>
+      <dl>${row("Check",x.check)}${row("Ask",x.who)}${row("By",x.by)}${row("If it fails",x.fallback)}</dl>
+    </div>`).join("")}</div>`:"";
   const trav=`<div class="sec"><p class="lbl">Getting there</p><p>${a.travel}</p></div>`;
   const warn=a.watch.length?`<div class="sec"><p class="lbl">Watch out for</p>
     <div class="warnbox"><ul>${a.watch.map(x=>`<li>${x}</li>`).join("")}</ul></div></div>`:"";
@@ -429,7 +460,7 @@ function dayBody(d){
   const bb=(d.book&&d.book.length)?`<div class="bookban"><p class="h">Book this before the day</p>
     <ul>${d.book.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:"";
   return `<h3 class="dtitle">${esc(d.t)}</h3>
-    <p class="sleep">Sleep in · <b>${d.sleep}</b></p>${bb}${sw}
+    <p class="sleep">Sleep in · <b>${d.sleep}</b></p>${st}${bb}${sw}
     ${a.maps.length?`<div class="pins">${a.maps.map(m=>
       `<a class="pin" href="${m[1]}" target="_blank" rel="noopener">${esc(m[0])}</a>`).join("")}</div>`:""}
     ${doList}${trav}${wl}${warn}${tbl}`;

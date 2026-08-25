@@ -585,6 +585,46 @@ def build_walks(ws, opt):
     ws.freeze_panes = "A5"
 
 
+def build_strand(ws, opt):
+    """The services with no later alternative. This is the first tab a traveller
+    should read, so it is red-tabbed and sorted UNCONFIRMED-first: a warning you
+    cannot act on is just anxiety, and one you have already cleared is noise."""
+    rows = [(d["date"], d["title"], x)
+            for d in opt["days"] for x in d.get("strand", [])]
+    order = {"UNPUBLISHED": 0, "UNVERIFIED": 1, "UNREADABLE": 2, "CONFIRMED": 3}
+    rows.sort(key=lambda t: (order.get(t[2]["state"], 9), t[0]))
+    head = ["Date", "What can strand you", "State", "What is known",
+            "What to check, and where", "Who to ask", "By when", "If it fails"]
+    n_open = sum(1 for _, _, x in rows if x["state"] != "CONFIRMED")
+    _title_block(ws, "Miss one of these and you sleep where you stand",
+                 f"{len(rows)} services with no later alternative. "
+                 f"{n_open} still need confirming — those are listed first, in red. "
+                 "A CONFIRMED row was read off the operator's own current timetable.", 8)
+    _header(ws, 4, head, wraps=(3, 4, 5, 7))
+    _w(ws, [11, 40, 15, 62, 56, 34, 26, 52])
+    BAD, BAD_BG = "FFC01B1B", "FFFDECEC"
+    r = 5
+    for date, title, x in rows:
+        vals = [date, x["what"], x["state"], x["detail"],
+                x["check"], x["who"], x["by"], x["fallback"]]
+        bad = x["state"] != "CONFIRMED"
+        for c, v in enumerate(vals, 1):
+            cell = ws.cell(r, c, v)
+            cell.font = Font(name=SANS, size=10,
+                             bold=(c in (2, 3)),
+                             color=(BAD if bad and c in (2, 3) else INK))
+            cell.alignment = Alignment(wrap_text=True, vertical="top")
+            cell.border = GRID
+            if bad:
+                cell.fill = PatternFill("solid", fgColor=BAD_BG)
+        ws.row_dimensions[r].height = max(74, 11.5 * (len(x["detail"]) // 60 + 2))
+        r += 1
+    if not rows:
+        ws.cell(5, 1, "Nothing on this option has a single point of failure "
+                      "for getting back.").font = Font(name=SANS, size=11, color=INK)
+    ws.freeze_panes = "A5"
+
+
 def build_tides(ws):
     head = ["What depends on the tide", "When, on this trip", "The rule", "Tide table"]
     _title_block(ws, f"{len(TIDES)} things here only work at the right water level",
@@ -652,6 +692,7 @@ def main():
             ("Itinerary", lambda ws: build_itinerary(ws, opt), TAB_A),
             ("Transport", lambda ws: build_transport(ws, opt), TAB_B),
             ("Places & timings", lambda ws: build_places(ws, opt), "3E6B8A"),
+            ("Can strand you", lambda ws: build_strand(ws, opt), "C01B1B"),
             ("Walks & trailheads", lambda ws: build_walks(ws, opt), "3E7A4E"),
             ("Costs",     build_costs,    "8A5B3E"),
             ("Attractions", build_attractions, "7A4E8A"),

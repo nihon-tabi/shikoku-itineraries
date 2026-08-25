@@ -15,6 +15,26 @@ Each day:
 
 RATE_NOTE = "Seeded 0.01858 on 16 Aug 2026; B1 refreshes itself via Google Finance."
 
+# ── Things that can strand you ───────────────────────────────────────────────
+# A day is not "planned" until the way BACK is known. These are the services
+# with no later alternative — miss one and you are sleeping where you stand.
+#
+# Each carries a STATE, because "I checked and it runs at 17:45" and "nobody
+# has published this yet" are different facts and the traveller must be able to
+# tell them apart at a glance:
+#
+#   CONFIRMED    read off the operator's own current timetable, date given
+#   UNPUBLISHED  the operator has not issued the timetable for this date yet
+#   UNREADABLE   published, but as images/PDF the planner could not extract
+#
+# Anything not CONFIRMED must say exactly WHAT to check, WHERE, WHO to ring and
+# BY WHEN — a warning the traveller cannot act on is just anxiety.
+
+def _S(what, state, detail, check="", who="", by="", fallback=""):
+    return dict(what=what, state=state, detail=detail,
+                check=check, who=who, by=by, fallback=fallback)
+
+
 GLOSSARY = [
     ("Manchō / kanchō", "満潮 / 干潮",
      "High tide and low tide. 満 is 'full', 干 is 'dry'. A Japanese tide table (潮見表, "
@@ -530,6 +550,36 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
         "The ¥2,400 Shikoku Saihakken day pass is valid today (Sat/holiday only, slow trains "
         "only, bought the day before) and covers both JR legs — but those come to ¥2,480, so "
         "it saves ¥80. Buy singles unless you add another trip."],
+ strand=[
+  _S("Hearts Shuttle — the ONLY scheduled way off Chichibugahama after dark",
+     "UNPUBLISHED",
+     "The spring/summer diagram ran a final 19:22 Chichibugahama → 19:48 Kan-onji. The "
+     "AUTUMN diagram replaces it and is not out: re-checked 25 August 2026 and the "
+     "operator page still shows the 春・夏ダイヤ.",
+     check="mitoyochuo-kanko.co.jp → Hearts Shuttle → look for the 秋・冬ダイヤ. Read the "
+           "LAST Chichibugahama departure and its Kan-onji arrival.",
+     who="三豊中央観光 0875-57-1717 (books the pass) · 三豊市観光交流局 0875-56-5880",
+     by="Early September 2026 — then reserve the pass by 17:00 THREE DAYS before you go.",
+     fallback="NONE on a public holiday. 'mobi' was withdrawn 31 May 2025; the 三豊市 "
+              "community bus does not run Sundays or holidays; the 讃･瀬戸シャトルタクシー is "
+              "weekday-only. It is the Hearts Shuttle or a taxi you arrange yourself. "
+              "Last local Kan-onji → Takamatsu is 22:34."),
+  _S("Takaya Shrine shuttle — the only way up and down without a 350 m climb",
+     "UNPUBLISHED",
+     "Runs Saturdays, Sundays and public holidays, 10:00–18:30. October's timetable is "
+     "NOT yet published — the city page (updated 17 Aug 2026) carries August and "
+     "September only, so the 12:00-up / 13:30-down times in this plan come from an "
+     "earlier month and may move.",
+     check="観音寺市 page 0048814 → シャトルバス時刻表 → the 令和8年10月 PDF. Confirm the last "
+           "descent. Also check that day for a 運休 notice — 27 September 2026 was "
+           "cancelled outright for a triathlon, so it does happen.",
+     who="（一社）観音寺市観光協会, 観音寺市有明町3-37 — the ticket machine is inside",
+     by="As soon as the October PDF appears; tickets themselves cannot be reserved.",
+     fallback="Tickets sell out on fine days — go at 09:00 when the machine opens, "
+              "¥1,000 NOTES ONLY. If the shuttle is cancelled for weather (気象警報), the "
+              "alternatives are a ¥3,600 taxi each way or a 50-minute climb of 350 "
+              "vertical metres."),
+ ],
  sleep="Takamatsu — WeBase hostel",
  legs=[("Takamatsu","Kan-onji","10:13 (direct rapid, :13 past each hour to 18:13)","11:16–11:29","JR Yosan Line rapid — no surcharge",1240),
        ("JR Kan-onji Stn","Ariake Ground (shuttle stop, in Kotohiki Park)","—","20 min","On foot",0),
@@ -703,6 +753,33 @@ dict(date="2026-10-16", title="Mt Tsurugi — the one day that goes deep up the 
         "is the last one out of the valley.",
         "The buses are cash only. Bring more coins than you think.",
         "This wing runs daily only 1 Oct – 3 Nov."],
+ strand=[
+  _S("The four-bus chain out of the valley — 14:55 down, then 17:41 is the last bus",
+     "CONFIRMED",
+     "Miyoshi City's own English sheet: Mt Tsurugi 14:55 → Kubo 15:45, Kubo 16:44 → "
+     "Kazurabashi Yumebutai 17:30, Yumebutai 17:41 → 大歩危駅前 18:07, train 18:19. The "
+     "only earlier return from the mountain is 11:12, which gives you two minutes up "
+     "there. The 17:41 is the LAST bus out of the valley in any direction.",
+     check="Re-read the sheet before you go — it is revised each 1 April and 1 October, "
+           "and you travel just after a revision date: miyoshi-tourism.jp → "
+           "bus_timetable_en.",
+     who="Awa-Ikeda Bus Terminal (Shikoku Kotsu) 0883-72-1231",
+     by="Check again in early October 2026, after the 1 October revision.",
+     fallback="None. There is no taxi rank at Minokoshi and no accommodation you can "
+              "walk to. If a bus is late, everything after it is lost."),
+  _S("The Mt Tsurugi bus wing only runs DAILY between 1 Oct and 3 Nov",
+     "CONFIRMED",
+     "Quoted from the sheet: “Buses for Mt. Tsurugi operate only Saturday, Sunday and "
+     "national holidays from Apr 18 to Nov 23. The buses operate daily for Apr 18 to "
+     "May 6, Jul 4 to Aug 31 and Oct 1 to Nov 3.” 16 October 2026 is a FRIDAY, so this "
+     "day only exists because it falls inside that 1 Oct–3 Nov window.",
+     check="Confirm the window has not moved in the 1 October 2026 revision.",
+     who="Miyoshi City / Awa-Ikeda Bus Terminal 0883-72-1231",
+     by="Early October 2026.",
+     fallback="Outside the window it is weekends and holidays only, and from 24 November "
+              "it stops altogether. If the window moves, this day becomes the Nagoro "
+              "alternative instead."),
+ ],
  sleep="Awa-Ikeda — 4S STAY",
  alt_label="Mt Tsurugi and the chairlift",
  alts=[NAGORO_ALT],
@@ -798,6 +875,20 @@ dict(date="2026-10-18", title="Kōchi — market, castle, then the Pacific",
         "read the departure times out of it. Confirm the last bus back from Katsurahama at "
         "the ticket desk when you buy the pass — this is the one thing today that can strand "
         "you."],
+ strand=[
+  _S("The last MY遊バス back from Katsurahama",
+     "UNREADABLE",
+     "17:00 from 桂浜, reaching 高知駅 at 18:01; every run takes 52 minutes. NINE services "
+     "on Sundays and holidays, only SIX on weekdays — 18 October 2026 is a Sunday, so "
+     "you get the full nine. ⚠️ TIER: this is a third-party site. Tosaden publishes its "
+     "own timetable as IMAGES, which is why it could not be read from the operator.",
+     check="Confirm the last 桂浜 departure AT THE TICKET DESK when you buy the MY遊 pass "
+           "at Kōchi station. Ask for it in writing or photograph the board.",
+     who="Tosaden Kotsu — ask at the JR Kōchi station bus counter",
+     by="On the morning, before you board.",
+     fallback="Katsurahama is 13 km from the city with no rail. A taxi back is the only "
+              "other option and it is not cheap."),
+ ],
  sleep="Kōchi — central, near Hirome Market",
  legs=[("Katsurahama and Makino","—","—","—","MY-YU tourist bus pass (¥600 with a foreign passport)",600),
        ("City trams","—","—","—","Tosaden tram city-zone day pass",500)]),
@@ -901,6 +992,24 @@ dict(date="2026-10-22", title="Rabbit island, then Hiroshima",
         "Do not pick the rabbits up — they panic and break bones, and there is no vet.",
         "Allow 4–5 hours. A couple who budgeted three ended up running for the boat.",
         "Bag storage at the port is ¥500 a bag."],
+ strand=[
+  _S("The last boat OFF Ōkunoshima — this plan's '18:30' does not match the operator",
+     "UNVERIFIED",
+     "大三島フェリー's own timetable gives the last call at 大久野島 heading to 忠海 as "
+     "※17:16, arriving 忠海 17:30 — and the ※ means that sailing serves the island only "
+     "between FEBRUARY AND OCTOBER. The next boat, 18:40 from 盛, does NOT stop at "
+     "Ōkunoshima at all. A SECOND operator (休暇村客船) also works this route and is "
+     "probably where the '18:30' and 'every 30–45 min' in this plan came from, but its "
+     "timetable sits behind a bot wall and could NOT be read. Treat 18:30 as unconfirmed.",
+     check="Read BOTH operators before you go: 大三島フェリー at "
+           "sanyo-shosen.jp/omishima/time.html, and the 休暇村大久野島 boat. Then confirm "
+           "the last sailing at the Tadanoumi ticket window — and ask which operator it is.",
+     who="休暇村大久野島 0846-26-0321",
+     by="On the morning, at the port, before you cross.",
+     fallback="NONE. Ōkunoshima has one hotel and no other way off. Miss the last boat "
+              "and you are on the island for the night. The operator warns of delays at "
+              "busy times, and its second jetty has been closed for repairs before now."),
+ ],
  sleep="Hiroshima — The Evergreen Hostel or J-Hoppers",
  legs=[("Onomichi","Mihara","not published","not published","JR Sanyo Line local train",None),
        ("Mihara","Tadanoumi","—","+22 min","JR Kure Line local train",320),
@@ -1585,6 +1694,20 @@ def _make_A2():
         "pilgrimage — flat, fully signposted, free, and the classic first day for henro "
         "pilgrims. Then go out to Naruto after lunch for the same tide window.",
         "The Uzu-no-michi + Eddy combined ticket is ¥900 against ¥1,130 bought separately."],
+ strand=[
+  _S("The last bus back from Naruto Park to Tokushima",
+     "CONFIRMED",
+     "Read off Tokushima Bus's own timetable, revised 1 April 2026. Only EIGHT runs a "
+     "day come through to 徳島駅前 — 鳴門公園 dep 10:25, 12:45, 13:25, 14:45, 15:45, 16:25, "
+     "17:00 and 17:45. The 17:45 → 19:18 is the last. Every other run terminates at "
+     "鳴門駅前, which is a different place and a different evening.",
+     check="Re-read the PDF before you go; Tokushima Bus revises on 1 April and 1 October "
+           "and you travel a fortnight after a revision date.",
+     who="徳島バス 088-622-1826",
+     by="Early October 2026.",
+     fallback="If you miss the 17:45, get any bus to 鳴門駅前 and take JR from 鳴門 via "
+              "池谷 into Tokushima — slower, but it exists. Do not rely on it after dark."),
+ ],
  sleep="Tokushima — Hostel PAQ, 8 min walk from the station",
  legs=[("徳島駅前 Tokushima Stn","大塚国際美術館前 Ōtsuka Museum","08:10","09:30","Tokushima Bus, Naruto Park line — CASH ONLY, no IC",720),
        ("大塚国際美術館前 Ōtsuka Museum","鳴門公園 Naruto Park","12:18 (or 13:00)","12:31 (or 13:13)","Same bus line — 13 min",110),
@@ -1646,6 +1769,62 @@ def _make_A2():
         "Kōchi does not accept national IC cards. Cash from here on.",
         "Hirome Market divides people: 'very crowded and loud', 'I got overstimulated'. The "
         "stalls just outside are calmer."],
+ strand=[
+  _S("The 14:22 out of Ōboke — the last through-train to Kōchi",
+     "CONFIRMED",
+     "JR Shikoku's Ōboke departure board: only TWO local trains a day run through to "
+     "Kōchi, 08:15 and 14:22, and neither carries a 土休日運休 marker. The 12:11 bus off "
+     "the vine bridge is what protects the 14:22 — it reaches 大歩危駅前 at 12:32. The "
+     "13:11 also works, at 13:32, with no margin. The NEXT bus, 14:16 → 14:37, is "
+     "fifteen minutes too late.",
+     check="Re-read the Ōboke board after the 1 October 2026 revision.",
+     who="Awa-Ikeda Bus Terminal (Shikoku Kotsu) 0883-72-1231 for the bus; JR Shikoku "
+         "for the train",
+     by="Early October 2026.",
+     fallback="Miss the 14:22 and there is no later through-train — the 18:19 only "
+              "reaches Tosa-Yamada. You would be in the valley for the night. Ōboke has "
+              "been unstaffed since 2010."),
+ ],
+ alt_label="The vine bridge, then the 14:22",
+ alts=[
+  dict(label="Skip the valley — the 08:15 straight to Kōchi, half a day extra there",
+   do=["THE 08:15, the other of the day's two through-trains, putting you in Kōchi around "
+       "lunchtime instead of late afternoon.",
+       "KŌCHI CASTLE in the afternoon with time to spare — one of only twelve original "
+       "keeps left in Japan, and the ONLY one where the lord's residence also survives.",
+       "This is the honest choice if the weather is bad, if the vine bridge does not "
+       "excite you, or if three days of Iya buses have been enough. The bridge is 45 m of "
+       "woven vine over a river; it is lovely and it is also twenty minutes."],
+   travel="One local train, 08:15 from Ōboke, no buses at all.",
+   watch=["✅ THIS IS THE LOW-RISK VERSION OF TODAY. No bus chain, no 12:11 deadline, and "
+          "the day cannot strand you.",
+          "You still leave Awa-Ikeda on the 07:45 — the 08:15 from Ōboke IS that train "
+          "continuing south, so there is no earlier start and no change.",
+          "⚠️ Kōchi does NOT take national IC cards. Cash from here on.",
+          "Doing this means you never see the vine bridge on this trip. Option A keeps it "
+          "as a whole day if that is the wrong trade."],
+   sleep="Kōchi — central, near Hirome Market",
+   legs=[("Awa-Ikeda","Ōboke","07:45","08:14","JR Dosan Line local train",530),
+         ("Ōboke","Kōchi","08:15","not published","JR Dosan Line local (2 through-trains a day)",1430)]),
+  dict(label="A slow morning at Ōboke instead — no buses, no deadline",
+   do=["A LATE START. Stay at Awa-Ikeda, take the 12:11 down, and give the morning to "
+       "doing nothing — which after Mt Tsurugi is a real option, not a wasted one.",
+       "THE ŌBOKE STATION LOOKOUT LOOP, a flat 1 km round trip above the gorge with its "
+       "trailhead on the Walks tab, and lunch at the michi-no-eki (the YOKAI house is "
+       "there too).",
+       "Then the same 14:22 south."],
+   travel="One local down at 12:11, a flat walk, and the 14:22 out. Nothing is timed but "
+          "the last train.",
+   watch=["✅ NO BUSES AT ALL TODAY, so nothing can go wrong except the 14:22 itself — and "
+          "you are at the station from 12:50.",
+          "⚠️ The 14:22 is still the last through-train to Kōchi. The 08:15 is the only "
+          "other one.",
+          "This is Option A's original shape for this day. Take it if the Tsurugi day "
+          "wore you out."],
+   sleep="Kōchi — central, near Hirome Market",
+   legs=[("Awa-Ikeda","Ōboke","12:11","12:50","JR Dosan Line local train",530),
+         ("Ōboke","Kōchi","14:22","not published","JR Dosan Line local (2 through-trains a day)",1430)]),
+ ],
  sleep="Kōchi — central, near Hirome Market",
  legs=[("Awa-Ikeda","Ōboke","07:45","08:14","JR Dosan Line local train",530),
        ("大歩危駅前 Ōboke-ekimae (in front of JR Ōboke)","かずら橋夢舞台 Kazurabashi Yumebutai","08:58","09:19","Shikoku Kotsu, Iya line — CASH ONLY",670),
