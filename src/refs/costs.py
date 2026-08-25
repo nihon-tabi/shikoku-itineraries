@@ -479,9 +479,12 @@ ATTRACTIONS.extend([
 BOOKINGS.extend([
  ("Kan-onji — Hearts Shuttle day pass", "Reserve by 17:00 three days before",
   "Reserved passengers get priority; walk-up only if seats are left. Tel 0875-57-1717. "
-  "⚠️ Only the spring/summer timetable is published — the AUTUMN diagram goes up around "
-  "early September 2026, so re-check it then. It decides whether you can get back from "
-  "Chichibugahama after sunset.", "hearts_shuttle"),
+  "⚠️ Only the spring/summer timetable is published — re-checked 25 August 2026 and the "
+  "AUTUMN diagram is STILL not up. It decides whether you can get back from "
+  "Chichibugahama after sunset, and on 12 October (a public holiday) there is no second "
+  "option: mobi was withdrawn 31 May 2025, the community bus does not run on Sundays or "
+  "holidays, and the 讃･瀬戸シャトルタクシー is weekday-only. Ring 三豊市観光交流局 on "
+  "0875-56-5880 in early September, then book this three days out.", "hearts_shuttle"),
  ("Kan-onji — Takaya Shrine shuttle", "CANNOT be reserved — first come, first served",
   "Buy from the machine at the tourism office (道の駅ことひき) from 09:00 on the day, "
   "¥1,000 notes only. 20 seats a departure and it sells out on fine days, so go early.",

@@ -515,11 +515,18 @@ dict(date="2026-10-12", title="The Gate in the Sky, the sand coin, and a mirror 
         "⭐ And 12 October is one of only three days this month when the shuttle runs AND the "
         "beach has a mirror window lasting to sunset (the others are the 10th and 11th). "
         "14–17 October has no window at all.",
-        "⚠️ GETTING BACK AFTER SUNSET IS THE WEAK POINT. The Hearts Shuttle's summer diagram "
-        "ran a final 19:22 Chichibugahama → 19:48 Kan-onji, but the AUTUMN timetable is not "
-        "published until early September 2026. Re-check it then. The fallback is the 'mobi' "
-        "shared-ride app, ¥500 a head, running to 22:00. The last local back to Takamatsu "
-        "leaves Kan-onji at 22:34.",
+        "⚠️ GETTING BACK AFTER SUNSET IS THE WEAK POINT, AND IT HAS NO BACKUP. The Hearts "
+        "Shuttle's summer diagram ran a final 19:22 Chichibugahama → 19:48 Kan-onji, but "
+        "the AUTUMN timetable is still not published (checked 25 Aug 2026; the operator "
+        "site still shows the 春・夏ダイヤ). RING 三豊市観光交流局 on 0875-56-5880 in early "
+        "September and get the last run in writing before you commit to this day.",
+        "⚠️ AND TODAY IS A PUBLIC HOLIDAY, WHICH KILLS EVERY OTHER WAY BACK. The 'mobi' "
+        "shared-ride service that used to run here until 22:00 was WITHDRAWN on 31 May "
+        "2025 and no longer exists. The 三豊市 community bus does not run on Sundays or "
+        "holidays. The 讃･瀬戸シャトルタクシー is weekday-only and must be booked by 10:00 "
+        "on the day. So on 12 October the Hearts Shuttle is the ONLY scheduled way off "
+        "that beach after dark — everything else is a taxi you arrange yourself. The last "
+        "local back to Takamatsu leaves Kan-onji at 22:34.",
         "The ¥2,400 Shikoku Saihakken day pass is valid today (Sat/holiday only, slow trains "
         "only, bought the day before) and covers both JR legs — but those come to ¥2,480, so "
         "it saves ¥80. Buy singles unless you add another trip."],
